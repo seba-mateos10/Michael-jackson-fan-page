@@ -1,0 +1,896 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*--------------MENU DE NAVEGACION----------------*/
+
+header{
+    padding-top: 0;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    max-width: 1800px;
+}
+
+.logonavbar{
+    width: 50px;
+    border-radius: 40px;
+}
+
+.nav-item{
+    display: flex;
+    list-style-type: none;
+    gap: 60px;
+    font-size: 20px;
+    justify-content: space-between;
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    border-radius: 10px;
+    background-color: #0e0e0e;
+    filter: invert(1);
+}
+
+/*-------------BODY--------------*/
+
+body{
+    background-image: url(../img/michael-jacson-thriller-40-anoswebp.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    width: 100%;
+    padding-bottom: 20rem;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+/*-----------PAGINA DE INICIO-------------*/
+
+.parrafo-inicio {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-left: 380px;
+    margin-right: 400px;
+    background-color: rgb(169, 164, 164);
+    border-radius: 10px;
+    opacity: 85%;
+    width: 50%;
+    background-size: cover;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.video-inicio {
+    display: flex;
+    padding: 30px;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.foto-inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto-inicio__thriller {
+    display: flex;
+    padding: 30px;
+    margin-top: 10px;
+    width: 610px;
+    height: 610px;
+    margin-bottom: 160px;
+}
+
+.foto-inicio__collage {
+    display: flex;
+    padding: 30px;
+    margin-top: 10px;
+    width: 800px;
+    height: 611px;
+    margin-bottom: 160px;
+
+}
+
+/*---------------PAGINA DE MICHAEL JACKSON---------------*/
+
+.michael-jackson-titulo {
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 120px;
+    background-color: rgb(169, 164, 164);
+    margin-left: 390px;
+    margin-right: 390px;
+    opacity: 75%;
+    border-radius: 10px;
+}
+
+.michael-jackson-parrafo {
+    display: flex;
+}
+
+.michael-jackson-foto {
+    display: flex;
+    flex-direction: column;
+}
+/*-----------------NIÑEZ-------------------*/
+
+.michael-jackson-foto__niño{
+    display: flex;
+    padding: 10px;
+    width: 377px;
+    height: 358px;
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-right: 40px;
+    background-color: rgb(169, 164, 164);
+}
+
+.michael-jackson-parrafo__niñez {
+    padding: 4px;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-left: 15px;
+    text-align: left;
+    background-color: rgb(169, 164, 164);
+    opacity: 85%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+/*--------------ADOLESCENCIA----------------*/
+
+.michael-jackson-foto__adolescente {
+    display: flex;
+    width: 375px;
+    height: 280px;
+    margin-left: 5px;
+    margin-right: 40px;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: rgb(169, 164, 164);
+}
+
+.michael-jackson-parrafo__adolescente {
+    padding: 5px;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-left: 15px;
+    text-align: left;
+    background-color: rgb(169, 164, 164);
+    opacity: 85%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+/*--------------CANTANDO----------------*/
+
+.michael-jackson-foto__cantando {
+    display: flex;
+    width: 375px;
+    height: 265px;
+    margin-left: 5px;
+    margin-top: 30px;
+    margin-right: 40px;
+    padding: 10px;
+    background-color: rgb(169, 164, 164);
+}
+
+.michael-jackson-parrafo__cantando {
+    padding: 12px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 15px;
+    text-align: left;
+    background-color: rgb(169, 164, 164);
+    opacity: 85%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+/*--------------ZOMBIE----------------*/
+
+.michael-jackson-foto__zombie {
+    display: flex;
+    width: 375px;
+    height: 239px;
+    margin-left: 5px;
+    margin-right: 40px;
+    margin-top: 30px;
+    padding: 12px;
+    background-color: rgb(169, 164, 164);
+}
+
+.michael-jackson-parrafo__thriller {
+    padding: 4px;
+    font-size: 22px;
+    margin-top: 31px;
+    margin-left: 15px;
+    text-align: left;
+    background-color: rgb(169, 164, 164);
+    opacity: 85%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+/*--------------MICHAEL CON CHAQUETA MILITAR----------------*/
+
+.michael-jackson-foto__chaquetamilitar {
+    display: flex;
+    width: 338px;
+    height: 528px;
+    margin-left: 5px;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: rgb(169, 164, 164);
+}
+
+.michael-jackson-parrafo__superbowl {
+    padding: 15px;
+    font-size: 22px;
+    margin-top: 30px;
+    margin-left: 15px;
+    text-align: left;
+    background-color: rgb(169, 164, 164);
+    opacity: 85%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+/*--------------THIS IS IT----------------*/
+
+.michael-jackson-foto__thisisit {
+    display: flex;
+    width: 360px;
+    height: 214px;
+    margin-left: 5px;
+    margin-top: 29px;
+    padding: 10px;
+    background-color: rgb(169, 164, 164);
+}
+
+.michael-jackson-parrafo__thisisit {
+    padding: 12px;
+    font-size: 21px;
+    margin-top: 30px;
+    margin-left: 15px;
+    text-align: left;
+    background-color: rgb(169, 164, 164);
+    opacity: 85%;
+     border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-bottom: 160px;
+}
+
+/*---------------PAGINA DE ALBUMES----------------*/
+
+.albumes-titulo {
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 90px;
+    background-color: rgb(169, 164, 164);
+    margin-left: 620px;
+    margin-right: 620px;
+    opacity: 75%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-item__fotos{
+    width: 1000px;
+    height: 450px;
+}
+
+/* -------------MEJORES ALBUMES------------- */
+
+.mejores-albumes-titulo{
+    color: black;
+    padding: 5px;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    background-color: rgb(169, 164, 164);
+    margin-left: 560px;
+    margin-right: 560px;
+    opacity: 75%;
+    border-radius: 10px;
+
+}
+.mejores-albumes-portada {
+    display: flex;
+    flex-direction: column;
+}
+
+.mejores-albumes-parrafo {
+    display: flex;
+}
+
+/* -------------THRILLER------------- */
+
+.mejores-albumes-portada__thriller{
+    display: flex;
+    width: 300px;
+    height: 290px;
+    margin-top: 15px;
+    margin-left: 0px;
+    margin-right: 50px;
+    padding: 10px;
+    background-color: rgb(169, 164, 164);
+    opacity: 85%;
+}
+
+.mejores-albumes-parrafo__thriller{
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 50px;
+    text-align: left;
+    background-color: rgb(169, 164, 164);
+    opacity: 85%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+
+/* -------------BAD------------- */
+
+.mejores-albumes-portada__bad {
+    display: flex;
+    width: 300px;
+    height: 301px;
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-right: 50px;
+    padding: 10px;
+    background-color: rgb(169, 164, 164);
+    opacity: 85%;
+}
+
+.mejores-albumes-parrafo__bad {
+    padding: 3px;
+    font-size: 17.9px;
+    margin-top: 30px;
+    margin-left: 50px;
+    text-align: left;
+    background-color: rgb(169, 164, 164);
+    opacity: 85%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+/* -------------DANGEROUS------------- */
+
+.mejores-albumes-portada__dangerous {
+    display: flex;
+    width: 300px;
+    height: 305px;
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-right: 50px;
+    padding: 14px;
+    background-color: rgb(169, 164, 164);
+    opacity: 85%;
+}
+
+.mejores-albumes-parrafo__dangerous {
+    padding: 10px;
+    font-size: 19px;
+    margin-top: 30px;
+    margin-left: 50px;
+    text-align: left;
+    background-color: rgb(169, 164, 164);
+    opacity: 85%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+/* -------------HISTORY------------- */
+
+.mejores-albumes-portada__history {
+    display: flex;
+    width: 300px;
+    height: 280px;
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-right: 50px;
+    padding: 10px;
+    background-color: rgb(169, 164, 164);
+    opacity: 85%;
+}
+
+.mejores-albumes-parrafo__history {
+    padding: 12px;
+    font-size: 19px;
+    margin-top: 30px;
+    margin-left: 50px;
+    text-align: left;
+    background-color: rgb(169, 164, 164);
+    opacity: 85%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+/* -------------INVINCIBLE------------- */
+
+.mejores-albumes-portada__invincible {
+    display: flex;
+    width: 300px;
+    height: 285px;
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-right: 50px;
+    padding: 10px;
+    background-color: rgb(169, 164, 164);
+    opacity: 85%;
+}
+
+.mejores-albumes-parrafo__invincible {
+    padding: 14px;
+    font-size: 19px;
+    margin-top: 30px;
+    margin-left: 50px;
+    text-align: left;
+    background-color: rgb(169, 164, 164);
+    opacity: 85%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-bottom: 160px;
+}
+
+/*--------------Pagina de Historia----------------*/
+
+.historia-titulo {
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 120px;
+    background-color: rgb(169, 164, 164);
+    margin-left: 450px;
+    margin-right: 450px;
+    opacity: 75%;
+    border-radius: 10px;
+}
+
+.historia-canciones {
+    display: flex;
+}
+
+.historia-canciones_foto {
+    display: flex;
+    flex-direction: column;
+}
+
+/*--------------BILLIE JEAN----------------*/
+
+.historia-canciones-parrafo__billiejean{
+    padding: 14px;
+    font-size: 22px;
+    margin-top: 30px;
+    margin-right: 50px;
+    text-align: left;
+    background-color: rgb(169, 164, 164);
+    opacity: 85%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.historia-canciones_foto__billiejean{
+    display: flex;
+    padding: 10px;
+    width: 430px;
+    height: 259px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 0px;
+    background-color: rgb(169, 164, 164);
+}
+
+/*--------------BAD----------------*/
+
+.historia-canciones-parrafo__bad{
+    padding: 5px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-right: 50px;
+    text-align: left;
+    background-color: rgb(169, 164, 164);
+    opacity: 85%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.historia-canciones_foto__bad{
+    display: flex;
+    padding: 10px;
+    width: 430px;
+    height: 280px;
+    margin-top: 30px;
+    margin-left: 50px;
+    background-color: rgb(169, 164, 164);
+}
+
+/*--------------SMOOTH CRIMINAL----------------*/
+
+.historia-canciones-parrafo__smoothcriminal{
+    padding: 5px;
+    font-size: 22px;
+    margin-top: 30px;
+    margin-right: 50px;
+    text-align: left;
+    background-color: rgb(169, 164, 164);
+    opacity: 85%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.historia-canciones_foto__smoothcriminal{
+    display: flex;
+    padding: 12px;
+    width: 430px;
+    height: 307px;
+    margin-top: 30px;
+    margin-left: 50px;
+    background-color: rgb(169, 164, 164);
+}
+
+/*--------------BEAT IT----------------*/
+
+.historia-canciones-parrafo__beatit{
+    padding: 2px;
+    font-size: 19px;
+    margin-top: 30px;
+    margin-right: 50px;
+    text-align: left;
+    background-color: rgb(169, 164, 164);
+    opacity: 85%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.historia-canciones_foto__beatit{
+    display: flex;
+    padding: 10px;
+    width: 430px;
+    height: 289px;
+    margin-top: 30px;
+    margin-left: 50px;
+    background-color: rgb(169, 164, 164);
+}
+
+/*--------------THEY DONT CARE ABOUT US----------------*/
+
+.historia-canciones-parrafo__theydontcareaboutus{
+    padding: 5px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-right: 50px;
+    text-align: left;
+    background-color: rgb(169, 164, 164);
+    opacity: 85%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.historia-canciones_foto__theydontcareaboutus{
+    display: flex;
+    padding: 10px;
+    width: 430px;
+    height: 310px;
+    margin-top: 30px;
+    margin-left: 50px;
+    background-color: rgb(169, 164, 164);
+}
+
+/*--------------THRILLER----------------*/
+
+.historia-canciones-parrafo__thriller{
+    padding: 15px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-right: 50px;
+    text-align: left;
+    background-color: rgb(169, 164, 164);
+    opacity: 85%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 160px;
+}
+
+.historia-canciones_foto__thriller{
+    display: flex;
+    padding: 10px;
+    width: 430px;
+    height: 279px;
+    margin-top: 30px;
+    margin-left: 50px;
+    background-color: rgb(169, 164, 164);
+}
+
+.historia-canciones_foto__hombrelobo{
+    display: flex;
+    padding: 10px;
+    width: 430px;
+    height: 291px;
+    margin-left: 50px;
+    background-color: rgb(169, 164, 164);
+}
+
+/*-----------------Pagina de Contacto----------------*/
+
+.contacto-menu {
+    color: black;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 80px;
+    background-color: rgb(169, 164, 164);
+    margin-left: 160px;
+    margin-right: 160px;
+    opacity: 85%;
+    border-radius: 10px;
+}
+
+/*-----------COMPLETA CON TUS DATOS------------*/
+
+.completa-datos{
+    padding: 10px;
+    font-size: 26px;
+    margin-top: 30px;
+    margin-left: 160px;
+    margin-right: 900px;
+    text-align: left;
+    background-color: rgb(169, 164, 164);
+    opacity: 85%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.datos-usuario{
+    margin-left: 160px;
+    margin-right: 900px;
+    background-color: rgb(169, 164, 164);
+    opacity: 85%;
+}
+
+.datos-usuario__nombre{
+    padding: 5px;
+    font-size: 15px;
+    margin-left: 15px;
+    margin-right: 980px;
+}
+
+.datos-usuario__apellido {
+    padding: 5px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 980px;
+}
+
+
+.datos-usuario__edad{
+    padding: 5px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 900px;
+}
+
+
+.datos-usuario__email{
+    padding: 5px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 900px;
+}
+
+/*--------ELEGI TU ALBUM FAVORITO--------*/
+
+.album-favorito-titulo{
+    padding: 10px;
+    font-size: 26px;
+    margin-left: 160px;
+    margin-right: 900px;
+    text-align: left;
+    background-color: rgb(169, 164, 164);
+    opacity: 85%;
+}
+
+.album-favorito-opcion {
+    background-color: rgb(169, 164, 164);
+    opacity: 85%;
+    margin-right: 900px;
+    margin-left: 160px;
+    font-size: 25px;
+}
+
+.album-favorito-opcion__nombre {
+    padding: 10px;
+    font-size: 10px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+/*----------ELEGI TU CANCION FAVORITA---------*/
+
+.cancion-favorita-titulo{
+    padding: 10px;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-left: 160px;
+    margin-right: 900px;
+    text-align: left;
+    background-color: rgb(169, 164, 164);
+    opacity: 85%;
+}
+
+.cancion-favorita-opcion{
+    background-color: rgb(169, 164, 164);
+    opacity: 85%;
+    margin-right: 900px;
+    margin-left: 160px;
+    font-size: 25px;
+}
+
+.cancion-favorita-opcion__nombre{
+    padding: 10px;
+    font-size: 10px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+/*---------DEJANOS TU OPINION-----------*/
+
+.dejanos-tu-opinion-titulo {
+    padding: 10px;
+    font-size: 26px;
+    margin-top: 0px;
+    margin-left: 160px;
+    margin-right: 900px;
+    text-align: left;
+    background-color: rgb(169, 164, 164);
+    opacity: 85%;
+}
+
+.cuadrado-para-opinion{
+    padding: 10px;
+    font-size: 10px;
+    margin-top: 0px;
+    margin-left: 160px;
+    margin-right: 900px;
+    background-color: rgb(169, 164, 164);
+    opacity: 85%;
+}
+
+.cuadrado-para-opinion__escribir{
+    font-size: 17px;
+}
+
+/*---------BOTONES DE ENVIAR Y RESETEAR---------*/
+
+.enviar-o-resetear{
+    padding-bottom: 10px;
+    margin-left: 160px;
+    margin-right: 900px;
+    background-color: rgb(169, 164, 164);
+    opacity: 85%;
+    text-align: left;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 160px;
+}  
+
+.enviar-o-resetear__enviar{
+    margin-left: 12px;
+    font-size: 16px;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.enviar-o-resetear__resetear{
+    font-size: 16px;
+    text-align: left;
+    border-radius: 5px;
+}
+
+/*--------------PIE DE PAGINA---------------*/
+
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 2rem 8%;
+    background-color: #0e0e0e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-logo{
+    height: 80px;
+    margin-bottom: 1rem;
+    border-radius: 40px;
+}
+
+.redes-sociales, .footer-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    margin-bottom: 1rem;
+}
+
+.redes-sociales__iconos{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 1px solid #f2f2f2;background-image: url(../img/HD-wallpaper-facebook-black-logo.jpg);
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    margin: 1rem;
+}
+
+.redes-sociales__iconos:hover{
+    background-color: #121212;
+    filter: invert(1);
+}
+
+.redes-sociales__iconos:nth-of-type(2){
+    background-image: url(../img/627b94685a3e2ac874a7573c.png);
+}
+
+.redes-sociales__iconos:nth-of-type(3){
+    background-image: url(../img/5b73459960abeab3bd7be40fdc2fd6c3.jpg);}
+
+.redes-sociales__iconos:nth-of-type(4){
+    background-image: url(../img/desktop-wallpaper-instagram-logo-instagram-black-and-white.jpg);
+}
+
+.footer-menu{
+    list-style: none;
+    color: #f2f2f2;
+    font-size: 18px;
+}
+
+.footer-menu__item{
+    margin: 1rem 1.5rem;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.footer-menu__item:hover{
+    opacity: 1;
+}
+
+.footer-menu__copyright{
+    color:#f2f2f2;
+    opacity: 0.3;
+    text-align: center;
+}
+
+/*---------------      ----------------*/
+

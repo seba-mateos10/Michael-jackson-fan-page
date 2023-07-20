@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+<link rel="stylesheet" href="../css/style.css">
+
+    <title>Michael Jackson Fan account</title>
+</head>
+<body>
+
+    <!------------ Menu de navegacion ------------>
+
+    <header class="border border-white">
+        <nav class="navbar navbar-expand-lg bg-dark border-bottom border-bottom-dark" data-bs-theme="dark">
+            <div class="container-fluid">
+              <i class="navbar-brand" href="#"><img class="logonavbar" src="../img/michael_jackson.png" alt="Logo de Michael Jackson"></i>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/MichaelJackson.html">Michael Jackson</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/Albumes.html">Albumes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/Historia.html">Historia</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <!--------------------------------------------->
+
+  <main>
+  <form action=""></form>  
+    <h1 class="contacto-menu">Completa el siguiente formulario y danos tu opinion</h1>
+
+    <!------------ COMPLETA CON TUS DATOS ------------>
+
+<div>
+    <h2 class="completa-datos">Completa con tus datos...</h2>
+  
+    <div class="datos-usuario">
+        <input class="datos-usuario__nombre" type="text" placeholder="ingresa aqui su nombre..." required>
+    </div>
+    
+    <div class="datos-usuario">
+        <input class="datos-usuario__apellido" type="text" placeholder="ingresa aqui tu apellido..." required>
+    </div>
+    
+   <div class="datos-usuario">
+       <input class="datos-usuario__edad" type="number" placeholder="ingresa aqui tu edad..."required>
+   </div>
+
+    <div class="datos-usuario">
+        <input class="datos-usuario__email" type="email" placeholder="ingresa aqui tu email..." required>
+    </div>
+
+    <!------------ ELEGI TU ALBUM FAVORITO ------------>
+   
+    <h3 class="album-favorito-titulo">Elegi tu album favorito...</h3>
+
+    <div class="album-favorito-opcion">
+        <input class="album-favorito-opcion__nombre" type="checkbox" id="Thriller" value="Thriller"><label for="Thriller">Thriller</label>
+    </div>
+
+    <div class="album-favorito-opcion">
+        <input class="album-favorito-opcion__nombre" type="checkbox" id="Bad" value="Bad"> <label for="Bad">Bad</label>
+    </div>
+
+    <div class="album-favorito-opcion">
+        <input class="album-favorito-opcion__nombre" type="checkbox" id="Dangerous" value="Dangerous"> <label for="Dangerous">Dangerous</label>
+    </div>
+
+    <div class="album-favorito-opcion">
+        <input class="album-favorito-opcion__nombre" type="checkbox" id="History" value="History"> <label for="History">History</label>
+    </div>
+
+    <!------------ ELEGI TU CANCION FAVORITA ------------>
+
+    <h4 class="cancion-favorita-titulo">Elegi tu cancion favorita...</h4>
+
+    <div class="cancion-favorita-opcion">
+        <input class="cancion-favorita-opcion__nombre" type="checkbox" id="1Billie Jean" value="1Billie Jean"><label for="1Billie Jean">Billie Jean</label>
+    </div>
+
+    <div class="cancion-favorita-opcion">
+        <input class="cancion-favorita-opcion__nombre" type="checkbox" id="1Bad" value="1Bad"> <label for="1Bad">Bad</label>
+    </div>
+
+    <div class="cancion-favorita-opcion">
+        <input class="cancion-favorita-opcion__nombre" type="checkbox" id="1Beat It" value="1Beat It"> <label for="1Beat It">Beat It</label>
+    </div>
+
+    <div class="cancion-favorita-opcion">
+        <input class="cancion-favorita-opcion__nombre" type="checkbox" id="1Smooth Criminal" value="1Smooth Criminal"> <label for="1Smooth Criminal">Smooth Criminal</label>
+    </div>
+
+    <div class="cancion-favorita-opcion">
+        <input class="cancion-favorita-opcion__nombre" type="checkbox" id="1They Dont Care About Us" value="1They Dont Care About Us"> <label for="1They Dont Care About Us">They Dont Care About Us</label>
+    </div>
+
+    <div class="cancion-favorita-opcion">
+        <input class="cancion-favorita-opcion__nombre" type="checkbox" id="1Thriller" value="1Thriller"> <label for="1Thriller">Thriller</label>
+    </div>
+
+    <!------------ DEJANOS TU OPINION ------------>
+
+    <h5 class="dejanos-tu-opinion-titulo">Dejanos tu opinion...</h5>
+
+    <div class="cuadrado-para-opinion">
+        <textarea class="cuadrado-para-opinion__escribir" placeholder="Deja tu opinion, comentario o lo que vos quieras!" cols="43" rows="6"></textarea>
+    </div>
+
+    <!------------ ENVIAR O RESETEAR------------>
+
+ 
+    <div class="enviar-o-resetear">
+        <input class="enviar-o-resetear__enviar" type="submit" value=" ENVIAR ">
+        <input class="enviar-o-resetear__resetear" type="reset" value=" RESETEAR ">
+    </div>
+</div>
+   
+  </form>
+  </main>    
+
+  <!------------ Pie de pagina ------------>
+
+  <footer>
+    <img src="../img/desktop-wallpaper-michael-jackson-logo-png-michael-jackson-logo-png-png-cliparts-on-clipart-library-michael-jackson-logo.jpg" alt="Logo de Michael Jackson" class="footer-logo">
+   <div class="redes-sociales">
+    <a href="" class="redes-sociales__iconos"></a>
+    <a href="" class="redes-sociales__iconos"></a>
+    <a href="" class="redes-sociales__iconos"></a>
+    <a href="" class="redes-sociales__iconos"></a>
+   </div>
+   <ul class="footer-menu">
+    <li class="footer-menu__item">Legal</li>
+    <li class="footer-menu__item">Cookies</li>
+    <li class="footer-menu__item">Privacy</li>
+   </ul>
+   <span class="footer-menu__copyright">&copy;2023, Michael Jackson fan account, All rights reserved.</span>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+</body>
+</html>
