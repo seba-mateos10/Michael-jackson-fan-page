@@ -646,217 +646,201 @@ body{
 
 /*-----------------Pagina de Contacto----------------*/
 
-.contacto-menu {
-    color: black;
+.contacto-menu{
     padding: 10px;
-    text-align: center;
-    justify-content: center;
-    font-size: 40px;
     margin-top: 80px;
-    background-color: rgb(169, 164, 164);
-    margin-left: 160px;
-    margin-right: 160px;
-    opacity: 85%;
-    border-radius: 10px;
 }
 
-/*-----------COMPLETA CON TUS DATOS------------*/
-
-.completa-datos{
-    padding: 10px;
-    font-size: 26px;
-    margin-top: 30px;
-    margin-left: 160px;
-    margin-bottom: 0;
-    text-align: left;
-    color: #0e0e0e;
-    background-color: rgb(169, 164, 164);
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    opacity: 90%;
+.contacto-titulo {
+text-align: center;
+background-color: rgb(169, 164, 164);
+opacity: 90%;
+border-radius: 10px;
+margin-left: 160px;
+margin-right: 160px; 
+padding: 5px;
 }
 
-.datos-usuario{
-    margin-left: 160px;
-    background-color: rgb(169, 164, 164);
-    opacity: 90%;
-}
-
-.datos-usuario__nombre{
-    padding: 5px;
-    font-size: 15px;
-    margin-left: 15px;
-}
-
-.datos-usuario__apellido {
-    padding: 5px;
-    font-size: 15px;
-    margin-top: 10px;
-    margin-left: 15px;
-}
-
-
-.datos-usuario__edad{
-    padding: 5px;
-    font-size: 15px;
-    margin-top: 10px;
-    margin-left: 15px;
-}
-
-
-.datos-usuario__email{
-    padding: 5px;
-    font-size: 15px;
-    margin-top: 10px;
-    margin-left: 15px;
-}
-
-/*--------ELEGI TU ALBUM FAVORITO--------*/
-
-
-
-.album-favorito-titulo{
-    padding: 10px;
-    margin-top: 30px;
-    font-size: 26px;
-    margin-right: 900px;
-    margin-left: 160px;
-    margin-bottom: 0;
-    text-align: left;
-    color: #0e0e0e;
-    background-color: rgb(169, 164, 164);
-    opacity: 90%;
-}
-
-.album-favorito {
-    background-color: rgb(169, 164, 164);
-    opacity: 85%;
-    margin-right: 900px;
-    margin-left: 160px;
-    font-size: 25px;
-    opacity: 90%;
-}
-
-.album-favorito-opcion__nombre {
-    padding: 10px;
-    font-size: 10px;
-    margin-top: 10px;
-    margin-left: 15px;
-    opacity: 90%;
-}
-
-/*----------ELEGI TU CANCION FAVORITA---------*/
-
-.cancion-favorita-titulo{
-    padding: 10px;
-    font-size: 25px;
-    margin-top: 0px;
-    margin-left: 160px;
-    margin-right: 900px;
-    margin-bottom: 0;
-    text-align: left;
-    color: #0e0e0e;
-    background-color: rgb(169, 164, 164);
-    opacity: 90%;
-}
-
-.cancion-favorita-opcion{
-    background-color: rgb(169, 164, 164);
-    opacity: 85%;
-    margin-right: 900px;
-    margin-left: 160px;
-    font-size: 25px;
-    opacity: 90%;
-}
-
-.cancion-favorita-opcion__nombre{
-    padding: 10px;
-    font-size: 10px;
-    margin-top: 10px;
-    margin-left: 15px;
-    opacity: 90%;
-}
-
-/*---------DEJANOS TU OPINION-----------*/
-
-.dejanos-tu-opinion-titulo {
-    padding: 10px;
-    font-size: 26px;
-    margin-top: 0px;
-    margin-left: 160px;
-    margin-right: 900px;
-    margin-bottom: 0;
-    text-align: left;
-    color: #0e0e0e;
-    background-color: rgb(169, 164, 164);
-    opacity: 90%;
-}
-
-.cuadrado-para-opinion{
-    padding: 10px;
-    font-size: 10px;
-    margin-top: 0px;
-    margin-left: 160px;
-    margin-right: 900px;
-    margin-bottom: 0;
-    background-color: rgb(169, 164, 164);
-    opacity: 90%;
-}
-
-.cuadrado-para-opinion__escribir{
-    font-size: 17px;
-}
-
-/*---------BOTONES DE ENVIAR Y RESETEAR---------*/
-
-.enviar-o-resetear{
-    padding-bottom: 10px;
-    margin-left: 160px;
-    margin-right: 900px;
-    background-color: rgb(169, 164, 164);
-    opacity: 90%;
-    text-align: left;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    margin-bottom: 160px;
-}  
-
-.enviar-o-resetear__enviar{
-    margin-left: 12px;
-    font-size: 16px;
-    text-align: left;
-    border-radius: 5px;
-}
-
-.enviar-o-resetear__resetear{
-    font-size: 16px;
-    text-align: left;
-    border-radius: 5px;
+.contacto-titulo h1 {
+color: black;
+font-size: 40px
 }
 
 .form{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: 
-    "datos-contenedor  album-favorito-contenedor"
-    "cancion-favorita-contenedor  dejanos-tu-opinion-contenedor"
+margin-top: 60px;
+margin-bottom: 100px;
+align-items: center;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr;    grid-template-areas: 
+"datos-contenedor  album-favorito-contenedor"
+"cancion-favorita-contenedor  dejanos-tu-opinion-contenedor"
 }
+
+.datos-contenedor{
+padding: 10px;
+padding-top: 10px;
+padding-bottom: 77px;
+font-size: 20px;
+text-align: left;
+color: #0e0e0e;
+background-color: rgb(169, 164, 164);
+border-top-left-radius: 10px;
+opacity: 90%;
+}
+
+.datos-usuario{
+margin-top: 10px
+}
+
+.completa-datos{
+    font-size: 30px;
+}
+
+.datos-usuario__nombre{
+padding: 10px;
+font-size: 15px;
+margin-top: 10px;
+margin-left: 15px;
+}
+
+.datos-usuario__apellido {
+padding: 10px;
+font-size: 15px;
+margin-top: 10px;
+margin-left: 15px;
+}
+
+.datos-usuario__edad{
+padding: 10px;
+font-size: 15px;
+margin-top: 10px;
+margin-left: 15px;
+}
+
+.datos-usuario__email{
+padding: 10px;
+font-size: 15px;
+margin-top: 10px;
+margin-left: 15px;
+}
+
+.album-favorito-contenedor{
+padding-top: 15px;
+padding-bottom: 129px;
+font-size: 20px;
+text-align: left;
+color: #0e0e0e;
+background-color: rgb(169, 164, 164);
+border-top-right-radius: 10px;
+opacity: 90%;
+}
+
+.album-favorito-titulo{
+font-size: 29px;
+}
+
+.album-favorito {
+margin-top: 10px;
+background-color: rgb(169, 164, 164);
+opacity: 85%;
+font-size: 25px;
+opacity: 90%;
+}
+
+.album-favorito-opcion__nombre {
+padding: 10px;
+font-size: 10px;
+margin-top: 20px;
+margin-left: 15px;
+opacity: 90%;
+}
+
+.cancion-favorita-contenedor{
+padding-top: 10px;
+padding-bottom: 49px;
+font-size: 20px;
+text-align: left;
+color: #0e0e0e;
+background-color: rgb(169, 164, 164);
+border-bottom-left-radius: 10px;
+opacity: 90%;
+}
+
+.cancion-favorita-titulo{
+padding: 10px;
+font-size: 25px;
+margin-top: 0px;
+margin-bottom: 0;
+text-align: left;
+color: #0e0e0e;
+}
+
+.cancion-favorita-opcion{
+opacity: 85%;
+font-size: 25px;
+}
+
+.cancion-favorita-opcion__nombre{
+padding: 10px;
+font-size: 10px;
+margin-top: 20px;
+margin-left: 15px;
+}
+
+.dejanos-tu-opinion-contenedor{
+   background-color: rgb(169, 164, 164); border-bottom-right-radius: 10px;
+   opacity: 90%;
+   padding-bottom: 11px;
+}
+
+.dejanos-tu-opinion-titulo {
+padding: 10px;
+font-size: 26px;
+margin-top: 0px;
+margin-bottom: 0;
+text-align: left;
+color: #0e0e0e;
+
+}
+
+.cuadrado-para-opinion{
+padding-top: 10px;
+padding: 5px;
+font-size: 10px;
+margin-top: 0px;
+margin-bottom: 0;
+}
+
+.cuadrado-para-opinion__escribir{
+font-size: 17px;
+}
+
 
 .form .datos-contenedor{
 grid-area: datos-contenedor;
+grid-column: 2;
 }
 
 .form .album-favorito-contenedor{
     grid-area: album-favorito-contenedor;
+    grid-column: 3;
 }
 
 .form .cancion-favorita-contenedor{
     grid-area: cancion-favorita-contenedor;
+    grid-column: 2;
 }
 
 .form .dejanos-tu-opinion-contenedor{
     grid-area: dejanos-tu-opinion-contenedor;
+    grid-column: 3;
+}
+
+.enviar-o-resetear{
+    grid-area: enviar-o-resetear;
+    grid-column: 3;
+    margin-left: 15px;
 }
 
 /*--------------PIE DE PAGINA---------------*/
