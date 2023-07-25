@@ -47,53 +47,60 @@
     <!--------------------------------------------->
 
   <main>
-  <form action=""></form>  
-    <h1 class="contacto-menu">Completa el siguiente formulario y danos tu opinion</h1>
+  <form class="form">
+<h1 class="contacto-menu">Completa el siguiente formulario y danos tu opinion</h1>
 
     <!------------ COMPLETA CON TUS DATOS ------------>
 
-<div>
+  <div class="datos-contenedor">
+
     <h2 class="completa-datos">Completa con tus datos...</h2>
-  
+
     <div class="datos-usuario">
-        <input class="datos-usuario__nombre" type="text" placeholder="ingresa aqui su nombre..." required>
+
+        <input class="datos-usuario__nombre" type="text" placeholder="Nombre..." required>
     </div>
     
     <div class="datos-usuario">
-        <input class="datos-usuario__apellido" type="text" placeholder="ingresa aqui tu apellido..." required>
+        <input class="datos-usuario__apellido" type="text" placeholder="Apellido..." required>
     </div>
     
    <div class="datos-usuario">
-       <input class="datos-usuario__edad" type="number" placeholder="ingresa aqui tu edad..."required>
+       <input class="datos-usuario__edad" type="number" placeholder="Edad..."required>
    </div>
 
     <div class="datos-usuario">
-        <input class="datos-usuario__email" type="email" placeholder="ingresa aqui tu email..." required>
+        <input class="datos-usuario__email" type="email" placeholder="Email..." required>
     </div>
+  </div>
+
 
     <!------------ ELEGI TU ALBUM FAVORITO ------------>
    
+    <div class="album-favorito-contenedor">
     <h3 class="album-favorito-titulo">Elegi tu album favorito...</h3>
 
-    <div class="album-favorito-opcion">
+    <div class="album-favorito">
         <input class="album-favorito-opcion__nombre" type="checkbox" id="Thriller" value="Thriller"><label for="Thriller">Thriller</label>
     </div>
 
-    <div class="album-favorito-opcion">
+    <div class="album-favorito">
         <input class="album-favorito-opcion__nombre" type="checkbox" id="Bad" value="Bad"> <label for="Bad">Bad</label>
     </div>
 
-    <div class="album-favorito-opcion">
+    <div class="album-favorito">
         <input class="album-favorito-opcion__nombre" type="checkbox" id="Dangerous" value="Dangerous"> <label for="Dangerous">Dangerous</label>
     </div>
 
-    <div class="album-favorito-opcion">
+    <div class="album-favorito">
         <input class="album-favorito-opcion__nombre" type="checkbox" id="History" value="History"> <label for="History">History</label>
+    </div>      
     </div>
 
     <!------------ ELEGI TU CANCION FAVORITA ------------>
 
-    <h4 class="cancion-favorita-titulo">Elegi tu cancion favorita...</h4>
+    <div class="cancion-favorita-contenedor">
+      <h4 class="cancion-favorita-titulo">Elegi tu cancion favorita...</h4>
 
     <div class="cancion-favorita-opcion">
         <input class="cancion-favorita-opcion__nombre" type="checkbox" id="1Billie Jean" value="1Billie Jean"><label for="1Billie Jean">Billie Jean</label>
@@ -118,14 +125,17 @@
     <div class="cancion-favorita-opcion">
         <input class="cancion-favorita-opcion__nombre" type="checkbox" id="1Thriller" value="1Thriller"> <label for="1Thriller">Thriller</label>
     </div>
-
+</div>
     <!------------ DEJANOS TU OPINION ------------>
 
-    <h5 class="dejanos-tu-opinion-titulo">Dejanos tu opinion...</h5>
+<div class="dejanos-tu-opinion-contenedor">
+  <h5 class="dejanos-tu-opinion-titulo">Dejanos tu opinion...</h5>
 
     <div class="cuadrado-para-opinion">
         <textarea class="cuadrado-para-opinion__escribir" placeholder="Deja tu opinion, comentario o lo que vos quieras!" cols="43" rows="6"></textarea>
-    </div>
+    </div>      
+    </div>  
+
 
     <!------------ ENVIAR O RESETEAR------------>
 
@@ -134,9 +144,11 @@
         <input class="enviar-o-resetear__enviar" type="submit" value=" ENVIAR ">
         <input class="enviar-o-resetear__resetear" type="reset" value=" RESETEAR ">
     </div>
-</div>
-   
-  </form>
+
+  </form>  
+    
+
+
   </main>    
 
   <!------------ Pie de pagina ------------>
