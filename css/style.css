@@ -12,24 +12,31 @@ header{
     top: 0;
     z-index: 3;
     max-width: 1800px;
+    padding-bottom: 35px;
 }
 
 .logonavbar{
-    width: 50px;
+    width: 60px;
     border-radius: 40px;
 }
 
 .nav-item{
     display: flex;
+    padding-bottom: 10px;
     list-style-type: none;
     gap: 60px;
     font-size: 20px;
     justify-content: space-between;
 }
 
+.navbar{
+    height: 70px;
+}
+
 .nav-link{
     color: white;
     text-decoration: none;
+    padding: 5px;
 }
 
 .nav-link:hover{
@@ -110,7 +117,7 @@ body{
     color: black;
     text-align: center;
     font-size: 50px;
-    margin-top: 120px;
+    margin-top: 100px;
     background-color: rgb(169, 164, 164);
     margin-left: 390px;
     margin-right: 390px;
@@ -284,7 +291,7 @@ body{
     color: black;
     text-align: center;
     font-size: 50px;
-    margin-top: 90px;
+    margin-top: 100px;
     background-color: rgb(169, 164, 164);
     margin-left: 620px;
     margin-right: 620px;
@@ -297,7 +304,7 @@ body{
 
 .carousel-item__fotos{
     width: 1000px;
-    height: 450px;
+    height: 500px;
     max-width: 100%;
 }
 
@@ -465,7 +472,7 @@ body{
     color: black;
     text-align: center;
     font-size: 50px;
-    margin-top: 120px;
+    margin-top: 100px;
     background-color: rgb(169, 164, 164);
     margin-left: 450px;
     margin-right: 450px;
@@ -647,8 +654,7 @@ body{
 /*-----------------Pagina de Contacto----------------*/
 
 .contacto-menu{
-    padding: 10px;
-    margin-top: 80px;
+    margin-top: 100px;
 }
 
 .contacto-titulo {
@@ -668,7 +674,7 @@ font-size: 40px
 
 .form{
 margin-top: 60px;
-margin-bottom: 100px;
+margin-bottom: 160px;
 align-items: center;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr;
