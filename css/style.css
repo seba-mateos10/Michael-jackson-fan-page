@@ -60,6 +60,12 @@ body{
     flex-wrap: wrap;
 }
 
+.main{
+    justify-content: center;
+    align-items: center;
+    min-width: 1400px;
+}
+
 /*-----------PAGINA DE INICIO-------------*/
 
 .parrafo-inicio {
@@ -67,15 +73,15 @@ body{
     text-align: center;
     font-size: 30px;
     margin-top: 100px;
-    margin-left: 380px;
+    margin-left: 400px;
     margin-right: 400px;
     background-color: rgb(169, 164, 164);
     border-radius: 10px;
     opacity: 85%;
-    width: 50%;
     background-size: cover;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 
 
@@ -84,31 +90,42 @@ body{
     padding: 30px;
     margin-top: 40px;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
 }
 
 .foto-inicio {
     display: flex;
-    align-items: center;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .foto-inicio__thriller {
     display: flex;
     padding: 30px;
     margin-top: 10px;
-    width: 610px;
-    height: 610px;
-    margin-bottom: 160px;
+    width: 1000px;
+    height: 650px;
+    margin-bottom: 20px;
 }
 
-.foto-inicio__collage {
+.foto-inicio__collage1 {
+    display: flex;
+    padding: 30px;
+    width: 1000px;
+    height: 651px;
+    margin-bottom: 20px;
+}
+
+.foto-inicio__collage2 {
     display: flex;
     padding: 30px;
     margin-top: 10px;
-    width: 800px;
+    width: 1000px;
     height: 611px;
     margin-bottom: 160px;
-
 }
 
 /*---------------PAGINA DE MICHAEL JACKSON---------------*/
@@ -125,9 +142,10 @@ body{
     border-radius: 10px;
 }
 
-.michael-jackson-parrafo {
+.parrafos-y-fotos-contenedor{
     display: flex;
 }
+
 
 .michael-jackson-foto {
     display: flex;
@@ -225,9 +243,9 @@ body{
 }
 
 .michael-jackson-parrafo__thriller {
-    padding: 4px;
+    padding: 6px;
     font-size: 22px;
-    margin-top: 31px;
+    margin-top: 45px;
     margin-left: 15px;
     text-align: left;
     background-color: rgb(169, 164, 164);
@@ -251,7 +269,7 @@ body{
 .michael-jackson-parrafo__superbowl {
     padding: 15px;
     font-size: 22px;
-    margin-top: 30px;
+    margin-top: 44px;
     margin-left: 15px;
     text-align: left;
     background-color: rgb(169, 164, 164);
@@ -275,7 +293,7 @@ body{
 .michael-jackson-parrafo__thisisit {
     padding: 12px;
     font-size: 21px;
-    margin-top: 30px;
+    margin-top: 33px;
     margin-left: 15px;
     text-align: left;
     background-color: rgb(169, 164, 164);
@@ -667,7 +685,7 @@ margin-right: 160px;
 padding: 5px;
 }
 
-.contacto-titulo h1 {
+.contacto-titulo {
 color: black;
 font-size: 40px
 }
@@ -678,7 +696,8 @@ margin-bottom: 160px;
 align-items: center;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr;
-grid-template-rows: 1fr 1fr;    grid-template-areas: 
+grid-template-rows: 1fr 1fr;
+grid-template-areas: 
 "datos-contenedor  album-favorito-contenedor"
 "cancion-favorita-contenedor  dejanos-tu-opinion-contenedor"
 }
@@ -795,7 +814,8 @@ margin-left: 15px;
 }
 
 .dejanos-tu-opinion-contenedor{
-   background-color: rgb(169, 164, 164); border-bottom-right-radius: 10px;
+   background-color: rgb(169, 164, 164);
+   border-bottom-right-radius: 10px;
    opacity: 90%;
    padding-bottom: 11px;
 }
@@ -853,6 +873,7 @@ grid-column: 2;
 
 footer{
     width: 100%;
+    min-width: 1400px;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -927,5 +948,840 @@ footer{
     text-align: center;
 }
 
-/*---------------      ----------------*/
+/*---------------  MEDIA QUERIES PAGINA INICIO  ----------------*/
 
+@media screen and (max-width: 576px){
+    
+    .navbar{
+        height: 135px;
+    }
+
+    .navbar-brand{
+        font-size: 55px;
+    }
+
+    .parrafo-inicio{
+        flex-direction: column;
+        margin-top: 250px;
+        margin-left: 230px;
+        margin-right: 230px;
+        font-size: 50px;
+}
+
+}
+
+@media screen and (min-width: 576px){
+    
+    .navbar{
+        height: 130px;
+    }
+
+    .navbar-brand{
+        font-size: 50px;
+    }
+
+    .parrafo-inicio{
+        flex-direction: column;
+        margin-top: 250px;
+        margin-left: 230px;
+        margin-right: 230px;
+        font-size: 40px;
+}
+
+}
+
+@media screen and (min-width: 768px){
+    .navbar{
+        height: 120px;
+    }
+
+    .navbar-brand{
+        font-size: 35px;
+    }
+
+    .parrafo-inicio{
+        margin-top: 200px;
+        margin-left: 220px;
+        margin-right: 220px;
+        font-size: 40px;
+}
+
+}
+
+@media screen and (min-width: 992px){
+    .navbar{
+        height: 100px;
+    }
+
+    .navbar-brand{
+        font-size: 35px;
+    }
+
+    .parrafo-inicio{
+        margin-top: 200px;
+        margin-left: 220px;
+        margin-right: 220px;
+        font-size: 35px;
+}
+
+}
+
+@media screen and (min-width: 1200px){
+    .navbar{
+        height: 65px;
+    }
+
+    .navbar-brand{
+        font-size: 20px;
+    }
+
+    .parrafo-inicio{
+        margin-top: 200px;
+        margin-left: 230px;
+        margin-right: 230px;
+        font-size: 30px;
+}
+
+}
+
+@media screen and (min-width: 1400px){
+    .navbar{
+        height: 65px;
+    }
+
+    .navbar-brand{
+        font-size: 20px;
+    }
+
+    .parrafo-inicio{
+        margin-top: 200px;
+        margin-left: 320px;
+        margin-right: 320px;
+        font-size: 30px;
+}
+
+}
+
+@media screen and (min-width: 1600px){
+    .navbar{
+        height: 65px;
+    }
+
+    .navbar-brand{
+        font-size: 20px;
+    }
+
+    .parrafo-inicio{
+        margin-top: 200px;
+        margin-left: 350px;
+        margin-right: 350px;
+        font-size: 30px;
+}
+
+}
+
+/*---------------  MEDIA QUERIES PAGINA CONTACTO  ----------------*/
+
+@media screen and (max-width: 576px) {
+    
+    .navbar{
+        height: 135px;
+    }
+
+    .navbar-brand{
+        font-size: 55px;
+    }
+
+    .contacto-menu{
+        margin-top: 200px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .completa-formulario{
+        color: black;
+        font-size: 70px;
+
+    }
+    
+    .form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .datos-contenedor{
+        width: 1070px;
+        padding-bottom: 20px;
+        border-top-right-radius: 10px;
+
+    }
+
+    .completa-datos{
+        font-size: 60px;
+    }
+    
+    .datos-usuario{
+        margin-top: 20px;
+    }
+
+    .datos-usuario__nombre{
+        font-size: 40px;
+    }
+
+    .datos-usuario__apellido{
+        font-size: 40px;
+    }
+
+
+    .datos-usuario__edad{
+        font-size: 40px;
+    }
+
+
+    .datos-usuario__email{
+        font-size: 40px;
+    }
+
+    .album-favorito-contenedor{
+        width: 1070px;
+        padding-bottom: 20px;
+        border-top-right-radius: 0;
+        }
+    .album-favorito-titulo{
+        font-size: 60px;
+    }
+
+    .album-favorito{
+        font-size: 50px;
+    }
+
+    .cancion-favorita-contenedor{
+        width: 1070px;
+        padding-bottom: 20px;
+        border-bottom-left-radius: 0;
+    }
+
+    .cancion-favorita-titulo{
+        font-size: 60px;
+    }
+
+    .cancion-favorita-opcion{
+        font-size: 50px;
+    }
+
+    .dejanos-tu-opinion-contenedor{
+        width: 1070px;
+        padding-bottom: 20px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .dejanos-tu-opinion-titulo{
+        font-size: 60px;
+    }
+
+    .cuadrado-para-opinion__escribir{
+        font-size: 50px;
+    }
+
+    .enviar-o-resetear{
+        font-size: 40px;
+    }
+
+}
+
+@media screen and (min-width: 576px){
+
+    .navbar{
+        height: 130px;
+    }
+
+    .navbar-brand{
+        font-size: 50px;
+    }
+
+    .contacto-menu{
+        margin-top: 200px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .completa-formulario{
+        color: black;
+        font-size: 70px;
+
+    }
+    
+    .form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .datos-contenedor{
+        width: 1070px;
+        padding-bottom: 20px;
+        border-top-right-radius: 10px;
+    }
+
+    .completa-datos{
+        font-size: 60px;
+    }
+    
+    .datos-usuario{
+        margin-top: 20px;
+    }
+
+    .datos-usuario__nombre{
+        font-size: 40px;
+    }
+
+    .datos-usuario__apellido{
+        font-size: 40px;
+    }
+
+
+    .datos-usuario__edad{
+        font-size: 40px;
+    }
+
+
+    .datos-usuario__email{
+        font-size: 40px;
+    }
+
+    .album-favorito-contenedor{
+        width: 1070px;
+        padding-bottom: 20px;
+        border-top-right-radius: 0px;
+    }
+
+    .album-favorito-titulo{
+        font-size: 60px;
+    }
+
+    .album-favorito{
+        font-size: 50px;
+    }
+
+    .cancion-favorita-contenedor{
+        width: 1070px;
+        padding-bottom: 20px;
+        border-bottom-left-radius: 0;
+    }
+
+    .cancion-favorita-titulo{
+        font-size: 60px;
+    }
+
+    .cancion-favorita-opcion{
+        font-size: 50px;
+    }
+
+    .dejanos-tu-opinion-contenedor{
+        width: 1070px;
+        padding-bottom: 20px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .dejanos-tu-opinion-titulo{
+        font-size: 60px;
+    }
+
+    .cuadrado-para-opinion__escribir{
+        font-size: 50px;
+    }
+
+    .enviar-o-resetear{
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .navbar{
+        height: 120px;
+    }
+
+    .navbar-brand{
+        font-size: 35px;
+    }
+
+    .contacto-menu{
+        margin-top: 200px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .completa-formulario{
+        color: black;
+        font-size: 60px;
+
+    }
+    
+    .form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .datos-contenedor{
+        width: 1070px;
+        padding-bottom: 20px;
+        border-top-right-radius: 10px;
+    }
+
+    .completa-datos{
+        font-size: 50px;
+    }
+    
+    .datos-usuario{
+        margin-top: 20px;
+    }
+
+    .datos-usuario__nombre{
+        font-size: 30px;
+    }
+
+    .datos-usuario__apellido{
+        font-size: 30px;
+    }
+
+
+    .datos-usuario__edad{
+        font-size: 30px;
+    }
+
+
+    .datos-usuario__email{
+        font-size: 30px;
+    }
+
+    .album-favorito-contenedor{
+        width: 1070px;
+        padding-bottom: 20px;
+        border-top-right-radius: 0px;
+    }
+
+    .album-favorito-titulo{
+        font-size: 50px;
+    }
+
+    .album-favorito{
+        font-size: 40px;
+    }
+
+    .cancion-favorita-contenedor{
+        width: 1070px;
+        padding-bottom: 20px;
+        border-bottom-left-radius: 0;
+    }
+
+    .cancion-favorita-titulo{
+        font-size: 50px;
+    }
+
+    .cancion-favorita-opcion{
+        font-size: 40px;
+    }
+
+    .dejanos-tu-opinion-contenedor{
+        width: 1070px;
+        padding-bottom: 20px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .dejanos-tu-opinion-titulo{
+        font-size: 50px;
+    }
+
+    .cuadrado-para-opinion__escribir{
+        font-size: 40px;
+    }
+
+    .enviar-o-resetear{
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .navbar{
+        height: 100px;
+    }
+
+    .navbar-brand{
+        font-size: 35px;
+    }
+
+    .contacto-menu{
+        margin-top: 200px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .completa-formulario{
+        color: black;
+        font-size: 60px;
+
+    }
+    
+    .form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .datos-contenedor{
+        width: 1070px;
+        padding-bottom: 20px;
+    }
+
+    .completa-datos{
+        font-size: 50px;
+    }
+    
+    .datos-usuario{
+        margin-top: 20px;
+    }
+
+    .datos-usuario__nombre{
+        font-size: 30px;
+    }
+
+    .datos-usuario__apellido{
+        font-size: 30px;
+    }
+
+    .datos-usuario__edad{
+        font-size: 30px;
+    }
+
+    .datos-usuario__email{
+        font-size: 30px;
+    }
+
+    .album-favorito-contenedor{
+        width: 1070px;
+        padding-bottom: 20px;
+    }
+
+    .album-favorito-titulo{
+        font-size: 50px;
+    }
+
+    .album-favorito{
+        font-size: 40px;
+    }
+
+    .cancion-favorita-contenedor{
+        width: 1070px;
+        padding-bottom: 20px;
+    }
+
+    .cancion-favorita-titulo{
+        font-size: 50px;
+    }
+
+    .cancion-favorita-opcion{
+        font-size: 40px;
+    }
+
+    .dejanos-tu-opinion-contenedor{
+        width: 1070px;
+        padding-bottom: 20px;
+    }
+
+    .dejanos-tu-opinion-titulo{
+        font-size: 50px;
+    }
+    
+    .cuadrado-para-opinion__escribir{
+        font-size: 40px;
+    }
+
+    .enviar-o-resetear{
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (min-width: 1200px){
+    .navbar{
+        height: 70px;
+    }
+
+    .navbar-brand{
+        font-size: 25px;
+    }
+
+    .contacto-menu{
+        margin-top: 200px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .completa-formulario{
+        color: black;
+        font-size: 45px;
+    }
+
+    .form{
+        display: grid;
+    }
+
+    .datos-contenedor{
+        width: 500px;
+        padding-bottom: 21px;
+        border-top-right-radius: 0;
+    }
+
+    .completa-datos{
+        font-size: 35px;
+    }
+    
+    .datos-usuario{
+        margin-top: 24px;
+    }
+
+    .datos-usuario__nombre{
+        font-size: 25px;
+    }
+
+    .datos-usuario__apellido{
+        font-size: 25px;
+    }
+
+
+    .datos-usuario__edad{
+        font-size: 25px;
+    }
+
+
+    .datos-usuario__email{
+        font-size: 25px;
+    }
+
+    .album-favorito-contenedor{
+        width: 500px;
+        padding-bottom: 20px;
+        border-top-right-radius: 10px;
+    }
+
+    .album-favorito-titulo{
+        font-size: 35px;
+    }
+
+    .album-favorito{
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+    .cancion-favorita-contenedor{
+        width: 500px;
+        padding-bottom: 20px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .cancion-favorita-titulo{
+        font-size: 35px;
+    }
+
+    .cancion-favorita-opcion{
+        font-size: 30px;
+        margin-top: 14px;
+    }
+
+    .dejanos-tu-opinion-contenedor{
+        width: 500px;
+        padding-bottom: 20px;
+        border-bottom-left-radius: 0;
+    }
+
+    .dejanos-tu-opinion-titulo{
+        font-size: 35px;
+    }
+
+    .cuadrado-para-opinion__escribir{
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    .enviar-o-resetear{
+        font-size: 20px;
+    }
+
+}
+
+
+/*---------------  MEDIA QUERIES PAGINA   ----------------*/
+
+
+@media screen and (max-width: 576px){
+    .navbar{
+        height: 135px;
+    }
+
+    .navbar-brand{
+        font-size: 55px;
+    }
+
+    .michael-jackson-titulo{
+        margin-top: 200px;
+        font-size: 80px;
+        margin-bottom: 50px;
+    }
+
+    .michael-jackson-foto{
+        display: grid;
+    }
+
+    .michael-jackson-parrafo{
+        display: grid;
+    }
+
+    .main-pagina-michael-jackson{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "michael-jackson-foto__niño"
+        "michael-jackson-parrafo__niñez"
+        "michael-jackson-foto__adolescente"
+        "michael-jackson-parrafo__adolescente"
+        "michael-jackson-foto__cantando"
+        "michael-jackson-parrafo__cantando"
+        "michael-jackson-foto__zombie"
+        "michael-jackson-parrafo__thriller"
+        "michael-jackson-foto__chaquetamilitar"
+        "michael-jackson-parrafo__superbowl"
+        "michael-jackson-foto__thisisit"
+        "michael-jackson-parrafo__thisisit";
+    }
+
+    .parrafos-y-fotos-contenedor{
+        display: grid;
+
+    }
+
+
+    .michael-jackson-foto .michael-jackson-foto__niño{
+        display: grid;
+        grid-area: michael-jackson-foto__niño;
+        grid-column: 2;
+        grid-row: 1;
+        }
+
+    .michael-jackson-parrafo .michael-jackson-parrafo__niñez{
+        display: grid;
+        grid-area: michael-jackson-parrafo__niñez;
+        grid-column: 2;
+        grid-row: 2;
+        }
+    
+    .michael-jackson-foto .michael-jackson-foto__adolescente{
+        display: grid;
+        grid-area: michael-jackson-foto__adolescente;
+        grid-column: 2;
+        grid-row: 3;
+        }
+
+    .michael-jackson-parrafo .michael-jackson-parrafo__adolescente{
+        display: grid;
+        grid-area: michael-jackson-parrafo__adolescente;
+        grid-column: 2;
+        grid-row: 4;
+        }
+
+    .michael-jackson-foto .michael-jackson-foto__cantando{
+        display: grid;
+        grid-area: michael-jackson-foto__cantando;
+        grid-column: 2;
+        grid-row: 5;
+        }
+
+    .michael-jackson-parrafo .michael-jackson-parrafo__cantando{
+        display: grid;
+        grid-area: michael-jackson-parrafo__cantando;
+        grid-column: 2;
+        grid-row: 6;
+        }
+
+    .michael-jackson-foto .michael-jackson-foto__zombie{
+        display: grid;
+        grid-area: michael-jackson-foto__zombie;
+        grid-column: 2;
+        grid-row: 7;
+        }
+
+    .michael-jackson-parrafo .michael-jackson-parrafo__thriller{
+        display: grid;
+        grid-area: michael-jackson-parrafo__thriller;
+        grid-column: 2;
+        grid-row: 8;
+        }
+
+    .michael-jackson-foto .michael-jackson-foto__chaquetamilitar{
+        display: grid;
+        grid-area: michael-jackson-foto__chaquetamilitar;
+        grid-column: 2;
+        grid-row: 9;
+        }
+
+    .michael-jackson-parrafo .michael-jackson-parrafo__superbowl{
+        display: grid;
+        grid-area: michael-jackson-parrafo__superbowl;
+        grid-column: 2;
+        grid-row: 10;
+        }
+
+    .michael-jackson-foto .michael-jackson-foto__thisisit{
+        display: grid;
+        grid-area: michael-jackson-foto__thisisit;
+        grid-column: 2;
+        grid-row: 11;
+        }
+
+    .michael-jackson-parrafo .michael-jackson-parrafo__thisisit{
+        display: grid;
+        grid-area: michael-jackson-parrafo__thisisit;
+        grid-column: 2;
+        grid-row: 12;
+        }
+
+}
+
+@media screen and (min-width: 576px){
+
+    .navbar{
+        height: 130px;
+    }
+
+    .navbar-brand{
+        font-size: 50px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .navbar{
+        height: 120px;
+    }
+
+    .navbar-brand{
+        font-size: 35px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .navbar{
+        height: 100px;
+    }
+
+    .navbar-brand{
+        font-size: 35px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .navbar{
+        height: 65px;
+    }
+
+    .navbar-brand{
+        font-size: 20px;
+    }
+}
