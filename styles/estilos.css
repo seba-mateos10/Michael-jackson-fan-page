@@ -1,0 +1,4034 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::-moz-selection {
+  background-color: #121212;
+  color: goldenrod;
+}
+*::selection {
+  background-color: #121212;
+  color: goldenrod;
+}
+
+header {
+  padding-top: 0;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  max-width: 1800px;
+  padding-bottom: 35px;
+}
+header .navbar {
+  height: 70px;
+}
+@media screen and (max-width: 2000px) {
+  header .navbar {
+    height: 100px;
+  }
+}
+@media screen and (max-width: 1685px) {
+  header .navbar {
+    height: 105px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  header .navbar {
+    height: 110px;
+  }
+}
+@media screen and (max-width: 1500px) {
+  header .navbar {
+    height: 115px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  header .navbar {
+    height: 120px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  header .navbar {
+    height: 125px;
+  }
+}
+@media screen and (max-width: 992px) {
+  header .navbar {
+    height: 140px;
+  }
+}
+@media screen and (max-width: 768px) {
+  header .navbar {
+    height: 180px;
+  }
+}
+@media screen and (max-width: 576px) {
+  header .navbar {
+    height: 200px;
+  }
+}
+@media screen and (max-width: 480px) {
+  header .navbar {
+    height: 210px;
+  }
+}
+header .navbar .navbar-brand {
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+@media screen and (max-width: 2000px) {
+  header .navbar .navbar-brand {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 1685px) {
+  header .navbar .navbar-brand {
+    font-size: 41px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  header .navbar .navbar-brand {
+    font-size: 43px;
+  }
+}
+@media screen and (max-width: 1500px) {
+  header .navbar .navbar-brand {
+    font-size: 44px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  header .navbar .navbar-brand {
+    font-size: 46px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  header .navbar .navbar-brand {
+    font-size: 49px;
+  }
+}
+@media screen and (max-width: 992px) {
+  header .navbar .navbar-brand {
+    font-size: 52px;
+  }
+}
+@media screen and (max-width: 768px) {
+  header .navbar .navbar-brand {
+    font-size: 55px;
+  }
+}
+@media screen and (max-width: 576px) {
+  header .navbar .navbar-brand {
+    font-size: 58px;
+  }
+}
+@media screen and (max-width: 480px) {
+  header .navbar .navbar-brand {
+    font-size: 61px;
+  }
+}
+header .navbar .logonavbar {
+  width: 60px;
+  border-radius: 40px;
+}
+@media screen and (max-width: 2000px) {
+  header .navbar .offcanvas-body {
+    width: 800px;
+  }
+}
+@media screen and (max-width: 1685px) {
+  header .navbar .offcanvas-body {
+    width: 810;
+  }
+}
+@media screen and (max-width: 1600px) {
+  header .navbar .offcanvas-body {
+    width: 820px;
+  }
+}
+@media screen and (max-width: 1500px) {
+  header .navbar .offcanvas-body {
+    width: 830px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  header .navbar .offcanvas-body {
+    width: 840px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  header .navbar .offcanvas-body {
+    width: 845px;
+  }
+}
+@media screen and (max-width: 992px) {
+  header .navbar .offcanvas-body {
+    width: 850px;
+  }
+}
+@media screen and (max-width: 768px) {
+  header .navbar .offcanvas-body {
+    width: 855px;
+  }
+}
+@media screen and (max-width: 576px) {
+  header .navbar .offcanvas-body {
+    width: 860px;
+  }
+}
+@media screen and (max-width: 480px) {
+  header .navbar .offcanvas-body {
+    width: 865px;
+  }
+}
+header .navbar .offcanvas-body .nav-item {
+  display: flex;
+  padding-bottom: 10px;
+  list-style-type: none;
+  gap: 60px;
+  font-size: 20px;
+  justify-content: space-between;
+}
+header .navbar .offcanvas-body .nav-item .nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+@media screen and (max-width: 2000px) {
+  header .navbar .offcanvas-body .nav-item .nav-link {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 1685px) {
+  header .navbar .offcanvas-body .nav-item .nav-link {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  header .navbar .offcanvas-body .nav-item .nav-link {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 1500px) {
+  header .navbar .offcanvas-body .nav-item .nav-link {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  header .navbar .offcanvas-body .nav-item .nav-link {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  header .navbar .offcanvas-body .nav-item .nav-link {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 992px) {
+  header .navbar .offcanvas-body .nav-item .nav-link {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  header .navbar .offcanvas-body .nav-item .nav-link {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 576px) {
+  header .navbar .offcanvas-body .nav-item .nav-link {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 480px) {
+  header .navbar .offcanvas-body .nav-item .nav-link {
+    font-size: 50px;
+  }
+}
+header .navbar .offcanvas-body .nav-item:hover {
+  border-radius: 10px;
+  background-color: #0e0e0e;
+  filter: invert(1);
+}
+
+body {
+  background-image: url(../img/michael-jacson-thriller-40-anoswebp.webp);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  width: 100%;
+  padding-bottom: 20rem;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.main {
+  justify-content: center;
+  align-items: center;
+  min-width: 1400px;
+}
+
+.main {
+  justify-content: center;
+  align-items: center;
+  min-width: 1400px;
+}
+.main .parrafo-inicio {
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 100px;
+  margin-left: 400px;
+  margin-right: 400px;
+  background-color: rgb(169, 164, 164);
+  border-radius: 10px;
+  opacity: 85%;
+  background-size: cover;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 2000px) {
+  .main .parrafo-inicio {
+    margin-top: 200px;
+    margin-left: 350px;
+    margin-right: 350px;
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .main .parrafo-inicio {
+    margin-top: 200px;
+    margin-left: 390px;
+    margin-right: 170px;
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .main .parrafo-inicio {
+    margin-top: 200px;
+    margin-left: 270px;
+    margin-right: 20px;
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .main .parrafo-inicio {
+    margin-top: 200px;
+    margin-left: 270px;
+    margin-right: 20px;
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .main .parrafo-inicio {
+    margin-top: 200px;
+    margin-left: 340px;
+    margin-right: 70px;
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .parrafo-inicio {
+    margin-top: 200px;
+    margin-left: 420px;
+    margin-right: 120px;
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .parrafo-inicio {
+    flex-direction: column;
+    margin-top: 250px;
+    margin-left: 460px;
+    margin-right: 150px;
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .parrafo-inicio {
+    flex-direction: column;
+    margin-top: 250px;
+    margin-left: 380px;
+    margin-right: 70px;
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .main .parrafo-inicio {
+    flex-direction: column;
+    margin-top: 250px;
+    margin-left: 430px;
+    margin-right: 230px;
+    font-size: 60px;
+  }
+}
+.main .video-inicio {
+  display: flex;
+  padding: 30px;
+  margin-top: 40px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 1500px) {
+  .main .video-inicio {
+    margin-left: 235px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .main .video-inicio {
+    margin-left: 280px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .main .video-inicio {
+    margin-left: 340px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .video-inicio {
+    margin-left: 320px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .video-inicio {
+    margin-left: 320px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .video-inicio {
+    margin-left: 320px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .main .video-inicio {
+    margin-left: 200px;
+  }
+}
+.main .foto-inicio {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.main .foto-inicio .foto-inicio__thriller {
+  display: flex;
+  padding: 30px;
+  margin-top: 10px;
+  width: 1000px;
+  height: 650px;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 1500px) {
+  .main .foto-inicio .foto-inicio__thriller {
+    margin-left: 235px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .main .foto-inicio .foto-inicio__thriller {
+    margin-left: 280px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .main .foto-inicio .foto-inicio__thriller {
+    margin-left: 340px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .foto-inicio .foto-inicio__thriller {
+    margin-left: 320px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .foto-inicio .foto-inicio__thriller {
+    margin-left: 320px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .foto-inicio .foto-inicio__thriller {
+    margin-left: 320px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .main .foto-inicio .foto-inicio__thriller {
+    margin-left: 200px;
+  }
+}
+.main .foto-inicio .foto-inicio__collage1 {
+  display: flex;
+  padding: 30px;
+  width: 1000px;
+  height: 651px;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 1500px) {
+  .main .foto-inicio .foto-inicio__collage1 {
+    margin-left: 235px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .main .foto-inicio .foto-inicio__collage1 {
+    margin-left: 280px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .main .foto-inicio .foto-inicio__collage1 {
+    margin-left: 340px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .foto-inicio .foto-inicio__collage1 {
+    margin-left: 320px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .foto-inicio .foto-inicio__collage1 {
+    margin-left: 320px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .foto-inicio .foto-inicio__collage1 {
+    margin-left: 320px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .main .foto-inicio .foto-inicio__collage1 {
+    margin-left: 200px;
+  }
+}
+.main .foto-inicio .foto-inicio__collage2 {
+  display: flex;
+  padding: 30px;
+  margin-top: 10px;
+  width: 1000px;
+  height: 611px;
+  margin-bottom: 160px;
+}
+@media screen and (max-width: 2000px) {
+  .main .foto-inicio .foto-inicio__collage2 {
+    margin-bottom: 500px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .main .foto-inicio .foto-inicio__collage2 {
+    margin-bottom: 500px;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .main .foto-inicio .foto-inicio__collage2 {
+    margin-left: 235px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .main .foto-inicio .foto-inicio__collage2 {
+    margin-left: 290px;
+    margin-bottom: 500px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .main .foto-inicio .foto-inicio__collage2 {
+    margin-left: 340px;
+    margin-bottom: 500px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .foto-inicio .foto-inicio__collage2 {
+    margin-left: 320px;
+    margin-bottom: 500px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .foto-inicio .foto-inicio__collage2 {
+    margin-left: 320px;
+    margin-bottom: 500px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .foto-inicio .foto-inicio__collage2 {
+    margin-bottom: 500px;
+    margin-left: 320px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .main .foto-inicio .foto-inicio__collage2 {
+    margin-left: 200px;
+    margin-bottom: 500px;
+  }
+}
+
+main .michael-jackson-titulo {
+  color: black;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 100px;
+  background-color: rgb(169, 164, 164);
+  margin-left: 390px;
+  margin-right: 390px;
+  opacity: 75%;
+  border-radius: 10px;
+}
+@media screen and (max-width: 1200px) {
+  main .michael-jackson-titulo {
+    margin-top: 200px;
+    font-size: 50px;
+    margin-bottom: 50px;
+    width: 700px;
+    margin-left: 450px;
+  }
+}
+@media screen and (max-width: 992px) {
+  main .michael-jackson-titulo {
+    margin-top: 200px;
+    font-size: 70px;
+    margin-bottom: 50px;
+    width: 700px;
+    margin-left: 460px;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .michael-jackson-titulo {
+    margin-top: 200px;
+    font-size: 80px;
+    margin-bottom: 50px;
+    width: 700px;
+    margin-left: 450px;
+    margin-right: 500px;
+  }
+}
+@media screen and (max-width: 576px) {
+  main .michael-jackson-titulo {
+    margin-top: 200px;
+    font-size: 80px;
+    margin-bottom: 50px;
+    width: 700px;
+    margin-left: 510px;
+  }
+}
+@media screen and (max-width: 480px) {
+  main .michael-jackson-titulo {
+    margin-top: 300px;
+    font-size: 80px;
+    margin-bottom: 50px;
+    width: 700px;
+    margin-left: 490px;
+  }
+}
+main .parrafos-y-fotos-contenedor {
+  width: 1750px;
+}
+main .parrafos-y-fotos-contenedor .michael-jackson-niñez {
+  display: flex;
+}
+@media screen and (max-width: 1500px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-niñez {
+    width: 1500px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-niñez {
+    width: 1600px;
+  }
+}
+@media screen and (max-width: 992px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-niñez {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-niñez {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 60px;
+  }
+}
+@media screen and (max-width: 576px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-niñez {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+  }
+}
+@media screen and (max-width: 480px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-niñez {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+  }
+}
+main .parrafos-y-fotos-contenedor .michael-jackson-niñez .michael-jackson-foto__niño {
+  display: flex;
+  padding: 10px;
+  width: 377px;
+  height: 358px;
+  margin-top: 30px;
+  margin-right: 5px;
+  margin-left: 40px;
+  background-color: rgb(169, 164, 164);
+}
+@media screen and (max-width: 1500px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-niñez .michael-jackson-foto__niño {
+    height: 385px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-niñez .michael-jackson-foto__niño {
+    width: 700px;
+    height: 578px;
+  }
+}
+@media screen and (max-width: 992px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-niñez .michael-jackson-foto__niño {
+    width: 900px;
+    height: 830px;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-niñez .michael-jackson-foto__niño {
+    width: 1000px;
+    height: 900px;
+  }
+}
+@media screen and (max-width: 576px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-niñez .michael-jackson-foto__niño {
+    width: 1000px;
+    height: 900px;
+  }
+}
+@media screen and (max-width: 480px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-niñez .michael-jackson-foto__niño {
+    width: 1000px;
+    height: 900px;
+  }
+}
+main .parrafos-y-fotos-contenedor .michael-jackson-niñez .michael-jackson-parrafo__niñez {
+  padding: 8px;
+  font-size: 19px;
+  margin-top: 30px;
+  margin-right: 5px;
+  text-align: left;
+  background-color: rgb(169, 164, 164);
+  opacity: 85%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+@media screen and (max-width: 1500px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-niñez .michael-jackson-parrafo__niñez {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-niñez .michael-jackson-parrafo__niñez {
+    width: 1000px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 992px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-niñez .michael-jackson-parrafo__niñez {
+    font-size: 47px;
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-right: 5px;
+    width: 900px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-niñez .michael-jackson-parrafo__niñez {
+    font-size: 55px;
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-right: 5px;
+    width: 1000px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+}
+@media screen and (max-width: 576px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-niñez .michael-jackson-parrafo__niñez {
+    font-size: 55px;
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-right: 5px;
+    width: 1000px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+}
+@media screen and (max-width: 480px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-niñez .michael-jackson-parrafo__niñez {
+    font-size: 55px;
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-right: 5px;
+    width: 1000px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+}
+main .parrafos-y-fotos-contenedor .michael-jackson-adolescente {
+  display: flex;
+}
+@media screen and (max-width: 1500px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-adolescente {
+    width: 1500px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-adolescente {
+    width: 1500px;
+  }
+}
+@media screen and (max-width: 992px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-adolescente {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-adolescente {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+}
+@media screen and (max-width: 576px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-adolescente {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+  }
+}
+@media screen and (max-width: 480px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-adolescente {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+  }
+}
+main .parrafos-y-fotos-contenedor .michael-jackson-adolescente .michael-jackson-foto__adolescente {
+  display: flex;
+  width: 375px;
+  height: 280px;
+  margin-left: 40px;
+  margin-right: 5px;
+  margin-top: 30px;
+  padding: 10px;
+  background-color: rgb(169, 164, 164);
+}
+@media screen and (max-width: 1200px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-adolescente .michael-jackson-foto__adolescente {
+    width: 700px;
+    height: 490px;
+  }
+}
+@media screen and (max-width: 992px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-adolescente .michael-jackson-foto__adolescente {
+    width: 900px;
+    height: 600px;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-adolescente .michael-jackson-foto__adolescente {
+    width: 1000px;
+    height: 700px;
+  }
+}
+@media screen and (max-width: 576px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-adolescente .michael-jackson-foto__adolescente {
+    width: 1000px;
+    height: 700px;
+  }
+}
+@media screen and (max-width: 480px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-adolescente .michael-jackson-foto__adolescente {
+    width: 1000px;
+    height: 700px;
+  }
+}
+main .parrafos-y-fotos-contenedor .michael-jackson-adolescente .michael-jackson-parrafo__adolescente {
+  padding: 10px;
+  font-size: 19px;
+  margin-top: 30px;
+  margin-right: 5px;
+  text-align: left;
+  background-color: rgb(169, 164, 164);
+  opacity: 85%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+@media screen and (max-width: 1500px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-adolescente .michael-jackson-parrafo__adolescente {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-adolescente .michael-jackson-parrafo__adolescente {
+    width: 1000px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 992px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-adolescente .michael-jackson-parrafo__adolescente {
+    font-size: 47px;
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-right: 5px;
+    width: 900px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-adolescente .michael-jackson-parrafo__adolescente {
+    font-size: 55px;
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-right: 5px;
+    width: 1000px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+}
+@media screen and (max-width: 576px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-adolescente .michael-jackson-parrafo__adolescente {
+    font-size: 55px;
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-right: 5px;
+    width: 1000px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+}
+@media screen and (max-width: 480px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-adolescente .michael-jackson-parrafo__adolescente {
+    font-size: 55px;
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-right: 5px;
+    width: 1000px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+}
+main .parrafos-y-fotos-contenedor .michael-jackson-cantando {
+  display: flex;
+}
+@media screen and (max-width: 1500px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-cantando {
+    width: 1500px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-cantando {
+    width: 1500px;
+  }
+}
+@media screen and (max-width: 992px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-cantando {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-cantando {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+}
+@media screen and (max-width: 576px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-cantando {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+  }
+}
+@media screen and (max-width: 480px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-cantando {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+  }
+}
+main .parrafos-y-fotos-contenedor .michael-jackson-cantando .michael-jackson-foto__cantando {
+  display: flex;
+  width: 375px;
+  height: 265px;
+  margin-left: 40px;
+  margin-top: 30px;
+  margin-right: 5px;
+  padding: 10px;
+  background-color: rgb(169, 164, 164);
+}
+@media screen and (max-width: 1200px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-cantando .michael-jackson-foto__cantando {
+    width: 600px;
+    height: 370px;
+  }
+}
+@media screen and (max-width: 992px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-cantando .michael-jackson-foto__cantando {
+    width: 900px;
+    height: 650px;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-cantando .michael-jackson-foto__cantando {
+    width: 1000px;
+    height: 700px;
+  }
+}
+@media screen and (max-width: 576px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-cantando .michael-jackson-foto__cantando {
+    width: 1000px;
+    height: 700px;
+  }
+}
+@media screen and (max-width: 480px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-cantando .michael-jackson-foto__cantando {
+    width: 1000px;
+    height: 700px;
+  }
+}
+main .parrafos-y-fotos-contenedor .michael-jackson-cantando .michael-jackson-parrafo__cantando {
+  padding: 7px;
+  font-size: 21px;
+  margin-top: 30px;
+  margin-right: 5px;
+  text-align: left;
+  background-color: rgb(169, 164, 164);
+  opacity: 85%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+@media screen and (max-width: 1200px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-cantando .michael-jackson-parrafo__cantando {
+    width: 1000px;
+    font-size: 21px;
+  }
+}
+@media screen and (max-width: 992px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-cantando .michael-jackson-parrafo__cantando {
+    font-size: 47px;
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-right: 5px;
+    width: 900px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-cantando .michael-jackson-parrafo__cantando {
+    font-size: 55px;
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-right: 5px;
+    width: 1000px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+}
+@media screen and (max-width: 576px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-cantando .michael-jackson-parrafo__cantando {
+    font-size: 55px;
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-right: 5px;
+    width: 1000px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+}
+@media screen and (max-width: 480px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-cantando .michael-jackson-parrafo__cantando {
+    font-size: 55px;
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-right: 5px;
+    width: 1000px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+}
+main .parrafos-y-fotos-contenedor .michael-jackson-thriller {
+  display: flex;
+}
+@media screen and (max-width: 1500px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-thriller {
+    width: 1500px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-thriller {
+    width: 1500px;
+  }
+}
+@media screen and (max-width: 992px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-thriller {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-thriller {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+}
+@media screen and (max-width: 576px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-thriller {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+  }
+}
+@media screen and (max-width: 480px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-thriller {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+  }
+}
+main .parrafos-y-fotos-contenedor .michael-jackson-thriller .michael-jackson-foto__zombie {
+  display: flex;
+  width: 375px;
+  height: 239px;
+  margin-left: 40px;
+  margin-right: 5px;
+  margin-top: 30px;
+  padding: 12px;
+  background-color: rgb(169, 164, 164);
+}
+@media screen and (max-width: 1200px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-thriller .michael-jackson-foto__zombie {
+    width: 500px;
+    height: 295px;
+  }
+}
+@media screen and (max-width: 992px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-thriller .michael-jackson-foto__zombie {
+    width: 900px;
+    height: 540px;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-thriller .michael-jackson-foto__zombie {
+    width: 1000px;
+    height: 600px;
+  }
+}
+@media screen and (max-width: 576px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-thriller .michael-jackson-foto__zombie {
+    width: 1000px;
+    height: 600px;
+  }
+}
+@media screen and (max-width: 480px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-thriller .michael-jackson-foto__zombie {
+    width: 1000px;
+    height: 600px;
+  }
+}
+main .parrafos-y-fotos-contenedor .michael-jackson-thriller .michael-jackson-parrafo__thriller {
+  padding: 11px;
+  font-size: 24px;
+  margin-top: 31px;
+  margin-right: 5px;
+  text-align: left;
+  background-color: rgb(169, 164, 164);
+  opacity: 85%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+@media screen and (max-width: 1500px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-thriller .michael-jackson-parrafo__thriller {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-thriller .michael-jackson-parrafo__thriller {
+    padding: 15px;
+    width: 1000px;
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 992px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-thriller .michael-jackson-parrafo__thriller {
+    font-size: 47px;
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-right: 5px;
+    width: 900px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-thriller .michael-jackson-parrafo__thriller {
+    font-size: 55px;
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-right: 5px;
+    width: 1000px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+}
+@media screen and (max-width: 576px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-thriller .michael-jackson-parrafo__thriller {
+    font-size: 55px;
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-right: 5px;
+    width: 1000px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+}
+@media screen and (max-width: 480px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-thriller .michael-jackson-parrafo__thriller {
+    font-size: 55px;
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-right: 5px;
+    width: 1000px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+}
+main .parrafos-y-fotos-contenedor .michael-jackson-superbowl {
+  display: flex;
+}
+@media screen and (max-width: 1500px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-superbowl {
+    width: 1500px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-superbowl {
+    width: 1500px;
+  }
+}
+@media screen and (max-width: 992px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-superbowl {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-superbowl {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+}
+@media screen and (max-width: 576px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-superbowl {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+  }
+}
+@media screen and (max-width: 480px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-superbowl {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+  }
+}
+main .parrafos-y-fotos-contenedor .michael-jackson-superbowl .michael-jackson-foto__chaquetamilitar {
+  display: flex;
+  width: 338px;
+  height: 528px;
+  margin-left: 40px;
+  margin-right: 5px;
+  margin-top: 30px;
+  padding: 10px;
+  background-color: rgb(169, 164, 164);
+}
+@media screen and (max-width: 1200px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-superbowl .michael-jackson-foto__chaquetamilitar {
+    width: 420px;
+    height: 595px;
+  }
+}
+@media screen and (max-width: 992px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-superbowl .michael-jackson-foto__chaquetamilitar {
+    width: 900px;
+    height: 1450px;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-superbowl .michael-jackson-foto__chaquetamilitar {
+    width: 1000px;
+    height: 1560px;
+  }
+}
+@media screen and (max-width: 576px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-superbowl .michael-jackson-foto__chaquetamilitar {
+    width: 1000px;
+    height: 1560px;
+  }
+}
+@media screen and (max-width: 480px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-superbowl .michael-jackson-foto__chaquetamilitar {
+    width: 1000px;
+    height: 1560px;
+  }
+}
+main .parrafos-y-fotos-contenedor .michael-jackson-superbowl .michael-jackson-parrafo__superbowl {
+  padding: 12px;
+  font-size: 24px;
+  margin-top: 30px;
+  margin-right: 5px;
+  text-align: left;
+  background-color: rgb(169, 164, 164);
+  opacity: 85%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+@media screen and (max-width: 1500px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-superbowl .michael-jackson-parrafo__superbowl {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-superbowl .michael-jackson-parrafo__superbowl {
+    padding: 30px;
+    width: 1000px;
+    font-size: 21px;
+  }
+}
+@media screen and (max-width: 992px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-superbowl .michael-jackson-parrafo__superbowl {
+    font-size: 47px;
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-right: 5px;
+    width: 900px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-superbowl .michael-jackson-parrafo__superbowl {
+    font-size: 55px;
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-right: 5px;
+    width: 1000px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+}
+@media screen and (max-width: 576px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-superbowl .michael-jackson-parrafo__superbowl {
+    font-size: 55px;
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-right: 5px;
+    width: 1000px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+}
+@media screen and (max-width: 480px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-superbowl .michael-jackson-parrafo__superbowl {
+    font-size: 55px;
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-right: 5px;
+    width: 1000px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+}
+main .parrafos-y-fotos-contenedor .michael-jackson-thisisit {
+  display: flex;
+  margin-bottom: 400px;
+}
+@media screen and (max-width: 1500px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-thisisit {
+    width: 1500px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-thisisit {
+    width: 1500px;
+  }
+}
+@media screen and (max-width: 992px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-thisisit {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-thisisit {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+}
+@media screen and (max-width: 576px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-thisisit {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+  }
+}
+@media screen and (max-width: 480px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-thisisit {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+  }
+}
+main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-foto__thisisit {
+  display: flex;
+  width: 360px;
+  height: 214px;
+  margin-left: 40px;
+  margin-right: 5px;
+  margin-top: 29px;
+  padding: 10px;
+  background-color: rgb(169, 164, 164);
+}
+@media screen and (max-width: 992px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-foto__thisisit {
+    width: 900px;
+    height: 600px;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-foto__thisisit {
+    width: 1000px;
+    height: 650px;
+  }
+}
+@media screen and (max-width: 576px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-foto__thisisit {
+    width: 1000px;
+    height: 650px;
+  }
+}
+@media screen and (max-width: 480px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-foto__thisisit {
+    width: 1000px;
+    height: 650px;
+  }
+}
+main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-parrafo__thisisit {
+  padding: 8px;
+  font-size: 22px;
+  margin-top: 29px;
+  margin-right: 5px;
+  text-align: left;
+  background-color: rgb(169, 164, 164);
+  opacity: 85%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: 160px;
+}
+@media screen and (max-width: 1500px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-parrafo__thisisit {
+    font-size: 21px;
+    margin-bottom: 500px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-parrafo__thisisit {
+    margin-bottom: 500px;
+  }
+}
+@media screen and (max-width: 992px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-parrafo__thisisit {
+    font-size: 47px;
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-right: 5px;
+    width: 900px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+    margin-bottom: 500px;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-parrafo__thisisit {
+    font-size: 55px;
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-right: 5px;
+    width: 1000px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+    margin-bottom: 500px;
+  }
+}
+@media screen and (max-width: 576px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-parrafo__thisisit {
+    font-size: 55px;
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-right: 5px;
+    width: 1000px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+    margin-bottom: 500px;
+  }
+}
+@media screen and (max-width: 480px) {
+  main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-parrafo__thisisit {
+    font-size: 55px;
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-right: 5px;
+    width: 1000px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+    margin-bottom: 500px;
+  }
+}
+
+@media screen and (max-width: 1685px) {
+  .main .albumes-contenedor {
+    margin-left: 200px;
+    width: 1300px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .albumes-contenedor {
+    margin-left: 100px;
+    width: 1000px;
+  }
+}
+.main .albumes-contenedor .albumes-titulo {
+  color: black;
+  text-align: center;
+  font-size: 60px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 100px;
+  background-color: rgb(169, 164, 164);
+  margin-left: 620px;
+  margin-right: 620px;
+  opacity: 75%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 1685px) {
+  .main .albumes-contenedor .albumes-titulo {
+    margin-top: 200px;
+    font-size: 80px;
+    margin-bottom: 50px;
+    width: 700px;
+    margin-left: 325px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .albumes-contenedor .albumes-titulo {
+    margin-top: 200px;
+    font-size: 80px;
+    margin-bottom: 50px;
+    width: 700px;
+    margin-left: 305px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .albumes-contenedor .albumes-titulo {
+    margin-top: 200px;
+    font-size: 80px;
+    margin-bottom: 50px;
+    width: 700px;
+    margin-left: 305px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .albumes-contenedor .albumes-titulo {
+    margin-top: 200px;
+    font-size: 80px;
+    margin-bottom: 50px;
+    width: 700px;
+    margin-left: 290px;
+  }
+}
+@media screen and (max-width: 1685px) {
+  .main .albumes-contenedor .album-carousel-contenedor {
+    margin-left: 20px;
+    width: 1300px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .albumes-contenedor .album-carousel-contenedor {
+    margin-left: 0px;
+    width: 1300px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .albumes-contenedor .album-carousel-contenedor {
+    margin-left: 0px;
+    width: 1300px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .albumes-contenedor .album-carousel-contenedor {
+    height: 700px;
+    width: 1300px;
+  }
+}
+.main .albumes-contenedor .album-carousel-contenedor .carousel-item .carousel-item__fotos {
+  width: 1200px;
+  height: 600px;
+  max-width: 100%;
+}
+@media screen and (max-width: 2000px) {
+  .main .albumes-contenedor .album-carousel-contenedor .carousel-item .carousel-item__fotos {
+    height: 800px;
+    width: 1600px;
+  }
+}
+@media screen and (max-width: 1685px) {
+  .main .albumes-contenedor .album-carousel-contenedor .carousel-item .carousel-item__fotos {
+    height: 500px;
+    width: 1300px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .albumes-contenedor .album-carousel-contenedor .carousel-item .carousel-item__fotos {
+    height: 500px;
+    width: 1000px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .albumes-contenedor .album-carousel-contenedor .carousel-item .carousel-item__fotos {
+    height: 500px;
+    width: 1300px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .albumes-contenedor .album-carousel-contenedor .carousel-item .carousel-item__fotos {
+    height: 700px;
+    width: 1300px;
+  }
+}
+.main .albumes-contenedor .mejores-albumes-titulo {
+  color: black;
+  padding: 5px;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 50px;
+  background-color: rgb(169, 164, 164);
+  margin-left: 560px;
+  margin-right: 560px;
+  opacity: 75%;
+  border-radius: 10px;
+}
+@media screen and (max-width: 1685px) {
+  .main .albumes-contenedor .mejores-albumes-titulo {
+    width: 400px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    margin-left: 500px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .albumes-contenedor .mejores-albumes-titulo {
+    width: 400px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    margin-left: 500px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .albumes-contenedor .mejores-albumes-titulo {
+    width: 400px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    margin-left: 500px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .albumes-contenedor .mejores-albumes-titulo {
+    width: 400px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    margin-left: 450px;
+  }
+}
+.main .albumes-contenedor .album-thriller {
+  display: flex;
+}
+@media screen and (max-width: 1685px) {
+  .main .albumes-contenedor .album-thriller {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .albumes-contenedor .album-thriller {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .albumes-contenedor .album-thriller {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .albumes-contenedor .album-thriller {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+.main .albumes-contenedor .album-thriller .mejores-albumes-portada__thriller {
+  display: flex;
+  width: 300px;
+  height: 303px;
+  margin-top: 15px;
+  margin-left: 0px;
+  margin-right: 50px;
+  padding: 10px;
+  background-color: rgb(169, 164, 164);
+  opacity: 85%;
+}
+@media screen and (max-width: 1685px) {
+  .main .albumes-contenedor .album-thriller .mejores-albumes-portada__thriller {
+    width: 1100px;
+    height: 900px;
+    margin-left: 120px;
+    opacity: 100%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .albumes-contenedor .album-thriller .mejores-albumes-portada__thriller {
+    width: 1100px;
+    height: 900px;
+    margin-left: 120px;
+    opacity: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .albumes-contenedor .album-thriller .mejores-albumes-portada__thriller {
+    width: 1100px;
+    height: 900px;
+    margin-left: 120px;
+    opacity: 100%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .albumes-contenedor .album-thriller .mejores-albumes-portada__thriller {
+    width: 1100px;
+    height: 900px;
+    margin-left: 100px;
+    opacity: 100%;
+  }
+}
+.main .albumes-contenedor .album-thriller .mejores-albumes-parrafo__thriller {
+  padding: 10px;
+  font-size: 21px;
+  margin-top: 15px;
+  margin-left: 50px;
+  text-align: left;
+  background-color: rgb(169, 164, 164);
+  opacity: 85%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+@media screen and (max-width: 1685px) {
+  .main .albumes-contenedor .album-thriller .mejores-albumes-parrafo__thriller {
+    width: 1100px;
+    margin-left: 120px;
+    font-size: 55px;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 10px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .albumes-contenedor .album-thriller .mejores-albumes-parrafo__thriller {
+    width: 1100px;
+    margin-left: 120px;
+    font-size: 55px;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .albumes-contenedor .album-thriller .mejores-albumes-parrafo__thriller {
+    width: 1100px;
+    margin-left: 120px;
+    font-size: 55px;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 10px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .albumes-contenedor .album-thriller .mejores-albumes-parrafo__thriller {
+    width: 1100px;
+    font-size: 55px;
+    margin-left: 100px;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 10px;
+  }
+}
+.main .albumes-contenedor .album-bad {
+  display: flex;
+}
+@media screen and (max-width: 1685px) {
+  .main .albumes-contenedor .album-bad {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .albumes-contenedor .album-bad {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .albumes-contenedor .album-bad {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .albumes-contenedor .album-bad {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+.main .albumes-contenedor .album-bad .mejores-albumes-portada__bad {
+  display: flex;
+  width: 300px;
+  height: 288px;
+  margin-top: 30px;
+  margin-left: 0px;
+  margin-right: 50px;
+  padding: 10px;
+  background-color: rgb(169, 164, 164);
+  opacity: 85%;
+}
+@media screen and (max-width: 1685px) {
+  .main .albumes-contenedor .album-bad .mejores-albumes-portada__bad {
+    width: 1100px;
+    height: 900px;
+    margin-left: 120px;
+    opacity: 100%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .albumes-contenedor .album-bad .mejores-albumes-portada__bad {
+    width: 1100px;
+    height: 900px;
+    margin-left: 120px;
+    opacity: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .albumes-contenedor .album-bad .mejores-albumes-portada__bad {
+    width: 1100px;
+    height: 900px;
+    margin-left: 120px;
+    opacity: 100%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .albumes-contenedor .album-bad .mejores-albumes-portada__bad {
+    width: 1100px;
+    height: 900px;
+    opacity: 100%;
+    margin-left: 100px;
+  }
+}
+.main .albumes-contenedor .album-bad .mejores-albumes-parrafo__bad {
+  padding: 5px;
+  font-size: 18.5px;
+  margin-top: 30px;
+  margin-left: 50px;
+  text-align: left;
+  background-color: rgb(169, 164, 164);
+  opacity: 85%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+@media screen and (max-width: 1685px) {
+  .main .albumes-contenedor .album-bad .mejores-albumes-parrafo__bad {
+    width: 1100px;
+    margin-left: 120px;
+    font-size: 55px;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 10px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .albumes-contenedor .album-bad .mejores-albumes-parrafo__bad {
+    width: 1100px;
+    margin-left: 120px;
+    font-size: 55px;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .albumes-contenedor .album-bad .mejores-albumes-parrafo__bad {
+    width: 1100px;
+    margin-left: 120px;
+    font-size: 55px;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 10px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .albumes-contenedor .album-bad .mejores-albumes-parrafo__bad {
+    width: 1100px;
+    margin-left: 100px;
+    font-size: 55px;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 10px;
+  }
+}
+.main .albumes-contenedor .album-dangerous {
+  display: flex;
+}
+@media screen and (max-width: 1685px) {
+  .main .albumes-contenedor .album-dangerous {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .albumes-contenedor .album-dangerous {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .albumes-contenedor .album-dangerous {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .albumes-contenedor .album-dangerous {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+.main .albumes-contenedor .album-dangerous .mejores-albumes-portada__dangerous {
+  display: flex;
+  width: 300px;
+  height: 304px;
+  margin-top: 30px;
+  margin-left: 0px;
+  margin-right: 50px;
+  padding: 14px;
+  background-color: rgb(169, 164, 164);
+  opacity: 85%;
+}
+@media screen and (max-width: 1685px) {
+  .main .albumes-contenedor .album-dangerous .mejores-albumes-portada__dangerous {
+    width: 1100px;
+    height: 900px;
+    margin-left: 120px;
+    opacity: 100%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .albumes-contenedor .album-dangerous .mejores-albumes-portada__dangerous {
+    width: 1100px;
+    height: 900px;
+    margin-left: 120px;
+    opacity: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .albumes-contenedor .album-dangerous .mejores-albumes-portada__dangerous {
+    width: 1100px;
+    height: 900px;
+    margin-left: 120px;
+    opacity: 100%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .albumes-contenedor .album-dangerous .mejores-albumes-portada__dangerous {
+    width: 1100px;
+    height: 900px;
+    margin-left: 100px;
+    opacity: 100%;
+  }
+}
+.main .albumes-contenedor .album-dangerous .mejores-albumes-parrafo__dangerous {
+  padding: 10px;
+  font-size: 21px;
+  margin-top: 30px;
+  margin-left: 50px;
+  text-align: left;
+  background-color: rgb(169, 164, 164);
+  opacity: 85%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+@media screen and (max-width: 1685px) {
+  .main .albumes-contenedor .album-dangerous .mejores-albumes-parrafo__dangerous {
+    width: 1100px;
+    margin-left: 120px;
+    font-size: 55px;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 10px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .albumes-contenedor .album-dangerous .mejores-albumes-parrafo__dangerous {
+    width: 1100px;
+    margin-left: 120px;
+    font-size: 55px;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .albumes-contenedor .album-dangerous .mejores-albumes-parrafo__dangerous {
+    width: 1100px;
+    margin-left: 120px;
+    font-size: 55px;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 10px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .albumes-contenedor .album-dangerous .mejores-albumes-parrafo__dangerous {
+    width: 1100px;
+    margin-left: 100px;
+    font-size: 55px;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 10px;
+  }
+}
+.main .albumes-contenedor .album-history {
+  display: flex;
+}
+@media screen and (max-width: 1685px) {
+  .main .albumes-contenedor .album-history {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .albumes-contenedor .album-history {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .albumes-contenedor .album-history {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .albumes-contenedor .album-history {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+.main .albumes-contenedor .album-history .mejores-albumes-portada__history {
+  display: flex;
+  width: 300px;
+  height: 292px;
+  margin-top: 30px;
+  margin-left: 0px;
+  margin-right: 50px;
+  padding: 10px;
+  background-color: rgb(169, 164, 164);
+  opacity: 85%;
+}
+@media screen and (max-width: 1685px) {
+  .main .albumes-contenedor .album-history .mejores-albumes-portada__history {
+    width: 1100px;
+    height: 900px;
+    margin-left: 120px;
+    opacity: 100%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .albumes-contenedor .album-history .mejores-albumes-portada__history {
+    width: 1100px;
+    height: 900px;
+    margin-left: 120px;
+    opacity: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .albumes-contenedor .album-history .mejores-albumes-portada__history {
+    width: 1100px;
+    height: 900px;
+    margin-left: 120px;
+    opacity: 100%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .albumes-contenedor .album-history .mejores-albumes-portada__history {
+    width: 1100px;
+    height: 900px;
+    margin-left: 100px;
+    opacity: 100%;
+  }
+}
+.main .albumes-contenedor .album-history .mejores-albumes-parrafo__history {
+  padding: 4px;
+  font-size: 21px;
+  margin-top: 30px;
+  margin-left: 50px;
+  text-align: left;
+  background-color: rgb(169, 164, 164);
+  opacity: 85%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+@media screen and (max-width: 1685px) {
+  .main .albumes-contenedor .album-history .mejores-albumes-parrafo__history {
+    width: 1100px;
+    margin-left: 120px;
+    font-size: 55px;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 10px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .albumes-contenedor .album-history .mejores-albumes-parrafo__history {
+    width: 1100px;
+    margin-left: 120px;
+    font-size: 55px;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .albumes-contenedor .album-history .mejores-albumes-parrafo__history {
+    width: 1100px;
+    margin-left: 120px;
+    font-size: 55px;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 10px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .albumes-contenedor .album-history .mejores-albumes-parrafo__history {
+    width: 1100px;
+    margin-left: 100px;
+    font-size: 55px;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 10px;
+  }
+}
+.main .albumes-contenedor .album-invincible {
+  display: flex;
+  margin-bottom: 400px;
+}
+@media screen and (max-width: 1685px) {
+  .main .albumes-contenedor .album-invincible {
+    margin-bottom: 500px;
+  }
+}
+@media screen and (max-width: 1685px) {
+  .main .albumes-contenedor .album-invincible {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 500px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .albumes-contenedor .album-invincible {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 500px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .albumes-contenedor .album-invincible {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 500px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .albumes-contenedor .album-invincible {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 500px;
+  }
+}
+.main .albumes-contenedor .album-invincible .mejores-albumes-portada__invincible {
+  display: flex;
+  width: 300px;
+  height: 304px;
+  margin-top: 30px;
+  margin-left: 0px;
+  margin-right: 50px;
+  padding: 10px;
+  background-color: rgb(169, 164, 164);
+  opacity: 85%;
+}
+@media screen and (max-width: 1685px) {
+  .main .albumes-contenedor .album-invincible .mejores-albumes-portada__invincible {
+    width: 1100px;
+    height: 900px;
+    margin-left: 120px;
+    opacity: 100%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .albumes-contenedor .album-invincible .mejores-albumes-portada__invincible {
+    width: 1100px;
+    height: 900px;
+    margin-left: 120px;
+    opacity: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .albumes-contenedor .album-invincible .mejores-albumes-portada__invincible {
+    width: 1100px;
+    height: 900px;
+    margin-left: 120px;
+    opacity: 100%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .albumes-contenedor .album-invincible .mejores-albumes-portada__invincible {
+    width: 1100px;
+    height: 900px;
+    margin-left: 100px;
+    opacity: 100%;
+  }
+}
+.main .albumes-contenedor .album-invincible .mejores-albumes-parrafo__invincible {
+  padding: 10px;
+  font-size: 21px;
+  margin-top: 30px;
+  margin-left: 50px;
+  text-align: left;
+  background-color: rgb(169, 164, 164);
+  opacity: 85%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-bottom: 160px;
+}
+@media screen and (max-width: 1685px) {
+  .main .albumes-contenedor .album-invincible .mejores-albumes-parrafo__invincible {
+    width: 1100px;
+    margin-left: 120px;
+    font-size: 55px;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 10px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .albumes-contenedor .album-invincible .mejores-albumes-parrafo__invincible {
+    width: 1100px;
+    margin-left: 120px;
+    font-size: 55px;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .albumes-contenedor .album-invincible .mejores-albumes-parrafo__invincible {
+    width: 1100px;
+    margin-left: 120px;
+    font-size: 55px;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 10px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .albumes-contenedor .album-invincible .mejores-albumes-parrafo__invincible {
+    width: 1100px;
+    margin-left: 100px;
+    font-size: 55px;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 10px;
+  }
+}
+
+.main .historia-titulo {
+  color: black;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 100px;
+  background-color: rgb(169, 164, 164);
+  margin-left: 450px;
+  margin-right: 450px;
+  opacity: 75%;
+  border-radius: 10px;
+}
+@media screen and (max-width: 1500px) {
+  .main .historia-titulo {
+    margin-top: 200px;
+    font-size: 55px;
+    margin-bottom: 50px;
+    width: 650px;
+    margin-left: 500px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .historia-titulo {
+    margin-top: 200px;
+    font-size: 55px;
+    margin-bottom: 50px;
+    width: 650px;
+    margin-left: 500px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .historia-titulo {
+    margin-top: 200px;
+    font-size: 70px;
+    margin-bottom: 50px;
+    width: 650px;
+    margin-left: 480px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .historia-titulo {
+    margin-top: 200px;
+    font-size: 80px;
+    margin-bottom: 50px;
+    width: 700px;
+    margin-left: 450px;
+  }
+}
+.main .historia-canciones .historia-billiejean {
+  display: flex;
+}
+@media screen and (max-width: 1500px) {
+  .main .historia-canciones .historia-billiejean {
+    width: 1600px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .historia-canciones .historia-billiejean {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .historia-canciones .historia-billiejean {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .historia-canciones .historia-billiejean {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
+.main .historia-canciones .historia-billiejean .historia-canciones-parrafo__billiejean {
+  padding: 5px;
+  font-size: 25px;
+  margin-top: 30px;
+  margin-right: 50px;
+  text-align: left;
+  background-color: rgb(169, 164, 164);
+  opacity: 85%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+@media screen and (max-width: 1500px) {
+  .main .historia-canciones .historia-billiejean .historia-canciones-parrafo__billiejean {
+    font-size: 28px;
+    width: 1100px;
+    padding: 12px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .historia-canciones .historia-billiejean .historia-canciones-parrafo__billiejean {
+    font-size: 40px;
+    margin-top: 5px;
+    margin-left: 52px;
+    margin-right: 2px;
+    width: 900px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .historia-canciones .historia-billiejean .historia-canciones-parrafo__billiejean {
+    font-size: 40px;
+    margin-top: 5px;
+    margin-left: 52px;
+    margin-right: 2px;
+    width: 900px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .historia-canciones .historia-billiejean .historia-canciones-parrafo__billiejean {
+    font-size: 55px;
+    margin-top: 5px;
+    margin-left: 52px;
+    margin-right: 2px;
+    width: 1000px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+}
+.main .historia-canciones .historia-billiejean .historia-canciones_foto__billiejean {
+  display: flex;
+  padding: 10px;
+  width: 470px;
+  height: 235px;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 0px;
+  background-color: rgb(169, 164, 164);
+}
+@media screen and (max-width: 1500px) {
+  .main .historia-canciones .historia-billiejean .historia-canciones_foto__billiejean {
+    width: 600px;
+    height: 360px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .historia-canciones .historia-billiejean .historia-canciones_foto__billiejean {
+    width: 900px;
+    height: 600px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .historia-canciones .historia-billiejean .historia-canciones_foto__billiejean {
+    width: 900px;
+    height: 600px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .historia-canciones .historia-billiejean .historia-canciones_foto__billiejean {
+    width: 1000px;
+    height: 700px;
+  }
+}
+.main .historia-canciones .historia-bad {
+  display: flex;
+}
+@media screen and (max-width: 1500px) {
+  .main .historia-canciones .historia-bad {
+    width: 1600px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .historia-canciones .historia-bad {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .historia-canciones .historia-bad {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .historia-canciones .historia-bad {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
+.main .historia-canciones .historia-bad .historia-canciones-parrafo__bad {
+  padding: 7px;
+  font-size: 22px;
+  margin-top: 14px;
+  margin-right: 50px;
+  text-align: left;
+  background-color: rgb(169, 164, 164);
+  opacity: 85%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+@media screen and (max-width: 1500px) {
+  .main .historia-canciones .historia-bad .historia-canciones-parrafo__bad {
+    font-size: 24px;
+    width: 1100px;
+    padding: 5px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .historia-canciones .historia-bad .historia-canciones-parrafo__bad {
+    font-size: 40px;
+    margin-top: 5px;
+    margin-left: 52px;
+    margin-right: 2px;
+    width: 900px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .historia-canciones .historia-bad .historia-canciones-parrafo__bad {
+    font-size: 45px;
+    margin-top: 5px;
+    margin-left: 52px;
+    margin-right: 2px;
+    width: 900px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .historia-canciones .historia-bad .historia-canciones-parrafo__bad {
+    font-size: 55px;
+    margin-top: 5px;
+    margin-left: 52px;
+    margin-right: 2px;
+    width: 1000px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+}
+.main .historia-canciones .historia-bad .historia-canciones_foto__bad {
+  display: flex;
+  padding: 10px;
+  width: 430px;
+  height: 278px;
+  margin-top: 14px;
+  margin-left: 50px;
+  background-color: rgb(169, 164, 164);
+}
+@media screen and (max-width: 1500px) {
+  .main .historia-canciones .historia-bad .historia-canciones_foto__bad {
+    width: 570px;
+    height: 405px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .historia-canciones .historia-bad .historia-canciones_foto__bad {
+    width: 900px;
+    height: 550px;
+    margin-top: 100px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .historia-canciones .historia-bad .historia-canciones_foto__bad {
+    width: 900px;
+    height: 550px;
+    margin-top: 100px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .historia-canciones .historia-bad .historia-canciones_foto__bad {
+    width: 1000px;
+    height: 630px;
+    margin-top: 100px;
+  }
+}
+.main .historia-canciones .historia-smoothcriminal {
+  display: flex;
+}
+@media screen and (max-width: 1500px) {
+  .main .historia-canciones .historia-smoothcriminal {
+    width: 1600px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .historia-canciones .historia-smoothcriminal {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .historia-canciones .historia-smoothcriminal {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .historia-canciones .historia-smoothcriminal {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
+.main .historia-canciones .historia-smoothcriminal .historia-canciones-parrafo__smoothcriminal {
+  padding: 5px;
+  font-size: 24px;
+  margin-top: 14px;
+  margin-right: 50px;
+  text-align: left;
+  background-color: rgb(169, 164, 164);
+  opacity: 85%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+@media screen and (max-width: 1500px) {
+  .main .historia-canciones .historia-smoothcriminal .historia-canciones-parrafo__smoothcriminal {
+    font-size: 25px;
+    width: 1100px;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .historia-canciones .historia-smoothcriminal .historia-canciones-parrafo__smoothcriminal {
+    font-size: 40px;
+    margin-top: 5px;
+    margin-left: 52px;
+    margin-right: 2px;
+    width: 900px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .historia-canciones .historia-smoothcriminal .historia-canciones-parrafo__smoothcriminal {
+    font-size: 45px;
+    margin-top: 5px;
+    margin-left: 52px;
+    margin-right: 2px;
+    width: 900px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .historia-canciones .historia-smoothcriminal .historia-canciones-parrafo__smoothcriminal {
+    font-size: 55px;
+    margin-top: 5px;
+    margin-left: 52px;
+    margin-right: 2px;
+    width: 1000px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+}
+.main .historia-canciones .historia-smoothcriminal .historia-canciones_foto__smoothcriminal {
+  display: flex;
+  padding: 9px;
+  width: 430px;
+  height: 298px;
+  margin-top: 14px;
+  margin-left: 50px;
+  background-color: rgb(169, 164, 164);
+}
+@media screen and (max-width: 1500px) {
+  .main .historia-canciones .historia-smoothcriminal .historia-canciones_foto__smoothcriminal {
+    width: 650px;
+    height: 470px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .historia-canciones .historia-smoothcriminal .historia-canciones_foto__smoothcriminal {
+    width: 900px;
+    height: 620px;
+    margin-top: 100px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .historia-canciones .historia-smoothcriminal .historia-canciones_foto__smoothcriminal {
+    width: 900px;
+    height: 620px;
+    margin-top: 100px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .historia-canciones .historia-smoothcriminal .historia-canciones_foto__smoothcriminal {
+    width: 1000px;
+    height: 690px;
+    margin-top: 100px;
+  }
+}
+.main .historia-canciones .historia-beatit {
+  display: flex;
+}
+@media screen and (max-width: 1500px) {
+  .main .historia-canciones .historia-beatit {
+    width: 1600px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .historia-canciones .historia-beatit {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .historia-canciones .historia-beatit {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .historia-canciones .historia-beatit {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
+.main .historia-canciones .historia-beatit .historia-canciones-parrafo__beatit {
+  padding: 2px;
+  font-size: 21px;
+  margin-top: 14px;
+  margin-right: 50px;
+  text-align: left;
+  background-color: rgb(169, 164, 164);
+  opacity: 85%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+@media screen and (max-width: 1500px) {
+  .main .historia-canciones .historia-beatit .historia-canciones-parrafo__beatit {
+    font-size: 25px;
+    width: 1100px;
+    padding: 12px;
+    border-bottom-left-radius: 10px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .historia-canciones .historia-beatit .historia-canciones-parrafo__beatit {
+    font-size: 40px;
+    margin-top: 5px;
+    margin-left: 52px;
+    margin-right: 2px;
+    width: 900px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .historia-canciones .historia-beatit .historia-canciones-parrafo__beatit {
+    font-size: 45px;
+    margin-top: 5px;
+    margin-left: 52px;
+    margin-right: 2px;
+    width: 900px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .historia-canciones .historia-beatit .historia-canciones-parrafo__beatit {
+    font-size: 55px;
+    margin-top: 5px;
+    margin-left: 52px;
+    margin-right: 2px;
+    width: 1000px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+}
+.main .historia-canciones .historia-beatit .historia-canciones_foto__beatit {
+  display: flex;
+  padding: 10px;
+  width: 430px;
+  height: 287px;
+  margin-top: 14px;
+  margin-left: 50px;
+  background-color: rgb(169, 164, 164);
+}
+@media screen and (max-width: 1500px) {
+  .main .historia-canciones .historia-beatit .historia-canciones_foto__beatit {
+    width: 700px;
+    height: 500px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .historia-canciones .historia-beatit .historia-canciones_foto__beatit {
+    width: 900px;
+    height: 560px;
+    margin-top: 100px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .historia-canciones .historia-beatit .historia-canciones_foto__beatit {
+    width: 900px;
+    height: 560px;
+    margin-top: 100px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .historia-canciones .historia-beatit .historia-canciones_foto__beatit {
+    width: 1000px;
+    height: 630px;
+    margin-top: 100px;
+  }
+}
+.main .historia-canciones .historia-theydontcareaboutus {
+  display: flex;
+}
+@media screen and (max-width: 1500px) {
+  .main .historia-canciones .historia-theydontcareaboutus {
+    width: 1600px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .historia-canciones .historia-theydontcareaboutus {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .historia-canciones .historia-theydontcareaboutus {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .historia-canciones .historia-theydontcareaboutus {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
+.main .historia-canciones .historia-theydontcareaboutus .historia-canciones-parrafo__theydontcareaboutus {
+  padding: 6px;
+  font-size: 22px;
+  margin-top: 14px;
+  margin-right: 50px;
+  text-align: left;
+  background-color: rgb(169, 164, 164);
+  opacity: 85%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+@media screen and (max-width: 1500px) {
+  .main .historia-canciones .historia-theydontcareaboutus .historia-canciones-parrafo__theydontcareaboutus {
+    font-size: 24px;
+    width: 1100px;
+    padding: 5px;
+    border-bottom-left-radius: 10px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .historia-canciones .historia-theydontcareaboutus .historia-canciones-parrafo__theydontcareaboutus {
+    font-size: 40px;
+    margin-top: 5px;
+    margin-left: 52px;
+    margin-right: 2px;
+    width: 900px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .historia-canciones .historia-theydontcareaboutus .historia-canciones-parrafo__theydontcareaboutus {
+    font-size: 45px;
+    margin-top: 5px;
+    margin-left: 52px;
+    margin-right: 2px;
+    width: 900px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .historia-canciones .historia-theydontcareaboutus .historia-canciones-parrafo__theydontcareaboutus {
+    font-size: 55px;
+    margin-top: 5px;
+    margin-left: 52px;
+    margin-right: 2px;
+    width: 1000px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+}
+.main .historia-canciones .historia-theydontcareaboutus .historia-canciones_foto__theydontcareaboutus {
+  display: flex;
+  padding: 10px;
+  width: 430px;
+  height: 309px;
+  margin-top: 14px;
+  margin-left: 50px;
+  background-color: rgb(169, 164, 164);
+}
+@media screen and (max-width: 1500px) {
+  .main .historia-canciones .historia-theydontcareaboutus .historia-canciones_foto__theydontcareaboutus {
+    width: 650px;
+    height: 450px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .historia-canciones .historia-theydontcareaboutus .historia-canciones_foto__theydontcareaboutus {
+    width: 900px;
+    height: 620px;
+    margin-top: 100px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .historia-canciones .historia-theydontcareaboutus .historia-canciones_foto__theydontcareaboutus {
+    width: 900px;
+    height: 620px;
+    margin-top: 100px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .historia-canciones .historia-theydontcareaboutus .historia-canciones_foto__theydontcareaboutus {
+    width: 1000px;
+    height: 690px;
+    margin-top: 100px;
+  }
+}
+.main .historia-canciones .historia-thriller {
+  display: flex;
+  margin-bottom: 400px;
+}
+@media screen and (max-width: 1500px) {
+  .main .historia-canciones .historia-thriller {
+    width: 1600px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .historia-canciones .historia-thriller {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .historia-canciones .historia-thriller {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .historia-canciones .historia-thriller {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 500px;
+  }
+}
+.main .historia-canciones .historia-thriller .historia-canciones-parrafo__thriller {
+  padding: 15px;
+  font-size: 20px;
+  margin-top: 14px;
+  margin-right: 50px;
+  text-align: left;
+  background-color: rgb(169, 164, 164);
+  opacity: 85%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-bottom: 160px;
+}
+@media screen and (max-width: 1500px) {
+  .main .historia-canciones .historia-thriller .historia-canciones-parrafo__thriller {
+    font-size: 28px;
+    width: 1100px;
+    padding: 12px;
+    border-bottom-left-radius: 10px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .historia-canciones .historia-thriller .historia-canciones-parrafo__thriller {
+    font-size: 40px;
+    margin-top: 5px;
+    margin-left: 52px;
+    margin-right: 2px;
+    width: 900px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .historia-canciones .historia-thriller .historia-canciones-parrafo__thriller {
+    font-size: 45px;
+    margin-top: 5px;
+    margin-left: 52px;
+    margin-right: 2px;
+    width: 900px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .historia-canciones .historia-thriller .historia-canciones-parrafo__thriller {
+    font-size: 55px;
+    margin-top: 5px;
+    margin-left: 52px;
+    margin-right: 2px;
+    width: 1000px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+}
+.main .historia-canciones .historia-thriller .historia-canciones_foto__thriller {
+  display: flex;
+  padding: 10px;
+  width: 430px;
+  height: 279px;
+  margin-top: 14px;
+  margin-left: 50px;
+  background-color: rgb(169, 164, 164);
+}
+@media screen and (max-width: 1500px) {
+  .main .historia-canciones .historia-thriller .historia-canciones_foto__thriller {
+    width: 710px;
+    height: 460px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .historia-canciones .historia-thriller .historia-canciones_foto__thriller {
+    width: 900px;
+    height: 600px;
+    margin-top: 100px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .historia-canciones .historia-thriller .historia-canciones_foto__thriller {
+    width: 900px;
+    height: 600px;
+    margin-top: 100px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .historia-canciones .historia-thriller .historia-canciones_foto__thriller {
+    width: 1000px;
+    height: 660px;
+    margin-top: 100px;
+  }
+}
+
+.main .contacto-menu {
+  margin-top: 100px;
+}
+@media screen and (max-width: 2000px) {
+  .main .contacto-menu {
+    margin-top: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .main .contacto-menu {
+    margin-top: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .main .contacto-menu {
+    margin-top: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .contacto-menu {
+    margin-top: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .contacto-menu {
+    margin-top: 200px;
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .contacto-menu {
+    margin-top: 200px;
+    margin-left: 10px;
+  }
+}
+.main .contacto-menu .contacto-titulo {
+  text-align: center;
+  background-color: rgb(169, 164, 164);
+  opacity: 90%;
+  border-radius: 10px;
+  margin-left: 160px;
+  margin-right: 160px;
+  padding: 5px;
+  color: black;
+  font-size: 40px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+@media screen and (max-width: 2000px) {
+  .main .contacto-menu .contacto-titulo .completa-formulario {
+    color: black;
+    font-size: 45px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .main .contacto-menu .contacto-titulo .completa-formulario {
+    color: black;
+    font-size: 45px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .main .contacto-menu .contacto-titulo .completa-formulario {
+    color: black;
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .contacto-menu .contacto-titulo .completa-formulario {
+    color: black;
+    font-size: 65px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .contacto-menu .contacto-titulo .completa-formulario {
+    color: black;
+    font-size: 70px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .contacto-menu .contacto-titulo .completa-formulario {
+    color: black;
+    font-size: 70px;
+  }
+}
+.main .form {
+  margin-top: 60px;
+  margin-bottom: 160px;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "datos-contenedor  album-favorito-contenedor" "cancion-favorita-contenedor  dejanos-tu-opinion-contenedor";
+}
+@media screen and (max-width: 2000px) {
+  .main .form {
+    display: grid;
+    height: 1400px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .main .form {
+    display: grid;
+    height: 1400px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .main .form {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .form {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .form {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .form {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.main .form .datos-contenedor {
+  grid-area: datos-contenedor;
+  grid-column: 2;
+}
+.main .form .datos-contenedor {
+  padding: 10px;
+  padding-top: 11px;
+  padding-bottom: 77px;
+  font-size: 20px;
+  text-align: left;
+  color: #0e0e0e;
+  background-color: rgb(169, 164, 164);
+  border-top-left-radius: 10px;
+  opacity: 90%;
+}
+@media screen and (max-width: 2000px) {
+  .main .form .datos-contenedor {
+    width: 500px;
+    padding-bottom: 21px;
+    border-top-right-radius: 0;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .main .form .datos-contenedor {
+    width: 500px;
+    padding-bottom: 21px;
+    border-top-right-radius: 0;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .main .form .datos-contenedor {
+    width: 1070px;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .form .datos-contenedor {
+    width: 1070px;
+    padding-bottom: 20px;
+    border-top-right-radius: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .form .datos-contenedor {
+    width: 1070px;
+    padding-bottom: 20px;
+    border-top-right-radius: 10px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .form .datos-contenedor {
+    width: 1070px;
+    padding-bottom: 20px;
+    border-top-right-radius: 10px;
+  }
+}
+.main .form .datos-contenedor .completa-datos {
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+@media screen and (max-width: 2000px) {
+  .main .form .datos-contenedor .completa-datos {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .main .form .datos-contenedor .completa-datos {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .main .form .datos-contenedor .completa-datos {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .form .datos-contenedor .completa-datos {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .form .datos-contenedor .completa-datos {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .form .datos-contenedor .completa-datos {
+    font-size: 60px;
+  }
+}
+.main .form .datos-contenedor .datos-usuario {
+  margin-top: 10px;
+}
+@media screen and (max-width: 2000px) {
+  .main .form .datos-contenedor .datos-usuario {
+    margin-top: 24px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .main .form .datos-contenedor .datos-usuario {
+    margin-top: 24px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .main .form .datos-contenedor .datos-usuario {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .form .datos-contenedor .datos-usuario {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .form .datos-contenedor .datos-usuario {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .form .datos-contenedor .datos-usuario {
+    margin-top: 20px;
+  }
+}
+.main .form .datos-contenedor .datos-usuario .datos-usuario__nombre {
+  padding: 10px;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+@media screen and (max-width: 2000px) {
+  .main .form .datos-contenedor .datos-usuario .datos-usuario__nombre {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .main .form .datos-contenedor .datos-usuario .datos-usuario__nombre {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .main .form .datos-contenedor .datos-usuario .datos-usuario__nombre {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .form .datos-contenedor .datos-usuario .datos-usuario__nombre {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .form .datos-contenedor .datos-usuario .datos-usuario__nombre {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .form .datos-contenedor .datos-usuario .datos-usuario__nombre {
+    font-size: 40px;
+  }
+}
+.main .form .datos-contenedor .datos-usuario .datos-usuario__apellido {
+  padding: 10px;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+@media screen and (max-width: 2000px) {
+  .main .form .datos-contenedor .datos-usuario .datos-usuario__apellido {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .main .form .datos-contenedor .datos-usuario .datos-usuario__apellido {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .main .form .datos-contenedor .datos-usuario .datos-usuario__apellido {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .form .datos-contenedor .datos-usuario .datos-usuario__apellido {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .form .datos-contenedor .datos-usuario .datos-usuario__apellido {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .form .datos-contenedor .datos-usuario .datos-usuario__apellido {
+    font-size: 40px;
+  }
+}
+.main .form .datos-contenedor .datos-usuario .datos-usuario__edad {
+  padding: 10px;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+@media screen and (max-width: 2000px) {
+  .main .form .datos-contenedor .datos-usuario .datos-usuario__edad {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .main .form .datos-contenedor .datos-usuario .datos-usuario__edad {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .main .form .datos-contenedor .datos-usuario .datos-usuario__edad {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .form .datos-contenedor .datos-usuario .datos-usuario__edad {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .form .datos-contenedor .datos-usuario .datos-usuario__edad {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .form .datos-contenedor .datos-usuario .datos-usuario__edad {
+    font-size: 40px;
+  }
+}
+.main .form .datos-contenedor .datos-usuario .datos-usuario__email {
+  padding: 10px;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+@media screen and (max-width: 2000px) {
+  .main .form .datos-contenedor .datos-usuario .datos-usuario__email {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .main .form .datos-contenedor .datos-usuario .datos-usuario__email {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .main .form .datos-contenedor .datos-usuario .datos-usuario__email {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .form .datos-contenedor .datos-usuario .datos-usuario__email {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .form .datos-contenedor .datos-usuario .datos-usuario__email {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .form .datos-contenedor .datos-usuario .datos-usuario__email {
+    font-size: 40px;
+  }
+}
+.main .form .album-favorito-contenedor {
+  grid-area: album-favorito-contenedor;
+  grid-column: 3;
+}
+.main .form .album-favorito-contenedor {
+  padding-top: 16px;
+  padding-bottom: 78px;
+  font-size: 20px;
+  text-align: left;
+  color: #0e0e0e;
+  background-color: rgb(169, 164, 164);
+  border-top-right-radius: 10px;
+  opacity: 90%;
+}
+@media screen and (max-width: 2000px) {
+  .main .form .album-favorito-contenedor {
+    width: 500px;
+    padding-bottom: 20px;
+    border-top-right-radius: 10px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .main .form .album-favorito-contenedor {
+    width: 500px;
+    padding-bottom: 20px;
+    border-top-right-radius: 10px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .main .form .album-favorito-contenedor {
+    width: 1070px;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .form .album-favorito-contenedor {
+    width: 1070px;
+    padding-bottom: 20px;
+    border-top-right-radius: 0px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .form .album-favorito-contenedor {
+    width: 1070px;
+    padding-bottom: 20px;
+    border-top-right-radius: 0px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .form .album-favorito-contenedor {
+    width: 1070px;
+    padding-bottom: 20px;
+    border-top-right-radius: 0px;
+  }
+}
+.main .form .album-favorito-contenedor .album-favorito-titulo {
+  font-size: 29px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+@media screen and (max-width: 2000px) {
+  .main .form .album-favorito-contenedor .album-favorito-titulo {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .main .form .album-favorito-contenedor .album-favorito-titulo {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .main .form .album-favorito-contenedor .album-favorito-titulo {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .form .album-favorito-contenedor .album-favorito-titulo {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .form .album-favorito-contenedor .album-favorito-titulo {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .form .album-favorito-contenedor .album-favorito-titulo {
+    font-size: 60px;
+  }
+}
+.main .form .album-favorito-contenedor .album-favorito {
+  margin-top: 10px;
+  background-color: rgb(169, 164, 164);
+  opacity: 85%;
+  font-size: 25px;
+  opacity: 90%;
+}
+@media screen and (max-width: 2000px) {
+  .main .form .album-favorito-contenedor .album-favorito {
+    font-size: 30px;
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .main .form .album-favorito-contenedor .album-favorito {
+    font-size: 30px;
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .main .form .album-favorito-contenedor .album-favorito {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .form .album-favorito-contenedor .album-favorito {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .form .album-favorito-contenedor .album-favorito {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .form .album-favorito-contenedor .album-favorito {
+    font-size: 50px;
+  }
+}
+.main .form .album-favorito-contenedor .album-favorito .album-favorito-opcion__nombre {
+  padding: 10px;
+  font-size: 10px;
+  margin-top: 20px;
+  margin-left: 15px;
+  opacity: 90%;
+}
+.main .form .cancion-favorita-contenedor {
+  grid-area: cancion-favorita-contenedor;
+  grid-column: 2;
+}
+.main .form .cancion-favorita-contenedor {
+  padding-top: 10px;
+  padding-bottom: 49px;
+  margin-bottom: 29px;
+  font-size: 20px;
+  text-align: left;
+  color: #0e0e0e;
+  background-color: rgb(169, 164, 164);
+  border-bottom-left-radius: 10px;
+  opacity: 90%;
+}
+@media screen and (max-width: 2000px) {
+  .main .form .cancion-favorita-contenedor {
+    width: 500px;
+    padding-bottom: 20px;
+    margin-bottom: 500px;
+    border-bottom-left-radius: 10px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .main .form .cancion-favorita-contenedor {
+    width: 500px;
+    padding-bottom: 20px;
+    margin-bottom: 500px;
+    border-bottom-left-radius: 10px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .main .form .cancion-favorita-contenedor {
+    width: 1070px;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .form .cancion-favorita-contenedor {
+    width: 1070px;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .form .cancion-favorita-contenedor {
+    width: 1070px;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .form .cancion-favorita-contenedor {
+    width: 1070px;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+  }
+}
+.main .form .cancion-favorita-contenedor .cancion-favorita-titulo {
+  padding: 10px;
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0;
+  text-align: left;
+  color: #0e0e0e;
+}
+@media screen and (max-width: 2000px) {
+  .main .form .cancion-favorita-contenedor .cancion-favorita-titulo {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .main .form .cancion-favorita-contenedor .cancion-favorita-titulo {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .main .form .cancion-favorita-contenedor .cancion-favorita-titulo {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .form .cancion-favorita-contenedor .cancion-favorita-titulo {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .form .cancion-favorita-contenedor .cancion-favorita-titulo {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .form .cancion-favorita-contenedor .cancion-favorita-titulo {
+    font-size: 60px;
+  }
+}
+.main .form .cancion-favorita-contenedor .cancion-favorita-opcion {
+  opacity: 85%;
+  font-size: 25px;
+}
+@media screen and (max-width: 2000px) {
+  .main .form .cancion-favorita-contenedor .cancion-favorita-opcion {
+    font-size: 30px;
+    margin-top: 14px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .main .form .cancion-favorita-contenedor .cancion-favorita-opcion {
+    font-size: 30px;
+    margin-top: 14px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .main .form .cancion-favorita-contenedor .cancion-favorita-opcion {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .form .cancion-favorita-contenedor .cancion-favorita-opcion {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .form .cancion-favorita-contenedor .cancion-favorita-opcion {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .form .cancion-favorita-contenedor .cancion-favorita-opcion {
+    font-size: 50px;
+  }
+}
+.main .form .cancion-favorita-contenedor .cancion-favorita-opcion .cancion-favorita-opcion__nombre {
+  padding: 10px;
+  font-size: 10px;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.main .form .dejanos-tu-opinion-contenedor {
+  grid-area: dejanos-tu-opinion-contenedor;
+  grid-column: 3;
+}
+.main .form .dejanos-tu-opinion-contenedor {
+  background-color: rgb(169, 164, 164);
+  border-bottom-right-radius: 10px;
+  opacity: 90%;
+  padding-bottom: 11px;
+  margin-bottom: 29px;
+}
+@media screen and (max-width: 2000px) {
+  .main .form .dejanos-tu-opinion-contenedor {
+    width: 500px;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 0;
+    margin-bottom: 500px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .main .form .dejanos-tu-opinion-contenedor {
+    width: 500px;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 0;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .main .form .dejanos-tu-opinion-contenedor {
+    width: 1070px;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .form .dejanos-tu-opinion-contenedor {
+    width: 1070px;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .form .dejanos-tu-opinion-contenedor {
+    width: 1070px;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 10px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .form .dejanos-tu-opinion-contenedor {
+    width: 1070px;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 10px;
+  }
+}
+.main .form .dejanos-tu-opinion-contenedor .dejanos-tu-opinion-titulo {
+  padding: 10px;
+  font-size: 26px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0;
+  text-align: left;
+  color: #0e0e0e;
+}
+@media screen and (max-width: 2000px) {
+  .main .form .dejanos-tu-opinion-contenedor .dejanos-tu-opinion-titulo {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .main .form .dejanos-tu-opinion-contenedor .dejanos-tu-opinion-titulo {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .main .form .dejanos-tu-opinion-contenedor .dejanos-tu-opinion-titulo {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .form .dejanos-tu-opinion-contenedor .dejanos-tu-opinion-titulo {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .form .dejanos-tu-opinion-contenedor .dejanos-tu-opinion-titulo {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .form .dejanos-tu-opinion-contenedor .dejanos-tu-opinion-titulo {
+    font-size: 60px;
+  }
+}
+.main .form .dejanos-tu-opinion-contenedor .cuadrado-para-opinion {
+  padding-top: 10px;
+  padding: 5px;
+  font-size: 10px;
+  margin-top: 0px;
+  margin-bottom: 0;
+}
+.main .form .dejanos-tu-opinion-contenedor .cuadrado-para-opinion .cuadrado-para-opinion__escribir {
+  font-size: 17px;
+}
+@media screen and (max-width: 2000px) {
+  .main .form .dejanos-tu-opinion-contenedor .cuadrado-para-opinion .cuadrado-para-opinion__escribir {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .main .form .dejanos-tu-opinion-contenedor .cuadrado-para-opinion .cuadrado-para-opinion__escribir {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .main .form .dejanos-tu-opinion-contenedor .cuadrado-para-opinion .cuadrado-para-opinion__escribir {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .form .dejanos-tu-opinion-contenedor .cuadrado-para-opinion .cuadrado-para-opinion__escribir {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .form .dejanos-tu-opinion-contenedor .cuadrado-para-opinion .cuadrado-para-opinion__escribir {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .form .dejanos-tu-opinion-contenedor .cuadrado-para-opinion .cuadrado-para-opinion__escribir {
+    font-size: 50px;
+  }
+}
+.main .form .dejanos-tu-opinion-contenedor .enviar-o-resetear {
+  grid-area: enviar-o-resetear;
+  grid-column: 3;
+  margin-left: 15px;
+}
+@media screen and (max-width: 2000px) {
+  .main .form .dejanos-tu-opinion-contenedor .enviar-o-resetear {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .main .form .dejanos-tu-opinion-contenedor .enviar-o-resetear {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .main .form .dejanos-tu-opinion-contenedor .enviar-o-resetear {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .form .dejanos-tu-opinion-contenedor .enviar-o-resetear {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .form .dejanos-tu-opinion-contenedor .enviar-o-resetear {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main .form .dejanos-tu-opinion-contenedor .enviar-o-resetear {
+    font-size: 40px;
+  }
+}
+
+footer {
+  width: 100%;
+  min-width: 1400px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 2rem 8%;
+  background-color: #0e0e0e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+@media screen and (max-width: 2000px) {
+  footer {
+    height: 500px;
+  }
+}
+@media screen and (max-width: 1685px) {
+  footer {
+    height: 500px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  footer {
+    height: 500px;
+    width: 1700px;
+  }
+}
+@media screen and (max-width: 1500px) {
+  footer {
+    height: 500px;
+    width: 1700px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  footer {
+    height: 500px;
+    width: 1700px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  footer {
+    height: 500px;
+    width: 1700px;
+  }
+}
+@media screen and (max-width: 992px) {
+  footer {
+    height: 500px;
+    width: 1700px;
+  }
+}
+@media screen and (max-width: 768px) {
+  footer {
+    height: 500px;
+    width: 1700px;
+  }
+}
+@media screen and (max-width: 576px) {
+  footer {
+    height: 500px;
+    width: 1700px;
+  }
+}
+@media screen and (max-width: 480px) {
+  footer {
+    height: 500px;
+    width: 1600px;
+  }
+}
+footer .footer-logo {
+  height: 80px;
+  margin-bottom: 1rem;
+  border-radius: 40px;
+}
+footer .redes-sociales {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+footer .redes-sociales .redes-sociales__iconos {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  border: 1px solid #f2f2f2;
+  background-image: url(../img/HD-wallpaper-facebook-black-logo.jpg);
+  background-position: center;
+  background-size: 90%;
+  background-repeat: no-repeat;
+  margin: 1rem;
+}
+footer .redes-sociales .redes-sociales__iconos:hover {
+  background-color: #121212;
+  filter: invert(1);
+}
+footer .footer-menu {
+  list-style: none;
+  color: #f2f2f2;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+footer .footer-menu .footer-menu__item {
+  margin: 1rem 1.5rem;
+  cursor: pointer;
+  opacity: 0.6;
+}
+footer .footer-menu .footer-menu__item:hover {
+  opacity: 1;
+}
+footer .footer-menu__copyright {
+  color: #f2f2f2;
+  opacity: 0.3;
+  text-align: center;
+}
+footer .redes-sociales__iconos:nth-of-type(2) {
+  background-image: url(../img/627b94685a3e2ac874a7573c.png);
+}
+footer .redes-sociales__iconos:nth-of-type(3) {
+  background-image: url(../img/5b73459960abeab3bd7be40fdc2fd6c3.jpg);
+}
+footer .redes-sociales__iconos:nth-of-type(4) {
+  background-image: url(../img/desktop-wallpaper-instagram-logo-instagram-black-and-white.jpg);
+}/*# sourceMappingURL=estilos.css.map */

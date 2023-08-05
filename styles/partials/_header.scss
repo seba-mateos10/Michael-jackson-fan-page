@@ -1,0 +1,199 @@
+header{
+    padding-top: 0;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    max-width: 1800px;
+    padding-bottom: 35px;
+
+    .navbar{
+        height: 70px;
+
+        @include bigdesktophd{
+            height: 100px;
+        }
+        @include bigdesktopxl{
+            height: 105px;
+        }
+        @include bigdesktop{
+            height: 110px;
+        }
+        @include desktopxl{
+            height: 115px;
+        }
+        @include desktophd{
+            height: 120px;
+        }
+        @include desktop{
+            height: 125px;
+        }
+        @include tablet{
+            height: 140px;
+        }
+        @include mobile{
+            height: 180px;
+        }
+        @include smallmobile{
+            height: 200px;
+        }
+        @include extrasmallmobile{
+            height: 210px;
+        }
+
+
+        .navbar-brand{
+            font-size: 30px;
+            font-family: $gillsans;
+
+            @include bigdesktophd{
+                font-size: 40px;
+            }
+
+            @include bigdesktopxl{
+                font-size: 41px;
+            }
+
+            @include bigdesktop{
+                font-size: 43px;
+            }
+
+            @include desktopxl{
+                font-size: 44px;
+            }
+
+            @include desktophd{
+                font-size: 46px;
+            }
+
+            @include desktop{
+                font-size: 49px;
+            }
+
+            @include tablet{
+                font-size: 52px;
+            }
+
+            @include mobile{
+                font-size: 55px;
+            }
+
+            @include smallmobile{
+                font-size: 58px;
+            }
+
+            @include extrasmallmobile{
+                font-size: 61px;
+            }
+        }
+    
+        .logonavbar{
+            width: 60px;
+            border-radius: 40px;
+        }   
+
+        .offcanvas-body{
+            @include bigdesktophd{
+                width: 800px;
+            }
+
+            @include bigdesktopxl{
+                width: 810;
+            }
+
+            @include bigdesktop{
+                width: 820px;
+            }
+
+            @include desktopxl{
+                width: 830px;
+            }
+
+            @include desktophd{
+                width: 840px;
+            }
+
+            @include desktop{
+                width: 845px;
+            }
+
+            @include tablet{
+                width: 850px;
+            }
+
+            @include mobile{
+                width: 855px;
+            }
+
+            @include smallmobile{
+                width: 860px;
+            }
+
+            @include extrasmallmobile{
+                width: 865px;
+            }
+
+            .nav-item{
+                display: flex;
+                padding-bottom: 10px;
+                list-style-type: none;
+                gap: 60px;
+                font-size: 20px;
+                justify-content: space-between;
+
+                .nav-link{
+                  color: white;
+                  text-decoration: none;
+                  padding: 5px;
+                  font-size: 25px;
+                  font-family: $gillsans;
+
+                   @include bigdesktophd{
+                     font-size: 50px;
+                    }
+
+                    @include bigdesktopxl{
+                        font-size: 50px;
+                    }
+
+                    @include bigdesktop{
+                        font-size: 50px;
+                    }
+
+                    @include desktopxl{
+                        font-size: 50px;
+                    }
+
+                    @include desktophd{
+                        font-size: 50px;
+                    }
+
+                    @include desktop{
+                        font-size: 50px;
+                    }
+
+                    @include tablet{
+                        font-size: 50px;
+                    }
+
+                    @include mobile{
+                        font-size: 50px;
+                    }
+
+                    @include smallmobile{
+                        font-size: 50px;
+                    }
+
+                    @include extrasmallmobile{
+                        font-size: 50px;
+                    }
+                }
+
+                &:hover{
+                  border-radius: 10px;
+                  background-color: #0e0e0e;
+                  filter: invert(1);
+                }
+            }
+        }
+    }
+}

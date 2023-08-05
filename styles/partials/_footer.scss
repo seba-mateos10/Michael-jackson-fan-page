@@ -1,0 +1,122 @@
+footer{
+    width: 100%;
+    min-width: 1400px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 2rem 8%;
+    background-color: #0e0e0e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    @include bigdesktophd{
+        height: 500px;
+    }
+    @include bigdesktopxl{
+        height: 500px;
+    }
+    @include bigdesktop{
+        height: 500px;
+        width: 1700px;
+    }
+    @include desktopxl{
+        height: 500px;
+        width: 1700px;
+    }
+    @include desktophd{
+        height: 500px;
+        width: 1700px;
+    }
+    @include desktop{
+        height: 500px;
+        width: 1700px;
+    }
+    @include tablet{
+        height: 500px;
+        width: 1700px;
+    }
+    @include mobile{
+        height: 500px;
+        width: 1700px;
+    }
+    @include smallmobile{
+        height: 500px;
+        width: 1700px;
+    }
+    @include extrasmallmobile{
+        height: 500px;
+        width: 1600px;
+    }
+
+    .footer-logo{
+        height: 80px;
+        margin-bottom: 1rem;
+        border-radius: 40px;
+    }
+
+    .redes-sociales{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap:wrap;
+        margin-bottom: 1rem;
+
+        .redes-sociales__iconos{
+            height: 50px;
+            width: 50px;
+            border-radius: 50px;
+            border: 1px solid #f2f2f2;background-image: url(../img/HD-wallpaper-facebook-black-logo.jpg);
+            background-position: center;
+            background-size: 90%;
+            background-repeat: no-repeat;
+            margin: 1rem;
+
+            &:hover{
+             background-color: #121212;
+             filter: invert(1);
+            }
+
+            
+        }
+    }
+
+    .footer-menu{
+        list-style: none;
+        color: #f2f2f2;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap:wrap;
+        margin-bottom: 1rem;
+
+        .footer-menu__item{
+            margin: 1rem 1.5rem;
+            cursor: pointer;
+            opacity: 0.6;
+
+            &:hover{
+               opacity: 1;
+            }
+        }
+    }
+    
+    .footer-menu__copyright{
+        color:#f2f2f2;
+        opacity: 0.3;
+        text-align: center;
+    }
+
+    .redes-sociales__iconos:nth-of-type(2){
+        background-image: url(../img/627b94685a3e2ac874a7573c.png);
+    }
+    
+    .redes-sociales__iconos:nth-of-type(3){
+        background-image: url(../img/5b73459960abeab3bd7be40fdc2fd6c3.jpg);}
+    
+    .redes-sociales__iconos:nth-of-type(4){
+        background-image: url(../img/desktop-wallpaper-instagram-logo-instagram-black-and-white.jpg);
+    }
+}
