@@ -45,6 +45,14 @@
             font-size: 40px;
             font-family: $gillsans;
 
+            &:hover{
+                transform: scale(1.1) translateY(-10px);
+                transition: all 1.2s 0s;
+                border-radius: 10px;
+                background-color: white;
+                filter: invert(1);
+            }
+
             .completa-formulario{
 
                 @include bigdesktophd{
@@ -162,6 +170,11 @@
             .completa-datos{
                 font-size: 30px;
                 font-family: $gillsans;
+
+                &:hover{
+                    transform: scale(1.1) translateX(15px);
+                    transition: all 1.2s 0s;
+                }
 
                 @include bigdesktophd{
                     font-size: 35px;
@@ -359,6 +372,11 @@
                 font-size: 29px;
                 font-family: $gillsans;
 
+                &:hover{
+                    transform: scale(1.1) translateX(15px);
+                    transition: all 1.2s 0s;
+                }
+
                 @include bigdesktophd{
                     font-size: 35px;
                 }
@@ -475,6 +493,11 @@
                 text-align: left;
                 color: #0e0e0e;
 
+                &:hover{
+                    transform: scale(1.1) translateX(15px);
+                    transition: all 1.2s 0s;
+                }
+
                 @include bigdesktophd{
                     font-size: 35px;
                 }
@@ -580,6 +603,11 @@
                 margin-bottom: 0;
                 text-align: left;
                 color: #0e0e0e;
+
+                &:hover{
+                    transform: scale(1.1) translateX(15px);
+                    transition: all 1.2s 0s;
+                }
 
                 @include bigdesktophd{
                     font-size: 35px;

@@ -12,6 +12,14 @@
         opacity: 75%;
         border-radius: 10px;
 
+        &:hover{
+            transform: scale(1.1) translateY(-10px);
+            transition: all 1.2s 0s;
+            border-radius: 10px;
+            background-color: black;
+            color: $oro;
+        }
+
         @include desktopxl{
             margin-top: 200px;
             font-size: 55px;

@@ -12,6 +12,14 @@ main{
         opacity: 75%;
         border-radius: 10px;
 
+        &:hover{
+            transform: scale(1.1) translateY(-10px);
+            transition: all 1.2s 0s;
+            border-radius: 10px;
+            background-color: black;
+            color: $oro;
+        }
+
         @include desktop{
             margin-top: 200px;
             font-size: 50px;
@@ -55,7 +63,7 @@ main{
     }
 
     .parrafos-y-fotos-contenedor{
-        width: 1750px;
+        width: 1650px;
         
         .michael-jackson-niñez{
             display: flex;
@@ -100,6 +108,11 @@ main{
                 margin-right: 5px;
                 margin-left: 40px;
                 background-color: $migris;
+
+                &:hover{
+                    transform: scale(1.05) ;
+                    transition: all 1s 0s;
+                }
 
                 @include desktopxl{
                     height: 385px;
@@ -227,6 +240,11 @@ main{
                 margin-top: 30px;
                 padding: 10px;
                 background-color: $migris;
+
+                &:hover{
+                    transform: scale(1.05) ;
+                    transition: all 1s 0s;
+                }
 
                 @include desktop{
                     width: 700px;
@@ -356,6 +374,11 @@ main{
                 padding: 10px;
                 background-color: $migris;
 
+                &:hover{
+                    transform: scale(1.05) ;
+                    transition: all 1s 0s;
+                }
+
                 @include desktop{
                     width: 600px;
                     height: 370px;
@@ -480,6 +503,11 @@ main{
                 margin-top: 30px;
                 padding: 12px;
                 background-color: $migris;
+
+                &:hover{
+                    transform: scale(1.05) ;
+                    transition: all 1s 0s;
+                }
 
                 @include desktop{
                     width: 500px;
@@ -610,6 +638,11 @@ main{
                 padding: 10px;
                 background-color: $migris;
 
+                &:hover{
+                    transform: scale(1.05) ;
+                    transition: all 1s 0s;
+                }
+
                 @include desktop{
                     width: 420px;
                     height: 595px;
@@ -739,6 +772,11 @@ main{
                 margin-top: 29px;
                 padding: 10px;
                 background-color: $migris;
+
+                &:hover{
+                    transform: scale(1.05) ;
+                    transition: all 1s 0s;
+                }
 
                 @include tablet{
                     width: 900px;
