@@ -11,45 +11,6 @@ footer{
     align-items: center;
     flex-direction: column;
 
-    @include bigdesktophd{
-        height: 500px;
-    }
-    @include bigdesktopxl{
-        height: 500px;
-    }
-    @include bigdesktop{
-        height: 500px;
-        width: 1700px;
-    }
-    @include desktopxl{
-        height: 500px;
-        width: 1700px;
-    }
-    @include desktophd{
-        height: 500px;
-        width: 1700px;
-    }
-    @include desktop{
-        height: 500px;
-        width: 1700px;
-    }
-    @include tablet{
-        height: 500px;
-        width: 1700px;
-    }
-    @include mobile{
-        height: 500px;
-        width: 1700px;
-    }
-    @include smallmobile{
-        height: 500px;
-        width: 1700px;
-    }
-    @include extrasmallmobile{
-        height: 500px;
-        width: 1600px;
-    }
-
     .footer-logo{
         height: 80px;
         margin-bottom: 1rem;
@@ -76,9 +37,7 @@ footer{
             &:hover{
              background-color: #121212;
              filter: invert(1);
-            }
-
-            
+            }   
         }
     }
 

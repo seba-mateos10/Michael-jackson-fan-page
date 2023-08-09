@@ -26,72 +26,6 @@
             background-color: black;
             color: $oro;
         }
-
-        @include bigdesktophd{
-            margin-top: 200px;
-            margin-left: 350px;
-            margin-right: 350px;
-            font-size: 30px;
-        }
-
-        @include desktopxl{
-            margin-top: 200px;
-            margin-left: 390px;
-            margin-right: 170px;
-            font-size: 30px;
-        }
-
-        @include desktophd{
-            margin-top: 200px;
-            margin-left: 270px;
-            margin-right: 20px;
-            font-size: 30px;
-        }
-
-        @include desktophd{
-            margin-top: 200px;
-            margin-left: 270px;
-            margin-right: 20px;
-            font-size: 30px;
-        }
-
-        @include desktop{
-            margin-top: 200px;
-            margin-left: 340px;
-            margin-right: 70px;
-            font-size: 35px;
-        }
-
-        @include tablet{
-            margin-top: 200px;
-            margin-left: 420px;
-            margin-right: 120px;
-            font-size: 40px;
-        }
-
-        @include mobile{
-            flex-direction: column;
-            margin-top: 250px;
-            margin-left: 460px;
-            margin-right: 150px;
-            font-size: 40px;
-        }
-
-        @include smallmobile{
-            flex-direction: column;
-            margin-top: 250px;
-            margin-left: 380px;
-            margin-right: 70px;
-            font-size: 50px;
-        }
-
-        @include extrasmallmobile{
-            flex-direction: column;
-            margin-top: 250px;
-            margin-left: 430px;
-            margin-right: 230px;
-            font-size: 60px;
-        }
     }
 
     .video-inicio {
@@ -102,34 +36,6 @@
         align-items: center;
         flex-direction: column;
         margin-bottom: 20px;
-
-        @include desktopxl{
-            margin-left: 235px;
-        }
-
-        @include desktophd{
-            margin-left: 280px;
-        }
-
-        @include desktop{
-            margin-left: 340px;
-        }
-
-        @include tablet{
-            margin-left: 320px;
-        }
-
-        @include mobile{
-            margin-left: 320px;
-        }
-
-        @include smallmobile{
-            margin-left: 320px;
-        }
-
-        @include extrasmallmobile{
-            margin-left: 200px;
-        }
     }
 
     .foto-inicio {
@@ -145,34 +51,6 @@
             width: 1000px;
             height: 650px;
             margin-bottom: 20px;
-
-            @include desktopxl{
-                margin-left: 235px;
-            }
-
-            @include desktophd{
-                margin-left: 280px;
-            }    
-
-            @include desktop{
-                margin-left: 340px;
-            }
-
-            @include tablet{
-                margin-left: 320px;
-            }
-
-            @include mobile{
-                margin-left: 320px;
-            }
-
-            @include smallmobile{
-                margin-left: 320px;
-            }
-
-            @include extrasmallmobile{
-                margin-left: 200px;
-            }
         }
         
         .foto-inicio__collage1 {
@@ -181,34 +59,6 @@
             width: 1000px;
             height: 651px;
             margin-bottom: 20px;
-
-            @include desktopxl{
-                margin-left: 235px;
-            }
-
-            @include desktophd{
-                margin-left: 280px;
-            }    
-
-            @include desktop{
-                margin-left: 340px;
-            }
-
-            @include tablet{
-                margin-left: 320px;
-            }
-
-            @include mobile{
-                margin-left: 320px;
-            }
-
-            @include smallmobile{
-                margin-left: 320px;
-            }
-
-            @include extrasmallmobile{
-                margin-left: 200px;
-            }
         }
         
         .foto-inicio__collage2 {
@@ -218,48 +68,6 @@
             width: 1000px;
             height: 611px;
             margin-bottom: 160px;
-
-            @include bigdesktophd{
-                margin-bottom: 500px;
-            }
-
-            @include bigdesktop{
-                margin-bottom: 500px;
-            }
-
-            @include desktopxl{
-                margin-left: 235px;
-            }
-
-            @include desktophd{
-                margin-left: 290px;
-                margin-bottom: 500px;
-            }
-
-            @include desktop{
-                margin-left: 340px;
-                margin-bottom: 500px;
-            }
-            
-            @include tablet{
-                margin-left: 320px;
-                margin-bottom: 500px;
-            }
-
-            @include mobile{
-                margin-left: 320px;
-                margin-bottom: 500px;
-            }
-
-            @include smallmobile{
-                margin-bottom: 500px;
-                margin-left: 320px;
-            }
-
-            @include extrasmallmobile{
-                margin-left: 200px;
-                margin-bottom: 500px;
-            }
         }
     }
 }

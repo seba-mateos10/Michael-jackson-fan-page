@@ -3,36 +3,6 @@
     .contacto-menu{
         margin-top: 100px;
 
-        @include bigdesktophd{
-            margin-top: 200px;
-            margin-left: 200px;
-            margin-right: 200px;
-        }
-        @include desktophd{
-            margin-top: 200px;
-            margin-left: 10px;
-            margin-right: 10px;
-        }
-        @include desktop{
-            margin-top: 200px;
-            margin-left: 10px;
-            margin-right: 10px;
-        }
-        @include tablet{
-            margin-top: 200px;
-            margin-left: 10px;
-            margin-right: 10px;
-        }
-        @include mobile{
-            margin-top: 200px;
-            margin-left: 20px;
-            margin-right: 10px;
-        }
-        @include smallmobile{
-            margin-top: 200px;
-            margin-left: 10px;
-        }
-
         .contacto-titulo {
             text-align: center;
             background-color: $migris;
@@ -52,34 +22,6 @@
                 background-color: white;
                 filter: invert(1);
             }
-
-            .completa-formulario{
-
-                @include bigdesktophd{
-                    color: black;
-                    font-size: 45px;
-                }
-                @include desktophd{
-                    color: black;
-                    font-size: 45px;
-                }
-                @include desktop{
-                    color: black;
-                    font-size: 60px;
-                }
-                @include tablet{
-                    color: black;
-                    font-size: 65px;
-                }
-                @include mobile{
-                    color: black;
-                    font-size: 70px;
-                }
-                @include smallmobile{
-                    color: black;
-                    font-size: 70px;
-                }
-            }
         }
     }
 
@@ -94,32 +36,6 @@
         grid-template-areas: 
         "datos-contenedor  album-favorito-contenedor"
         "cancion-favorita-contenedor  dejanos-tu-opinion-contenedor";
-
-        @include bigdesktophd{
-            display: grid;
-            height: 1400px;
-        }
-        @include desktophd{
-            display: grid;
-            height: 1400px;
-        }
-        @include desktop{
-            display: flex;
-            flex-direction: column;
-            height: 100%;
-        }
-        @include tablet{
-            display: flex;
-            flex-direction: column;
-        }
-        @include mobile{
-            display: flex;
-            flex-direction: column;
-        }
-        @include smallmobile{
-            display: flex;
-            flex-direction: column;
-        }
 
         & .datos-contenedor{
             grid-area: datos-contenedor;
@@ -137,36 +53,6 @@
             border-top-left-radius: 10px;
             opacity: 90%;
 
-            @include bigdesktophd{
-                width: 500px;
-                padding-bottom: 21px;
-                border-top-right-radius: 0;
-            }
-            @include desktophd{
-                width: 500px;
-                padding-bottom: 21px;
-                border-top-right-radius: 0;
-            }
-            @include desktop{
-                width: 1070px;
-                padding-bottom: 20px;
-            }
-            @include tablet{
-                width: 1070px;
-                padding-bottom: 20px;
-                border-top-right-radius: 10px;
-            }
-            @include mobile{
-                width: 1070px;
-                padding-bottom: 20px;
-                border-top-right-radius: 10px;
-            }
-            @include smallmobile{
-                width: 1070px;
-                padding-bottom: 20px;
-                border-top-right-radius: 10px;
-            }
-
             .completa-datos{
                 font-size: 30px;
                 font-family: $gillsans;
@@ -175,73 +61,16 @@
                     transform: scale(1.1) translateX(15px);
                     transition: all 1.2s 0s;
                 }
-
-                @include bigdesktophd{
-                    font-size: 35px;
-                }
-                @include desktophd{
-                    font-size: 35px;
-                }
-                @include desktop{
-                    font-size: 50px;
-                }
-                @include tablet{
-                    font-size: 50px;
-                }
-                @include mobile{
-                    font-size: 60px;
-                }
-                @include smallmobile{
-                    font-size: 60px;
-                }
             }
 
             .datos-usuario{
                 margin-top: 10px;
-
-                @include bigdesktophd{
-                    margin-top: 24px;
-                }
-                @include desktophd{
-                    margin-top: 24px;
-                }
-                @include desktop{
-                    margin-top: 20px;
-                }
-                @include tablet{
-                    margin-top: 20px;
-                }
-                @include mobile{
-                    margin-top: 20px;
-                }
-                @include smallmobile{
-                    margin-top: 20px;
-                }
 
                .datos-usuario__nombre{
                     padding: 10px;
                     font-size: 15px;
                     margin-top: 10px;
                     margin-left: 15px;
-
-                    @include bigdesktophd{
-                        font-size: 25px;
-                    }
-                    @include desktophd{
-                        font-size: 25px;
-                    }
-                    @include desktop{
-                        font-size: 30px;
-                    }
-                    @include tablet{
-                        font-size: 30px;
-                    }
-                    @include mobile{
-                        font-size: 40px;
-                    }
-                    @include smallmobile{
-                        font-size: 40px;
-                    }
                 }
                     
                .datos-usuario__apellido {
@@ -249,25 +78,6 @@
                     font-size: 15px;
                     margin-top: 10px;
                     margin-left: 15px;
-
-                    @include bigdesktophd{
-                        font-size: 25px;
-                    }
-                    @include desktophd{
-                        font-size: 25px;
-                    }
-                    @include desktop{
-                        font-size: 30px;
-                    }
-                    @include tablet{
-                        font-size: 30px;
-                    }
-                    @include mobile{
-                        font-size: 40px;
-                    }
-                    @include smallmobile{
-                        font-size: 40px;
-                    }
                 }
                     
                 .datos-usuario__edad{
@@ -275,25 +85,6 @@
                     font-size: 15px;
                     margin-top: 10px;
                     margin-left: 15px;
-
-                    @include bigdesktophd{
-                        font-size: 25px;
-                    }
-                    @include desktophd{
-                        font-size: 25px;
-                    }
-                    @include desktop{
-                        font-size: 30px;
-                    }
-                    @include tablet{
-                        font-size: 30px;
-                    }
-                    @include mobile{
-                        font-size: 40px;
-                    }
-                    @include smallmobile{
-                        font-size: 40px;
-                    }
                 }
                     
                .datos-usuario__email{
@@ -301,24 +92,6 @@
                     font-size: 15px;
                     margin-top: 10px;
                     margin-left: 15px;
-                    @include bigdesktophd{
-                        font-size: 25px;
-                    }
-                    @include desktophd{
-                        font-size: 25px;
-                    }
-                    @include desktop{
-                        font-size: 30px;
-                    }
-                    @include tablet{
-                        font-size: 30px;
-                    }
-                    @include mobile{
-                        font-size: 40px;
-                    }
-                    @include smallmobile{
-                        font-size: 40px;
-                    }
                 }
             }
         }
@@ -338,36 +111,6 @@
             border-top-right-radius: 10px;
             opacity: 90%;
 
-            @include bigdesktophd{
-                width: 500px;
-                padding-bottom: 20px;
-                border-top-right-radius: 10px;
-            }
-            @include desktophd{
-                width: 500px;
-                padding-bottom: 20px;
-                border-top-right-radius: 10px;
-            }
-            @include desktop{
-                width: 1070px;
-                padding-bottom: 20px;
-            }
-            @include tablet{
-                width: 1070px;
-                padding-bottom: 20px;
-                border-top-right-radius: 0px;
-            }
-            @include mobile{
-                width: 1070px;
-                padding-bottom: 20px;
-                border-top-right-radius: 0px;
-            }
-            @include smallmobile{
-                width: 1070px;
-                padding-bottom: 20px;
-                border-top-right-radius: 0px;
-            }
-
             .album-favorito-titulo{
                 font-size: 29px;
                 font-family: $gillsans;
@@ -375,25 +118,6 @@
                 &:hover{
                     transform: scale(1.1) translateX(15px);
                     transition: all 1.2s 0s;
-                }
-
-                @include bigdesktophd{
-                    font-size: 35px;
-                }
-                @include desktophd{
-                    font-size: 35px;
-                }
-                @include desktop{
-                    font-size: 50px;
-                }
-                @include tablet{
-                    font-size: 50px;
-                }
-                @include mobile{
-                    font-size: 60px;
-                }
-                @include smallmobile{
-                    font-size: 60px;
                 }
             }
 
@@ -403,27 +127,6 @@
                 opacity: 85%;
                 font-size: 25px;
                 opacity: 90%;
-
-                @include bigdesktophd{
-                    font-size: 30px;
-                    margin-top: 30px;
-                }
-                @include desktophd{
-                    font-size: 30px;
-                    margin-top: 30px;
-                }
-                @include desktop{
-                    font-size: 40px;
-                }
-                @include tablet{
-                    font-size: 40px;
-                }
-                @include mobile{
-                    font-size: 50px;
-                }
-                @include smallmobile{
-                    font-size: 50px;
-                }
 
                 .album-favorito-opcion__nombre {
                     padding: 10px;
@@ -451,39 +154,6 @@
             border-bottom-left-radius: 10px;
             opacity: 90%;
 
-            @include bigdesktophd{
-                width: 500px;
-                padding-bottom: 20px;
-                margin-bottom: 500px;
-                border-bottom-left-radius: 10px;
-            }
-            @include desktophd{
-                width: 500px;
-                padding-bottom: 20px;
-                margin-bottom: 500px;
-                border-bottom-left-radius: 10px;
-            }
-            @include desktop{
-                width: 1070px;
-                padding-bottom: 20px;
-                margin-bottom: 0;
-            }
-            @include tablet{
-                width: 1070px;
-                padding-bottom: 20px;
-                margin-bottom: 0;
-            }
-            @include mobile{
-                width: 1070px;
-                padding-bottom: 20px;
-                margin-bottom: 0;
-            }
-            @include smallmobile{
-                width: 1070px;
-                padding-bottom: 20px;
-                margin-bottom: 0;
-            }
-
             .cancion-favorita-titulo{
                 padding: 10px;
                 font-size: 25px;
@@ -497,51 +167,11 @@
                     transform: scale(1.1) translateX(15px);
                     transition: all 1.2s 0s;
                 }
-
-                @include bigdesktophd{
-                    font-size: 35px;
-                }
-                @include desktophd{
-                    font-size: 35px;
-                }
-                @include desktop{
-                    font-size: 50px;
-                }
-                @include tablet{
-                    font-size: 50px;
-                }
-                @include mobile{
-                    font-size: 60px;
-                }
-                @include smallmobile{
-                    font-size: 60px;
-                }
             }
 
             .cancion-favorita-opcion{
                 opacity: 85%;
                 font-size: 25px;
-
-                @include bigdesktophd{
-                    font-size: 30px;
-                    margin-top: 14px;  
-                }
-                @include desktophd{
-                    font-size: 30px;
-                    margin-top: 14px;
-                }
-                @include desktop{
-                    font-size: 40px;
-                }
-                @include tablet{
-                    font-size: 40px;
-                }
-                @include mobile{
-                    font-size: 50px;
-                }
-                @include smallmobile{
-                    font-size: 50px;
-                }
 
                 .cancion-favorita-opcion__nombre{
                     padding: 10px;
@@ -564,37 +194,6 @@
             padding-bottom: 11px;
             margin-bottom: 29px;
 
-            @include bigdesktophd{
-                width: 500px;
-                padding-bottom: 20px;
-                border-bottom-left-radius: 0;
-                margin-bottom: 500px;
-            }
-            @include desktophd{
-                width: 500px;
-                padding-bottom: 20px;
-                border-bottom-left-radius: 0;
-            }
-            @include desktop{
-                width: 1070px;
-                padding-bottom: 20px;
-            }
-            @include tablet{
-                width: 1070px;
-                padding-bottom: 20px;
-                border-bottom-left-radius: 10px;
-            }
-            @include mobile{
-                width: 1070px;
-                padding-bottom: 20px;
-                border-bottom-left-radius: 10px;
-            }
-            @include smallmobile{
-                width: 1070px;
-                padding-bottom: 20px;
-                border-bottom-left-radius: 10px;
-            }
-
             .dejanos-tu-opinion-titulo {
                 padding: 10px;
                 font-size: 26px;
@@ -608,25 +207,6 @@
                     transform: scale(1.1) translateX(15px);
                     transition: all 1.2s 0s;
                 }
-
-                @include bigdesktophd{
-                    font-size: 35px;
-                }
-                @include desktophd{
-                    font-size: 35px;
-                }
-                @include desktop{
-                    font-size: 50px;
-                }
-                @include tablet{
-                    font-size: 50px;
-                }
-                @include mobile{
-                    font-size: 60px;
-                }
-                @include smallmobile{
-                    font-size: 60px;
-                }
             }
 
             .cuadrado-para-opinion{
@@ -638,27 +218,6 @@
 
                 .cuadrado-para-opinion__escribir{
                     font-size: 17px;
-
-                    @include bigdesktophd{
-                        font-size: 20px;
-                        margin-top: 15px;
-                    }
-                    @include desktophd{
-                        font-size: 20px;
-                        margin-top: 15px;
-                    }
-                    @include desktop{
-                        font-size: 40px;
-                    }
-                    @include tablet{
-                        font-size: 40px;
-                    }
-                    @include mobile{
-                        font-size: 50px;
-                    }
-                    @include smallmobile{
-                        font-size: 50px;
-                    }
                 }
 
             }
@@ -667,25 +226,6 @@
                 grid-area: enviar-o-resetear;
                 grid-column: 3;
                 margin-left: 15px;
-
-                @include bigdesktophd{
-                    font-size: 20px;
-                }
-                @include desktophd{
-                    font-size: 20px;
-                }
-                @include desktop{
-                    font-size: 30px;
-                }
-                @include tablet{
-                    font-size: 30px;
-                }
-                @include mobile{
-                    font-size: 40px;
-                }
-                @include smallmobile{
-                    font-size: 40px;
-                }
             }
         }
     }

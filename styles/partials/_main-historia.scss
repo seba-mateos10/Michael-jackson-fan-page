@@ -19,66 +19,12 @@
             background-color: black;
             color: $oro;
         }
-
-        @include desktopxl{
-            margin-top: 200px;
-            font-size: 55px;
-            margin-bottom: 50px;
-            width: 650px;
-            margin-left: 500px;
-        }
-
-        @include tablet{
-            margin-top: 200px;
-            font-size: 55px;
-            margin-bottom: 50px;
-            width: 650px;
-            margin-left: 500px;
-        }
-
-        @include mobile{
-            margin-top: 200px;
-            font-size: 70px;
-            margin-bottom: 50px;
-            width: 650px;
-            margin-left: 480px;
-        }
-
-        @include smallmobile{
-            margin-top: 200px;
-            font-size: 80px;
-            margin-bottom: 50px;
-            width: 700px;
-            margin-left: 450px;
-        }
     }
 
     .historia-canciones{
 
         .historia-billiejean{
             display: flex;
-
-            @include desktopxl{
-                width: 1600px;
-            }
-    
-            @include tablet{
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-            }
-    
-            @include mobile{
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-            }
-    
-            @include smallmobile{
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-            }
 
             .historia-canciones-parrafo__billiejean{
                 padding: 5px;
@@ -90,42 +36,6 @@
                 opacity: 85%;
                 border-top-right-radius: 10px;
                 border-bottom-right-radius: 10px;
-
-                @include desktopxl{
-                    font-size: 28px;
-                    width: 1100px;
-                    padding: 12px;
-                }
-        
-                @include tablet{
-                    font-size: 40px;
-                    margin-top: 5px;
-                    margin-left: 52px;
-                    margin-right: 2px;
-                    width: 900px;
-                    border-top-right-radius: 0;
-                    border-bottom-left-radius: 10px;
-                }
-        
-                @include mobile{
-                    font-size: 40px;
-                    margin-top: 5px;
-                    margin-left: 52px;
-                    margin-right: 2px;
-                    width: 900px;
-                    border-top-right-radius: 0;
-                    border-bottom-left-radius: 10px;
-                }
-        
-                @include smallmobile{
-                    font-size: 55px;
-                    margin-top: 5px;
-                    margin-left: 52px;
-                    margin-right: 2px;
-                    width: 1000px;
-                    border-top-right-radius: 0;
-                    border-bottom-left-radius: 10px;
-                }
             }
             
             .historia-canciones_foto__billiejean{
@@ -137,53 +47,11 @@
                 margin-left: 50px;
                 margin-right: 0px;
                 background-color: $migris;
-
-                @include desktopxl{
-                    width: 600px;
-                    height: 360px;
-                }
-        
-                @include tablet{
-                    width: 900px;
-                    height: 600px;  
-                }
-        
-                @include mobile{
-                    width: 900px;
-                    height: 600px;
-                }
-        
-                @include smallmobile{
-                    width: 1000px;
-                    height: 700px;
-                }
             }
         }
         
         .historia-bad{
             display: flex;
-
-            @include desktopxl{
-                width: 1600px;
-            }
-    
-            @include tablet{
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-            }
-    
-            @include mobile{
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-            }
-    
-            @include smallmobile{
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-            }
 
             .historia-canciones-parrafo__bad{
                 padding: 7px;
@@ -195,42 +63,6 @@
                 opacity: 85%;
                 border-top-right-radius: 10px;
                 border-bottom-right-radius: 10px;
-
-                @include desktopxl{
-                    font-size: 24px;
-                    width: 1100px;
-                    padding: 5px;
-                }
-        
-                @include tablet{
-                    font-size: 40px;
-                    margin-top: 5px;
-                    margin-left: 52px;
-                    margin-right: 2px;
-                    width: 900px;
-                    border-top-right-radius: 0;
-                    border-bottom-left-radius: 10px;
-                }
-        
-                @include mobile{
-                    font-size: 45px;
-                    margin-top: 5px;
-                    margin-left: 52px;
-                    margin-right: 2px;
-                    width: 900px;
-                    border-top-right-radius: 0;
-                    border-bottom-left-radius: 10px;
-                }
-        
-                @include smallmobile{
-                    font-size: 55px;
-                    margin-top: 5px;
-                    margin-left: 52px;
-                    margin-right: 2px;
-                    width: 1000px;
-                    border-top-right-radius: 0;
-                    border-bottom-left-radius: 10px;
-                }
             }
             
             .historia-canciones_foto__bad{
@@ -241,56 +73,11 @@
                 margin-top: 14px;
                 margin-left: 50px;
                 background-color: $migris;
-
-                @include desktopxl{
-                    width: 570px;
-                    height: 405px;
-                }
-        
-                @include tablet{
-                    width: 900px;
-                    height: 550px;
-                    margin-top: 100px;
-                }
-        
-                @include mobile{
-                    width: 900px;
-                    height: 550px;
-                    margin-top: 100px;
-                }
-        
-                @include smallmobile{
-                    width: 1000px;
-                    height: 630px;
-                    margin-top: 100px;
-                }
             }
         }
         
         .historia-smoothcriminal{
             display: flex;
-
-            @include desktopxl{
-                width: 1600px;
-            }
-    
-            @include tablet{
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-            }
-    
-            @include mobile{
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-            }
-    
-            @include smallmobile{
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-            }
 
             .historia-canciones-parrafo__smoothcriminal{
                 padding: 5px;
@@ -303,41 +90,7 @@
                 border-top-right-radius: 10px;
                 border-bottom-right-radius: 10px;
 
-                @include desktopxl{
-                    font-size: 25px;
-                    width: 1100px;
-                    padding: 10px;
-                }
 
-                @include tablet{
-                    font-size: 40px;
-                    margin-top: 5px;
-                    margin-left: 52px;
-                    margin-right: 2px;
-                    width: 900px;
-                    border-top-right-radius: 0;
-                    border-bottom-left-radius: 10px;
-                }
-        
-                @include mobile{
-                    font-size: 45px;
-                    margin-top: 5px;
-                    margin-left: 52px;
-                    margin-right: 2px;
-                    width: 900px;
-                    border-top-right-radius: 0;
-                    border-bottom-left-radius: 10px;
-                }
-        
-                @include smallmobile{
-                    font-size: 55px;
-                    margin-top: 5px;
-                    margin-left: 52px;
-                    margin-right: 2px;
-                    width: 1000px;
-                    border-top-right-radius: 0;
-                    border-bottom-left-radius: 10px;
-                }
             }
             
             .historia-canciones_foto__smoothcriminal{
@@ -348,56 +101,11 @@
                 margin-top: 14px;
                 margin-left: 50px;
                 background-color: $migris;
-
-                @include desktopxl{
-                    width: 650px;
-                    height: 470px;
-                }
-        
-                @include tablet{
-                    width: 900px;
-                    height: 620px;
-                    margin-top: 100px;
-                }
-        
-                @include mobile{
-                    width: 900px;
-                    height: 620px;
-                    margin-top: 100px;
-                }
-        
-                @include smallmobile{
-                    width: 1000px;
-                    height: 690px;
-                    margin-top: 100px;
-                }
             }
         }
         
         .historia-beatit{
             display: flex;
-
-            @include desktopxl{
-                width: 1600px;
-            }
-    
-            @include tablet{
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-            }
-    
-            @include mobile{
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-            }
-    
-            @include smallmobile{
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-            }
 
             .historia-canciones-parrafo__beatit{
                 padding: 2px;
@@ -409,43 +117,6 @@
                 opacity: 85%;
                 border-top-right-radius: 10px;
                 border-bottom-right-radius: 10px;
-
-                @include desktopxl{
-                    font-size: 25px;
-                    width: 1100px;
-                    padding: 12px;
-                    border-bottom-left-radius: 10px;
-                }
-        
-                @include tablet{
-                    font-size: 40px;
-                    margin-top: 5px;
-                    margin-left: 52px;
-                    margin-right: 2px;
-                    width: 900px;
-                    border-top-right-radius: 0;
-                    border-bottom-left-radius: 10px;
-                }
-        
-                @include mobile{
-                    font-size: 45px;
-                    margin-top: 5px;
-                    margin-left: 52px;
-                    margin-right: 2px;
-                    width: 900px;
-                    border-top-right-radius: 0;
-                    border-bottom-left-radius: 10px;
-                }
-        
-                @include smallmobile{
-                    font-size: 55px;
-                    margin-top: 5px;
-                    margin-left: 52px;
-                    margin-right: 2px;
-                    width: 1000px;
-                    border-top-right-radius: 0;
-                    border-bottom-left-radius: 10px;
-                }
             }
             
             .historia-canciones_foto__beatit{
@@ -456,56 +127,11 @@
                 margin-top: 14px;
                 margin-left: 50px;
                 background-color: rgb(169, 164, 164);
-
-                @include desktopxl{
-                    width: 700px;
-                    height: 500px;
-                }
-        
-                @include tablet{
-                    width: 900px;
-                    height: 560px;
-                    margin-top: 100px;
-                }
-        
-                @include mobile{
-                    width: 900px;
-                    height: 560px;
-                    margin-top: 100px;
-                }
-        
-                @include smallmobile{
-                    width: 1000px;
-                    height: 630px;
-                    margin-top: 100px;
-                }
             }
         }
         
         .historia-theydontcareaboutus{
             display: flex;
-
-            @include desktopxl{
-                width: 1600px;
-            }
-    
-            @include tablet{
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-            }
-    
-            @include mobile{
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-            }
-    
-            @include smallmobile{
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-            }
 
             .historia-canciones-parrafo__theydontcareaboutus{
                 padding: 6px;
@@ -517,43 +143,6 @@
                 opacity: 85%;
                 border-top-right-radius: 10px;
                 border-bottom-right-radius: 10px;
-
-                @include desktopxl{
-                    font-size: 24px;
-                    width: 1100px;
-                    padding: 5px;
-                    border-bottom-left-radius: 10px;
-                }
-        
-                @include tablet{
-                    font-size: 40px;
-                    margin-top: 5px;
-                    margin-left: 52px;
-                    margin-right: 2px;
-                    width: 900px;
-                    border-top-right-radius: 0;
-                    border-bottom-left-radius: 10px;
-                }
-        
-                @include mobile{
-                    font-size: 45px;
-                    margin-top: 5px;
-                    margin-left: 52px;
-                    margin-right: 2px;
-                    width: 900px;
-                    border-top-right-radius: 0;
-                    border-bottom-left-radius: 10px;
-                }
-        
-                @include smallmobile{
-                    font-size: 55px;
-                    margin-top: 5px;
-                    margin-left: 52px;
-                    margin-right: 2px;
-                    width: 1000px;
-                    border-top-right-radius: 0;
-                    border-bottom-left-radius: 10px;
-                }
             }
             
             .historia-canciones_foto__theydontcareaboutus{
@@ -564,58 +153,12 @@
                 margin-top: 14px;
                 margin-left: 50px;
                 background-color: rgb(169, 164, 164);
-
-                @include desktopxl{
-                    width: 650px;
-                    height: 450px;
-                }
-        
-                @include tablet{
-                    width: 900px;
-                    height: 620px;
-                    margin-top: 100px;
-                }
-        
-                @include mobile{
-                    width: 900px;
-                    height: 620px;
-                    margin-top: 100px;
-                }
-        
-                @include smallmobile{
-                    width: 1000px;
-                    height: 690px;
-                    margin-top: 100px;
-                }
             }
         }
         
         .historia-thriller{
             display: flex;
             margin-bottom: 400px;
-
-            @include desktopxl{
-                width: 1600px;
-            }
-    
-            @include tablet{
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-            }
-    
-            @include mobile{
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-            }
-    
-            @include smallmobile{
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-                margin-bottom: 500px;
-            }
 
             .historia-canciones-parrafo__thriller{
                 padding: 15px;
@@ -629,43 +172,6 @@
                 border-bottom-right-radius: 10px;
                 border-bottom-left-radius: 10px;
                 margin-bottom: 160px;
-
-                @include desktopxl{
-                    font-size: 28px;
-                    width: 1100px;
-                    padding: 12px;
-                    border-bottom-left-radius: 10px;
-                }
-        
-                @include tablet{
-                    font-size: 40px;
-                    margin-top: 5px;
-                    margin-left: 52px;
-                    margin-right: 2px;
-                    width: 900px;
-                    border-top-right-radius: 0;
-                    border-bottom-left-radius: 10px;
-                }
-        
-                @include mobile{
-                    font-size: 45px;
-                    margin-top: 5px;
-                    margin-left: 52px;
-                    margin-right: 2px;
-                    width: 900px;
-                    border-top-right-radius: 0;
-                    border-bottom-left-radius: 10px;
-                }
-        
-                @include smallmobile{
-                    font-size: 55px;
-                    margin-top: 5px;
-                    margin-left: 52px;
-                    margin-right: 2px;
-                    width: 1000px;
-                    border-top-right-radius: 0;
-                    border-bottom-left-radius: 10px;
-                }
             }
             
             .historia-canciones_foto__thriller{
@@ -676,29 +182,6 @@
                 margin-top:14px;
                 margin-left: 50px;
                 background-color: $migris;
-
-                @include desktopxl{
-                    width: 710px;
-                    height: 460px;
-                }
-        
-                @include tablet{
-                    width: 900px;
-                    height: 600px;
-                    margin-top: 100px;
-                }
-        
-                @include mobile{
-                    width: 900px;
-                    height: 600px;
-                    margin-top: 100px;
-                }
-        
-                @include smallmobile{
-                    width: 1000px;
-                    height: 660px;
-                    margin-top: 100px;
-                }
             }
         }
     }

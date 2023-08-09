@@ -19,47 +19,6 @@ main{
             background-color: black;
             color: $oro;
         }
-
-        @include desktop{
-            margin-top: 200px;
-            font-size: 50px;
-            margin-bottom: 50px;
-            width: 700px;
-            margin-left: 450px;     
-        }
-
-        @include tablet{
-            margin-top: 200px;
-            font-size: 70px;
-            margin-bottom: 50px;
-            width: 700px;
-            margin-left: 460px;
-
-        }
-        @include mobile{
-            margin-top: 200px;
-            font-size: 80px;
-            margin-bottom: 50px;
-            width: 700px;
-            margin-left: 450px;
-            margin-right: 500px;
-        }
-
-        @include smallmobile{
-            margin-top: 200px;
-            font-size: 80px;
-            margin-bottom: 50px;
-            width: 700px;
-            margin-left: 510px;
-        }
-
-        @include extrasmallmobile{
-            margin-top: 300px;
-            font-size: 80px;
-            margin-bottom: 50px;
-            width: 700px;
-            margin-left: 490px;
-        }
     }
 
     .parrafos-y-fotos-contenedor{
@@ -67,37 +26,6 @@ main{
         
         .michael-jackson-niñez{
             display: flex;
-
-            @include desktopxl{
-                width: 1500px;
-            }
-            @include desktop{
-                width: 1600px;
-            }
-            @include tablet{
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-            }
-            @include mobile{
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-                margin-left: 10px;
-                margin-right: 60px;
-            }
-            @include smallmobile{
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-                margin-left: 50px;
-            }
-            @include extrasmallmobile{
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-                margin-left: 30px;
-            }
 
             .michael-jackson-foto__niño{
                 display: flex;
@@ -113,30 +41,6 @@ main{
                     transform: scale(1.05) ;
                     transition: all 1s 0s;
                 }
-
-                @include desktopxl{
-                    height: 385px;
-                }
-                @include desktop{
-                    width: 700px;
-                    height: 578px;
-                }
-                @include tablet{
-                    width: 900px;
-                    height: 830px;
-                }
-                @include mobile{
-                    width: 1000px;
-                    height: 900px;
-                }
-                @include smallmobile{
-                    width: 1000px;
-                    height: 900px;
-                }
-                @include extrasmallmobile{
-                    width: 1000px;
-                    height: 900px;
-                }
             }
             
             .michael-jackson-parrafo__niñez {
@@ -149,87 +53,11 @@ main{
                 opacity: 85%;
                 border-top-right-radius: 10px;
                 border-bottom-right-radius: 10px;
-
-                @include desktopxl{
-                    font-size: 18px;
-                }
-                @include desktop{
-                    width: 1000px;
-                    font-size: 20px;
-                }
-                @include tablet{
-                    font-size: 47px;
-                    margin-top: 5px;
-                    margin-left: 40px;
-                    margin-right: 5px;
-                    width: 900px;
-                    border-top-right-radius: 0;
-                    border-bottom-left-radius: 10px;
-                }
-                @include mobile{
-                    font-size: 55px;
-                    margin-top: 5px;
-                    margin-left: 40px;
-                    margin-right: 5px;
-                    width: 1000px;
-                    border-top-right-radius: 0;
-                    border-bottom-left-radius: 10px;
-                }
-                @include smallmobile{
-                    font-size: 55px;
-                    margin-top: 5px;
-                    margin-left: 40px;
-                    margin-right: 5px;
-                    width: 1000px;
-                    border-top-right-radius: 0;
-                    border-bottom-left-radius: 10px;
-                }
-                @include extrasmallmobile{
-                    font-size: 55px;
-                    margin-top: 5px;
-                    margin-left: 40px;
-                    margin-right: 5px;
-                    width: 1000px;
-                    border-top-right-radius: 0;
-                    border-bottom-left-radius: 10px;
-                }
             }
         }
 
         .michael-jackson-adolescente{
             display: flex;
-
-            @include desktopxl{
-                width: 1500px;
-            }
-            @include desktop{
-                width: 1500px;
-            }
-            @include tablet{
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-                margin-left: 60px;
-            }
-            @include mobile{
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-                margin-left: 60px;
-                margin-right: 60px;
-            }
-            @include smallmobile{
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-                margin-left: 100px;
-            }
-            @include extrasmallmobile{
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-                margin-left: 80px;
-            }
 
             .michael-jackson-foto__adolescente {
                 display: flex;
@@ -245,31 +73,6 @@ main{
                     transform: scale(1.05) ;
                     transition: all 1s 0s;
                 }
-
-                @include desktop{
-                    width: 700px;
-                    height: 490px;
-                }
-
-                @include tablet{
-                    width: 900px;
-                    height: 600px;
-                }
-
-                @include mobile{
-                    width: 1000px;
-                    height: 700px;
-                }
-
-                @include smallmobile{
-                    width: 1000px;
-                    height: 700px;
-                }
-
-                @include extrasmallmobile{
-                    width: 1000px;
-                    height: 700px;
-                }
             }
             
             .michael-jackson-parrafo__adolescente {
@@ -282,87 +85,11 @@ main{
                 opacity: 85%;
                 border-top-right-radius: 10px;
                 border-bottom-right-radius: 10px;
-
-                @include desktopxl{
-                    font-size: 18px;
-                }
-                @include desktop{
-                    width: 1000px;
-                    font-size: 20px;
-                }
-                @include tablet{
-                    font-size: 47px;
-                    margin-top: 5px;
-                    margin-left: 40px;
-                    margin-right: 5px;
-                    width: 900px;
-                    border-top-right-radius: 0;
-                    border-bottom-left-radius: 10px;
-                }
-                @include mobile{
-                    font-size: 55px;
-                    margin-top: 5px;
-                    margin-left: 40px;
-                    margin-right: 5px;
-                    width: 1000px;
-                    border-top-right-radius: 0;
-                    border-bottom-left-radius: 10px;
-                }
-                @include smallmobile{
-                    font-size: 55px;
-                    margin-top: 5px;
-                    margin-left: 40px;
-                    margin-right: 5px;
-                    width: 1000px;
-                    border-top-right-radius: 0;
-                    border-bottom-left-radius: 10px;
-                }
-                @include extrasmallmobile{
-                    font-size: 55px;
-                    margin-top: 5px;
-                    margin-left: 40px;
-                    margin-right: 5px;
-                    width: 1000px;
-                    border-top-right-radius: 0;
-                    border-bottom-left-radius: 10px;
-                }
             }
         }
 
         .michael-jackson-cantando{
             display: flex;
-
-            @include desktopxl{
-                width: 1500px;
-            }
-            @include desktop{
-                width: 1500px;
-            }
-            @include tablet{
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-                margin-left: 60px;
-            }
-            @include mobile{
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-                margin-left: 60px;
-                margin-right: 60px;
-            }
-            @include smallmobile{
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-                margin-left: 100px;
-            }
-            @include extrasmallmobile{
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-                margin-left: 80px;
-            }
 
             .michael-jackson-foto__cantando {
                 display: flex;
@@ -378,31 +105,6 @@ main{
                     transform: scale(1.05) ;
                     transition: all 1s 0s;
                 }
-
-                @include desktop{
-                    width: 600px;
-                    height: 370px;
-                }
-
-                @include tablet{
-                    width: 900px;
-                    height: 650px;
-                }
-
-                @include mobile{
-                    width: 1000px;
-                    height: 700px;
-                }
-
-                @include smallmobile{
-                    width: 1000px;
-                    height: 700px;
-                }
-
-                @include extrasmallmobile{
-                    width: 1000px;
-                    height: 700px;
-                }
             }
             
             .michael-jackson-parrafo__cantando {
@@ -415,84 +117,11 @@ main{
                 opacity: 85%;
                 border-top-right-radius: 10px;
                 border-bottom-right-radius: 10px;
-
-                @include desktop{
-                    width: 1000px;
-                    font-size: 21px;
-                }
-                @include tablet{
-                    font-size: 47px;
-                    margin-top: 5px;
-                    margin-left: 40px;
-                    margin-right: 5px;
-                    width: 900px;
-                    border-top-right-radius: 0;
-                    border-bottom-left-radius: 10px;
-                }
-                @include mobile{
-                    font-size: 55px;
-                    margin-top: 5px;
-                    margin-left: 40px;
-                    margin-right: 5px;
-                    width: 1000px;
-                    border-top-right-radius: 0;
-                    border-bottom-left-radius: 10px;
-                }
-                @include smallmobile{
-                    font-size: 55px;
-                    margin-top: 5px;
-                    margin-left: 40px;
-                    margin-right: 5px;
-                    width: 1000px;
-                    border-top-right-radius: 0;
-                    border-bottom-left-radius: 10px;
-                }
-                @include extrasmallmobile{
-                    font-size: 55px;
-                    margin-top: 5px;
-                    margin-left: 40px;
-                    margin-right: 5px;
-                    width: 1000px;
-                    border-top-right-radius: 0;
-                    border-bottom-left-radius: 10px;
-                }
             }
         }
 
         .michael-jackson-thriller{
             display: flex;
-
-            @include desktopxl{
-                width: 1500px;
-            }
-            @include desktop{
-                width: 1500px;
-            }
-            @include tablet{
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-                margin-left: 60px;
-            }
-            @include mobile{
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-                margin-left: 60px;
-                margin-right: 60px;
-            }
-            @include smallmobile{
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-                margin-left: 100px;
-            }
-            @include extrasmallmobile{
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-                margin-left: 80px;
-            }
 
             .michael-jackson-foto__zombie {
                 display: flex;
@@ -508,31 +137,6 @@ main{
                     transform: scale(1.05) ;
                     transition: all 1s 0s;
                 }
-
-                @include desktop{
-                    width: 500px;
-                    height: 295px;
-                }
-
-                @include tablet{
-                    width: 900px;
-                    height: 540px;
-                }
-
-                @include mobile{
-                    width: 1000px;
-                    height: 600px;
-                }
-
-                @include smallmobile{
-                    width: 1000px;
-                    height: 600px;
-                }
-
-                @include extrasmallmobile{
-                    width: 1000px;
-                    height: 600px;
-                }
             }
             
             .michael-jackson-parrafo__thriller {
@@ -545,88 +149,11 @@ main{
                 opacity: 85%;
                 border-top-right-radius: 10px;
                 border-bottom-right-radius: 10px;
-
-                @include desktopxl{
-                    font-size: 22px;
-                }
-                @include desktop{
-                    padding: 15px;
-                    width: 1000px;
-                    font-size: 22px;
-                }
-                @include tablet{
-                    font-size: 47px;
-                    margin-top: 5px;
-                    margin-left: 40px;
-                    margin-right: 5px;
-                    width: 900px;
-                    border-top-right-radius: 0;
-                    border-bottom-left-radius: 10px;
-                }
-                @include mobile{
-                    font-size: 55px;
-                    margin-top: 5px;
-                    margin-left: 40px;
-                    margin-right: 5px;
-                    width: 1000px;
-                    border-top-right-radius: 0;
-                    border-bottom-left-radius: 10px;
-                }
-                @include smallmobile{
-                    font-size: 55px;
-                    margin-top: 5px;
-                    margin-left: 40px;
-                    margin-right: 5px;
-                    width: 1000px;
-                    border-top-right-radius: 0;
-                    border-bottom-left-radius: 10px;
-                }
-                @include extrasmallmobile{
-                    font-size: 55px;
-                    margin-top: 5px;
-                    margin-left: 40px;
-                    margin-right: 5px;
-                    width: 1000px;
-                    border-top-right-radius: 0;
-                    border-bottom-left-radius: 10px;
-                }
             }
         }
 
         .michael-jackson-superbowl{
             display: flex;
-
-            @include desktopxl{
-                width: 1500px;
-            }
-            @include desktop{
-                width: 1500px;
-            }
-            @include tablet{
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-                margin-left: 60px;
-            }
-            @include mobile{
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-                margin-left: 60px;
-                margin-right: 60px;
-            }
-            @include smallmobile{
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-                margin-left: 100px;
-            }
-            @include extrasmallmobile{
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-                margin-left: 80px;
-            }
 
             .michael-jackson-foto__chaquetamilitar {
                 display: flex;
@@ -642,31 +169,6 @@ main{
                     transform: scale(1.05) ;
                     transition: all 1s 0s;
                 }
-
-                @include desktop{
-                    width: 420px;
-                    height: 595px;
-                }
-
-                @include tablet{
-                    width: 900px;
-                    height: 1450px;
-                }
-
-                @include mobile{
-                    width: 1000px;
-                    height: 1560px;
-                }
-
-                @include smallmobile{
-                    width: 1000px;
-                    height: 1560px;
-                }
-
-                @include extrasmallmobile{
-                    width: 1000px;
-                    height: 1560px;
-                }
             }
             
             .michael-jackson-parrafo__superbowl {
@@ -679,89 +181,12 @@ main{
                 opacity: 85%;
                 border-top-right-radius: 10px;
                 border-bottom-right-radius: 10px;
-
-                @include desktopxl{
-                    font-size: 22px;
-                }
-                @include desktop{
-                    padding: 30px;
-                    width: 1000px;
-                    font-size: 21px;
-                }
-                @include tablet{
-                    font-size: 47px;
-                    margin-top: 5px;
-                    margin-left: 40px;
-                    margin-right: 5px;
-                    width: 900px;
-                    border-top-right-radius: 0;
-                    border-bottom-left-radius: 10px;
-                }
-                @include mobile{
-                    font-size: 55px;
-                    margin-top: 5px;
-                    margin-left: 40px;
-                    margin-right: 5px;
-                    width: 1000px;
-                    border-top-right-radius: 0;
-                    border-bottom-left-radius: 10px;
-                }
-                @include smallmobile{
-                    font-size: 55px;
-                    margin-top: 5px;
-                    margin-left: 40px;
-                    margin-right: 5px;
-                    width: 1000px;
-                    border-top-right-radius: 0;
-                    border-bottom-left-radius: 10px;
-                }
-                @include extrasmallmobile{
-                    font-size: 55px;
-                    margin-top: 5px;
-                    margin-left: 40px;
-                    margin-right: 5px;
-                    width: 1000px;
-                    border-top-right-radius: 0;
-                    border-bottom-left-radius: 10px;
-                }
             }
         }
 
         .michael-jackson-thisisit{
             display: flex;
             margin-bottom: 400px;
-
-            @include desktopxl{
-                width: 1500px;
-            }
-            @include desktop{
-                width: 1500px;
-            }
-            @include tablet{
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-                margin-left: 60px;
-            }
-            @include mobile{
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-                margin-left: 60px;
-                margin-right: 60px;
-            }
-            @include smallmobile{
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-                margin-left: 100px;
-            }
-            @include extrasmallmobile{
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-                margin-left: 80px;
-            }
 
             .michael-jackson-foto__thisisit {
                 display: flex;
@@ -777,26 +202,6 @@ main{
                     transform: scale(1.05) ;
                     transition: all 1s 0s;
                 }
-
-                @include tablet{
-                    width: 900px;
-                    height: 600px;
-                }
-
-                @include mobile{
-                    width: 1000px;
-                    height: 650px;
-                }
-
-                @include smallmobile{
-                    width: 1000px;
-                    height: 650px;
-                }
-
-                @include extrasmallmobile{
-                    width: 1000px;
-                    height: 650px;
-                }
             }
             
             .michael-jackson-parrafo__thisisit {
@@ -810,54 +215,6 @@ main{
                  border-top-right-radius: 10px;
                 border-bottom-right-radius: 10px;
                 margin-bottom: 160px;
-
-                @include desktopxl{
-                    font-size: 21px;
-                    margin-bottom: 500px;
-                }
-                @include desktop{
-                    margin-bottom: 500px;
-                }
-                @include tablet{
-                    font-size: 47px;
-                    margin-top: 5px;
-                    margin-left: 40px;
-                    margin-right: 5px;
-                    width: 900px;
-                    border-top-right-radius: 0;
-                    border-bottom-left-radius: 10px;
-                    margin-bottom: 500px;
-                }
-                @include mobile{
-                    font-size: 55px;
-                    margin-top: 5px;
-                    margin-left: 40px;
-                    margin-right: 5px;
-                    width: 1000px;
-                    border-top-right-radius: 0;
-                    border-bottom-left-radius: 10px;
-                    margin-bottom: 500px;
-                }
-                @include smallmobile{
-                    font-size: 55px;
-                    margin-top: 5px;
-                    margin-left: 40px;
-                    margin-right: 5px;
-                    width: 1000px;
-                    border-top-right-radius: 0;
-                    border-bottom-left-radius: 10px;
-                    margin-bottom: 500px;
-                }
-                @include extrasmallmobile{
-                    font-size: 55px;
-                    margin-top: 5px;
-                    margin-left: 40px;
-                    margin-right: 5px;
-                    width: 1000px;
-                    border-top-right-radius: 0;
-                    border-bottom-left-radius: 10px;
-                    margin-bottom: 500px;
-                }
             }
         }
     }
