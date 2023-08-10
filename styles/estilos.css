@@ -340,37 +340,47 @@ main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-par
   margin-bottom: 160px;
 }
 
-.main .albumes-contenedor .albumes-titulo {
+.main-albumes {
+  width: 99%;
+  display: flex;
+}
+.main-albumes .albumes-contenedor .albumes-titulo-contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-albumes .albumes-contenedor .albumes-titulo-contenedor .albumes-titulo {
   color: black;
   text-align: center;
   font-size: 60px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin-top: 100px;
   background-color: rgb(169, 164, 164);
-  margin-left: 620px;
-  margin-right: 620px;
   opacity: 75%;
   border-radius: 10px;
   margin-bottom: 30px;
-  display: flex;
-  justify-content: center;
 }
-.main .albumes-contenedor .albumes-titulo:hover {
+.main-albumes .albumes-contenedor .albumes-titulo-contenedor .albumes-titulo:hover {
   transform: scale(1.1) translateY(-10px);
   transition: all 1.2s 0s;
   border-radius: 10px;
   background-color: black;
   color: goldenrod;
 }
-.main .albumes-contenedor .album-carousel-contenedor {
+.main-albumes .albumes-contenedor .album-carousel-contenedor {
   animation: scale-in-hor-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
-.main .albumes-contenedor .album-carousel-contenedor .carousel-item .carousel-item__fotos {
+.main-albumes .albumes-contenedor .album-carousel-contenedor .carousel-item .carousel-item__fotos {
   width: 1200px;
   height: 600px;
   max-width: 100%;
 }
-.main .albumes-contenedor .mejores-albumes-titulo {
+.main-albumes .albumes-contenedor .albumes-titulo-contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-albumes .albumes-contenedor .albumes-titulo-contenedor .mejores-albumes-titulo {
   color: black;
   padding: 5px;
   text-align: center;
@@ -378,25 +388,23 @@ main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-par
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin-top: 50px;
   background-color: rgb(169, 164, 164);
-  margin-left: 560px;
-  margin-right: 560px;
   opacity: 75%;
   border-radius: 10px;
 }
-.main .albumes-contenedor .mejores-albumes-titulo:hover {
+.main-albumes .albumes-contenedor .albumes-titulo-contenedor .mejores-albumes-titulo:hover {
   transform: scale(1.1) translateY(-10px);
   transition: all 1.2s 0s;
   border-radius: 10px;
   background-color: black;
   color: goldenrod;
 }
-.main .albumes-contenedor .album-thriller {
+.main-albumes .albumes-contenedor .album-thriller {
   display: flex;
 }
-.main .albumes-contenedor .album-thriller .mejores-albumes-portada__thriller {
+.main-albumes .albumes-contenedor .album-thriller .mejores-albumes-portada__thriller {
   display: flex;
   width: 300px;
-  height: 297.5px;
+  height: 296px;
   margin-top: 15px;
   margin-left: 0px;
   margin-right: 25px;
@@ -404,13 +412,13 @@ main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-par
   background-color: rgb(169, 164, 164);
   opacity: 85%;
 }
-.main .albumes-contenedor .album-thriller .mejores-albumes-portada__thriller:hover {
+.main-albumes .albumes-contenedor .album-thriller .mejores-albumes-portada__thriller:hover {
   transform: scale(1.05) translateY(-7px);
   transition: all 1s 0s;
 }
-.main .albumes-contenedor .album-thriller .mejores-albumes-parrafo__thriller {
-  padding: 7px;
-  font-size: 21px;
+.main-albumes .albumes-contenedor .album-thriller .mejores-albumes-parrafo__thriller {
+  padding: 13px;
+  font-size: 20px;
   margin-top: 15px;
   margin-left: 25px;
   text-align: left;
@@ -419,10 +427,10 @@ main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-par
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
-.main .albumes-contenedor .album-bad {
+.main-albumes .albumes-contenedor .album-bad {
   display: flex;
 }
-.main .albumes-contenedor .album-bad .mejores-albumes-portada__bad {
+.main-albumes .albumes-contenedor .album-bad .mejores-albumes-portada__bad {
   display: flex;
   width: 300px;
   height: 303px;
@@ -433,11 +441,11 @@ main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-par
   background-color: rgb(169, 164, 164);
   opacity: 85%;
 }
-.main .albumes-contenedor .album-bad .mejores-albumes-portada__bad:hover {
+.main-albumes .albumes-contenedor .album-bad .mejores-albumes-portada__bad:hover {
   transform: scale(1.05) translateY(-7px);
   transition: all 1s 0s;
 }
-.main .albumes-contenedor .album-bad .mejores-albumes-parrafo__bad {
+.main-albumes .albumes-contenedor .album-bad .mejores-albumes-parrafo__bad {
   padding: 3px;
   font-size: 18px;
   margin-top: 30px;
@@ -448,10 +456,10 @@ main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-par
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
-.main .albumes-contenedor .album-dangerous {
+.main-albumes .albumes-contenedor .album-dangerous {
   display: flex;
 }
-.main .albumes-contenedor .album-dangerous .mejores-albumes-portada__dangerous {
+.main-albumes .albumes-contenedor .album-dangerous .mejores-albumes-portada__dangerous {
   display: flex;
   width: 300px;
   height: 308px;
@@ -462,11 +470,11 @@ main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-par
   background-color: rgb(169, 164, 164);
   opacity: 85%;
 }
-.main .albumes-contenedor .album-dangerous .mejores-albumes-portada__dangerous:hover {
+.main-albumes .albumes-contenedor .album-dangerous .mejores-albumes-portada__dangerous:hover {
   transform: scale(1.05) translateY(-7px);
   transition: all 1s 0s;
 }
-.main .albumes-contenedor .album-dangerous .mejores-albumes-parrafo__dangerous {
+.main-albumes .albumes-contenedor .album-dangerous .mejores-albumes-parrafo__dangerous {
   padding: 8px;
   font-size: 19.5px;
   margin-top: 30px;
@@ -477,13 +485,13 @@ main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-par
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
-.main .albumes-contenedor .album-history {
+.main-albumes .albumes-contenedor .album-history {
   display: flex;
 }
-.main .albumes-contenedor .album-history .mejores-albumes-portada__history {
+.main-albumes .albumes-contenedor .album-history .mejores-albumes-portada__history {
   display: flex;
   width: 300px;
-  height: 290px;
+  height: 281px;
   margin-top: 30px;
   margin-left: 0px;
   margin-right: 25px;
@@ -491,13 +499,13 @@ main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-par
   background-color: rgb(169, 164, 164);
   opacity: 85%;
 }
-.main .albumes-contenedor .album-history .mejores-albumes-portada__history:hover {
+.main-albumes .albumes-contenedor .album-history .mejores-albumes-portada__history:hover {
   transform: scale(1.05) translateY(-8px);
   transition: all 1s 0s;
 }
-.main .albumes-contenedor .album-history .mejores-albumes-parrafo__history {
-  padding: 10px;
-  font-size: 20px;
+.main-albumes .albumes-contenedor .album-history .mejores-albumes-parrafo__history {
+  padding: 12px;
+  font-size: 19px;
   margin-top: 30px;
   margin-left: 25px;
   text-align: left;
@@ -506,11 +514,11 @@ main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-par
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
-.main .albumes-contenedor .album-invincible {
+.main-albumes .albumes-contenedor .album-invincible {
   display: flex;
   margin-bottom: 400px;
 }
-.main .albumes-contenedor .album-invincible .mejores-albumes-portada__invincible {
+.main-albumes .albumes-contenedor .album-invincible .mejores-albumes-portada__invincible {
   display: flex;
   width: 300px;
   height: 290px;
@@ -521,11 +529,11 @@ main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-par
   background-color: rgb(169, 164, 164);
   opacity: 85%;
 }
-.main .albumes-contenedor .album-invincible .mejores-albumes-portada__invincible:hover {
+.main-albumes .albumes-contenedor .album-invincible .mejores-albumes-portada__invincible:hover {
   transform: scale(1.05) translateY(-7px);
   transition: all 1s 0s;
 }
-.main .albumes-contenedor .album-invincible .mejores-albumes-parrafo__invincible {
+.main-albumes .albumes-contenedor .album-invincible .mejores-albumes-parrafo__invincible {
   padding: 10px;
   font-size: 20px;
   margin-top: 30px;

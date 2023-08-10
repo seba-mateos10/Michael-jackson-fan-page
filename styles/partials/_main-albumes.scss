@@ -1,30 +1,36 @@
-.main{
+.main-albumes{
+    width: 99%;
+    display:flex;
 
     .albumes-contenedor{
         
-        .albumes-titulo {
-            color: black;
-            text-align: center;
-            font-size: 60px;
-            font-family: $gillsans;
-            margin-top: 100px;
-            background-color: $migris;
-            margin-left: 620px;
-            margin-right: 620px;
-            opacity: 75%;
-            border-radius: 10px;
-            margin-bottom: 30px;
+        .albumes-titulo-contenedor{
+
             display: flex;
             justify-content: center;
+            align-items: center;
 
-            &:hover{
-                transform: scale(1.1) translateY(-10px);
-                transition: all 1.2s 0s;
-                border-radius: 10px;
-                background-color: black;
-                color: $oro;
+           .albumes-titulo {
+               color: black;
+               text-align: center;
+               font-size: 60px;
+               font-family: $gillsans;
+               margin-top: 100px;
+               background-color: $migris;
+               opacity: 75%;
+               border-radius: 10px;
+               margin-bottom: 30px;
+
+               &:hover{
+                  transform: scale(1.1) translateY(-10px);
+                  transition: all 1.2s 0s;
+                  border-radius: 10px;
+                  background-color: black;
+                  color: $oro;
+                }
             }
         }
+
 
         .album-carousel-contenedor{
 
@@ -40,27 +46,32 @@
             }
         }
 
-        .mejores-albumes-titulo{
-            color: black;
-            padding: 5px;
-            text-align: center;
-            font-size: 40px;
-            font-family: $gillsans;
-            margin-top: 50px;
-            background-color: $migris;
-            margin-left: 560px;
-            margin-right: 560px;
-            opacity: 75%;
-            border-radius: 10px;
+        .albumes-titulo-contenedor{
+            display: flex;
+            justify-content: center;
+            align-items: center;
 
-            &:hover{
-                transform: scale(1.1) translateY(-10px);
-                transition: all 1.2s 0s;
-                border-radius: 10px;
-                background-color: black;
-                color: $oro;
+            .mejores-albumes-titulo{
+               color: black;
+               padding: 5px;
+               text-align: center;
+               font-size: 40px;
+               font-family: $gillsans;
+               margin-top: 50px;
+               background-color: $migris;
+               opacity: 75%;
+               border-radius: 10px;
+
+              &:hover{
+                 transform: scale(1.1) translateY(-10px);
+                 transition: all 1.2s 0s;
+                 border-radius: 10px;
+                 background-color: black;
+                 color: $oro;
+                }
             }
         }
+        
 
         .album-thriller{
             display: flex;
@@ -68,7 +79,7 @@
             .mejores-albumes-portada__thriller{
                 display: flex;
                 width: 300px;
-                height: 297.5px;
+                height: 296px;
                 margin-top: 15px;
                 margin-left: 0px;
                 margin-right: 25px;
@@ -83,8 +94,8 @@
             }
             
             .mejores-albumes-parrafo__thriller{
-                padding: 7px;
-                font-size: 21px;
+                padding: 13px;
+                font-size: 20px;
                 margin-top: 15px;
                 margin-left: 25px;
                 text-align: left;
@@ -168,7 +179,7 @@
             .mejores-albumes-portada__history {
                 display: flex;
                 width: 300px;
-                height: 290px;
+                height: 281px;
                 margin-top: 30px;
                 margin-left: 0px;
                 margin-right: 25px;
@@ -183,8 +194,8 @@
             }
             
             .mejores-albumes-parrafo__history {
-                padding: 10px;
-                font-size: 20px;
+                padding: 12px;
+                font-size: 19px;
                 margin-top: 30px;
                 margin-left: 25px;
                 text-align: left;
