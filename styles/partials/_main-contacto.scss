@@ -2,14 +2,29 @@
 
     .contacto-menu{
         margin-top: 100px;
+        max-width: 100%;
+
+        @include mobile{
+            padding: 20px;
+        }
+
+        @include tablet{
+            padding: 20px;
+        }
+
+        @include desktop{
+            padding: 20px;
+        }
 
         .contacto-titulo {
             text-align: center;
             background-color: $migris;
             opacity: 90%;
             border-radius: 10px;
-            margin-left: 160px;
-            margin-right: 160px; 
+            margin-left: auto;
+            margin-right: auto; 
+            max-width: 100%;
+            width: 600px;
             padding: 5px;
             color: black;
             font-size: 40px;
@@ -26,7 +41,7 @@
     }
 
     .form{
-
+        max-width: 100%;
         margin-top: 60px;
         margin-bottom: 160px;
         align-items: center;
@@ -42,6 +57,24 @@
             grid-column: 2;
         }
 
+        @include mobile{
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+        }
+
+        @include tablet{
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+        }
+
+        @include desktop{
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+        }
+
         .datos-contenedor{
             padding: 10px;
             padding-top: 11px;
@@ -52,6 +85,30 @@
             background-color: $migris;
             border-top-left-radius: 10px;
             opacity: 90%;
+
+            @include mobile{
+                max-width: 100%;
+                margin-right: auto;
+                margin-left: auto;
+                padding: 10px;
+                width: 500px;
+            }
+
+            @include tablet{
+                max-width: 100%;
+                margin-right: auto;
+                margin-left: auto;
+                padding: 10px;
+                width: 500px;
+            }
+
+            @include desktop{
+                max-width: 100%;
+                margin-right: auto;
+                margin-left: auto;
+                padding: 10px;
+                width: 500px;
+            }
 
             .completa-datos{
                 font-size: 30px;
@@ -111,6 +168,34 @@
             border-top-right-radius: 10px;
             opacity: 90%;
 
+            @include mobile{
+                max-width: 100%;
+                margin-right: auto;
+                margin-left: auto;
+                width: 500px;
+            }
+
+            @include tablet{
+                max-width: 100%;
+                margin-right: auto;
+                margin-left: auto;
+                width: 500px;
+            }
+
+            @include desktop{
+                max-width: 100%;
+                margin-right: auto;
+                margin-left: auto;
+                width: 500px;
+            }
+
+            @include large-desktop{
+                margin-top: 0;
+                padding-bottom: 114px;
+               
+            }
+            
+
             .album-favorito-titulo{
                 font-size: 29px;
                 font-family: $gillsans;
@@ -154,6 +239,48 @@
             border-bottom-left-radius: 10px;
             opacity: 90%;
 
+            @include mobile{
+                max-width: 100%;
+                margin-right: auto;
+                margin-left: auto;
+                padding: 10px;
+                width: 500px;
+                margin-bottom: 0;
+            }
+
+            @include tablet{
+                max-width: 100%;
+                margin-right: auto;
+                margin-left: auto;
+                padding: 10px;
+                width: 500px;
+                margin-bottom: 0;
+            }
+
+            @include desktop{
+                max-width: 100%;
+                margin-right: auto;
+                margin-left: auto;
+                padding: 10px;
+                width: 500px;
+                margin-bottom: 0;
+            }
+
+            @include desktop{
+                max-width: 100%;
+                margin-right: auto;
+                margin-left: auto;
+                padding: 10px;
+                width: 500px;
+                margin-bottom: 0;
+            }
+
+            @include large-desktop{
+                margin-top: 0;
+                padding-bottom: 70px;
+               
+            }
+
             .cancion-favorita-titulo{
                 padding: 10px;
                 font-size: 25px;
@@ -194,6 +321,39 @@
             padding-bottom: 11px;
             margin-bottom: 29px;
 
+            @include mobile{
+                max-width: 100%;
+                margin-right: auto;
+                margin-left: auto;
+                padding: 10px;
+                width: 500px;
+                margin-top: 0;
+            }
+
+            @include tablet{
+                max-width: 100%;
+                margin-right: auto;
+                margin-left: auto;
+                padding: 10px;
+                width: 500px;
+                margin-top: 0;
+            }
+
+            @include desktop{
+                max-width: 100%;
+                margin-right: auto;
+                margin-left: auto;
+                padding: 10px;
+                width: 500px;
+                margin-top: 0;
+            }
+
+            @include large-desktop{
+                margin-top: 0;
+                padding-bottom: 70px;
+               
+            }
+
             .dejanos-tu-opinion-titulo {
                 padding: 10px;
                 font-size: 26px;
@@ -215,6 +375,22 @@
                 font-size: 10px;
                 margin-top: 0px;
                 margin-bottom: 0;
+
+                @include mobile{
+                    resize: none;
+                    overflow: hidden;
+                }
+
+                @include tablet{
+                    resize: none;
+                    overflow: hidden;
+                }
+
+                @include desktop{
+                    resize: none;
+                    overflow: hidden;
+                }
+                
 
                 .cuadrado-para-opinion__escribir{
                     font-size: 17px;

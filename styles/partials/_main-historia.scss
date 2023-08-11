@@ -1,170 +1,491 @@
 .main{
 
-    .historia-titulo {
-        color: black;
-        text-align: center;
-        font-size: 50px;
-        font-family: $gillsans;
-        margin-top: 100px;
-        background-color: $migris;
-        margin-left: 450px;
-        margin-right: 450px;
-        opacity: 75%;
-        border-radius: 10px;
+    .historia-titulo-contenedor{
+        padding: 10px;
+        max-width: 100%;
 
-        &:hover{
-            transform: scale(1.1) translateY(-10px);
-            transition: all 1.2s 0s;
+        .historia-titulo {
+            color: black;
+            text-align: center;
+            font-size: 50px;
+            font-family: $gillsans;
+            margin-top: 100px;
+            background-color: $migris;
+            width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 100%;
+            opacity: 75%;
             border-radius: 10px;
-            background-color: black;
-            color: $oro;
+            padding: 10px;
+
+            @include mobile{
+                width: 300px;
+            }
+        
+            &:hover{
+                transform: scale(1.1) translateY(-10px);
+                transition: all 1.2s 0s;
+                border-radius: 10px;
+                background-color: black;
+                color: $oro;
+            }
         }
     }
+    
 
     .historia-canciones{
+        max-width: 100%;
+
+        @include mobile{
+            display: flex;
+            flex-direction: column;
+        }
+
+        @include tablet{
+            display: flex;
+            flex-direction: column;
+        }
+
+        @include desktop{
+            display: flex;
+            flex-direction: column;
+        }
 
         .historia-billiejean{
             display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+
+            @include mobile{
+                display: flex;
+                flex-direction: column;
+            }
+
+            @include tablet{
+                display: flex;
+                flex-direction: column;
+            }
+
+            @include desktop{
+                display: flex;
+                flex-direction: column;
+            }
+
+            @include large-desktop{
+                display: flex;
+                align-items: flex-start;
+            }
 
             .historia-canciones-parrafo__billiejean{
                 padding: 5px;
                 font-size: 25px;
-                margin-top: 30px;
-                margin-right: 25px;
+                max-width: 100%;
+                margin-top: 15px;
+                margin-right: auto;
                 text-align: left;
                 background-color: $migris;
                 opacity: 85%;
                 border-top-right-radius: 10px;
                 border-bottom-right-radius: 10px;
+
+                @include mobile{
+                    font-size: 30px;
+                    font-family: $gillsans;
+                    border-radius: 10px;
+                }
+
+                @include tablet{
+                    font-size: 30px;
+                    font-family: $gillsans;
+                    border-radius: 10px;
+                }
+
+                @include desktop{
+                    font-size: 30px;
+                    font-family: $gillsans;
+                    border-radius: 10px;
+                }
+
+                @include large-desktop{
+                    margin-top: 0;
+                    border-bottom-left-radius: 10px;
+                }
             }
             
             .historia-canciones_foto__billiejean{
                 display: flex;
                 padding: 10px;
-                width: 470px;
-                height: 235px;
-                margin-top: 30px;
-                margin-left: 25px;
-                margin-right: 0px;
+                width: 345px;
                 background-color: $migris;
+
+                @include tablet{
+                    width: 100%;
+                }
+
+                @include desktop{
+                    width: 100%;
+                }
             }
         }
         
         .historia-bad{
             display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+
+            @include mobile{
+                display: flex;
+                flex-direction: column;
+            }
+
+            @include tablet{
+                display: flex;
+                flex-direction: column;
+            }
+
+            @include desktop{
+                display: flex;
+                flex-direction: column;
+            }
+
+            @include large-desktop{
+                display: flex;
+                align-items: flex-start;
+            }
 
             .historia-canciones-parrafo__bad{
                 padding: 7px;
                 font-size: 20px;
-                margin-top: 14px;
-                margin-right: 25px;
+                margin-top: 15px;
+                max-width: 100%;
+                margin-right: auto;
+                margin-left: auto;
                 text-align: left;
                 background-color: $migris;
                 opacity: 85%;
                 border-top-right-radius: 10px;
                 border-bottom-right-radius: 10px;
+
+                @include mobile{
+                    font-size: 30px;
+                    font-family: $gillsans;
+                    border-radius: 10px;
+                }
+
+                @include tablet{
+                    font-size: 30px;
+                    font-family: $gillsans;
+                    border-radius: 10px;
+                }
+
+                @include desktop{
+                    font-size: 30px;
+                    font-family: $gillsans;
+                    border-radius: 10px;
+                }
+
+                @include large-desktop{
+                    margin-top: 0;
+                    border-bottom-left-radius: 10px;
+                }
             }
             
             .historia-canciones_foto__bad{
                 display: flex;
                 padding: 10px;
-                width: 430px;
-                height: 284px;
-                margin-top: 14px;
-                margin-left: 25px;
+                width: 545px;
                 background-color: $migris;
+
+                @include tablet{
+                    width: 100%;
+                }
+
+                @include desktop{
+                    width: 100%;
+                }
             }
         }
         
         .historia-smoothcriminal{
             display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+
+            @include mobile{
+                display: flex;
+                flex-direction: column;
+            }
+
+            @include tablet{
+                display: flex;
+                flex-direction: column;
+            }
+
+            @include desktop{
+                display: flex;
+                flex-direction: column;
+            }
+
+            @include large-desktop{
+                display: flex;
+                align-items: flex-start;
+            }
 
             .historia-canciones-parrafo__smoothcriminal{
                 padding: 5px;
                 font-size: 22px;
-                margin-top: 14px;
-                margin-right: 25px;
+                margin-top: 30px;
+                max-width: 100%;
+                margin-right: auto;
+                margin-left: auto;
                 text-align: left;
                 background-color: $migris;
                 opacity: 85%;
                 border-top-right-radius: 10px;
                 border-bottom-right-radius: 10px;
 
+                @include mobile{
+                    font-size: 30px;
+                    font-family: $gillsans;
+                    border-radius: 10px;
+                }
+
+                @include tablet{
+                    font-size: 30px;
+                    font-family: $gillsans;
+                    border-radius: 10px;
+                }
+
+                @include desktop{
+                    font-size: 30px;
+                    font-family: $gillsans;
+                    border-radius: 10px;
+                }
+
+                @include large-desktop{
+                    margin-top: 0;
+                    border-bottom-left-radius: 10px;
+                }
 
             }
             
             .historia-canciones_foto__smoothcriminal{
                 display: flex;
                 padding: 9px;
-                width: 415px;
-                height: 274px;
+                width: 410px;
                 margin-top: 14px;
-                margin-left: 25px;
                 background-color: $migris;
+
+                @include tablet{
+                    width: 100%;
+                }
+
+                @include desktop{
+                    width: 100%;
+                }
             }
         }
         
         .historia-beatit{
             display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+
+            @include mobile{
+                display: flex;
+                flex-direction: column;
+            }
+
+            @include tablet{
+                display: flex;
+                flex-direction: column;
+            }
+
+            @include desktop{
+                display: flex;
+                flex-direction: column;
+            }
+
+            @include large-desktop{
+                display: flex;
+                align-items: flex-start;
+            }
 
             .historia-canciones-parrafo__beatit{
                 padding: 2px;
-                font-size: 19px;
-                margin-top: 14px;
-                margin-right: 25px;
+                font-size: 18px;
+                margin-top: 20px;
+                max-width: 100%;
+                margin-right: auto;
+                margin-left: auto;
                 text-align: left;
                 background-color: rgb(169, 164, 164);
                 opacity: 85%;
                 border-top-right-radius: 10px;
                 border-bottom-right-radius: 10px;
+
+                @include mobile{
+                    font-size: 30px;
+                    font-family: $gillsans;
+                    border-radius: 10px;
+                }
+
+                @include tablet{
+                    font-size: 30px;
+                    font-family: $gillsans;
+                    border-radius: 10px;
+                }
+
+                @include desktop{
+                    font-size: 30px;
+                    font-family: $gillsans;
+                    border-radius: 10px;
+                }
+
+                @include large-desktop{
+                    margin-top: 0;
+                    border-bottom-left-radius: 10px;
+                }
+
             }
             
             .historia-canciones_foto__beatit{
                 display: flex;
-                padding: 10px;
-                width: 430px;
-                height: 289px;
-                margin-top: 14px;
-                margin-left: 25px;
+                padding: 15px;
+                width: 415px;
+                margin-top: 5px;
                 background-color: rgb(169, 164, 164);
+
+                @include tablet{
+                    width: 100%;
+                }
+
+                @include desktop{
+                    width: 100%;
+                }
             }
         }
         
         .historia-theydontcareaboutus{
             display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+
+            @include mobile{
+                display: flex;
+                flex-direction: column;
+            }
+
+            @include tablet{
+                display: flex;
+                flex-direction: column;
+            }
+
+            @include desktop{
+                display: flex;
+                flex-direction: column;
+            }
+
+            @include large-desktop{
+                display: flex;
+                align-items: flex-start;
+            }
 
             .historia-canciones-parrafo__theydontcareaboutus{
-                padding: 8px;
+                padding: 10px;
                 font-size: 20px;
-                margin-top: 14px;
-                margin-right: 25px;
+                margin-top: 16px;
+                max-width: 100%;
+                margin-right: auto;
+                margin-left: auto;
                 text-align: left;
                 background-color: rgb(169, 164, 164);
                 opacity: 85%;
                 border-top-right-radius: 10px;
                 border-bottom-right-radius: 10px;
+
+                @include mobile{
+                    font-size: 30px;
+                    font-family: $gillsans;
+                    border-radius: 10px;
+                }
+
+                @include tablet{
+                    font-size: 30px;
+                    font-family: $gillsans;
+                    border-radius: 10px;
+                }
+
+                @include desktop{
+                    font-size: 30px;
+                    font-family: $gillsans;
+                    border-radius: 10px;
+                }
+
+                @include large-desktop{
+                    margin-top: 0;
+                    border-bottom-left-radius: 10px;
+                }
+
             }
             
             .historia-canciones_foto__theydontcareaboutus{
                 display: flex;
                 padding: 10px;
-                width: 410px;
-                height: 286px;
-                margin-top: 14px;
-                margin-left: 25px;
+                width: 400px;
+                margin-top: 0%;
                 background-color: rgb(169, 164, 164);
+
+                @include tablet{
+                    width: 100%;
+                }
+
+                @include desktop{
+                    width: 100%;
+                }
             }
         }
         
         .historia-thriller{
             display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 30px;
             margin-bottom: 400px;
+
+            @include mobile{
+                display: flex;
+                flex-direction: column;
+            }
+
+            @include tablet{
+                display: flex;
+                flex-direction: column;
+            }
+
+            @include desktop{
+                display: flex;
+                flex-direction: column;
+            }
+
+            @include large-desktop{
+                display: flex;
+                align-items: flex-start;
+            }
 
             .historia-canciones-parrafo__thriller{
                 padding: 10px;
                 font-size: 20px;
                 margin-top: 14px;
-                margin-right: 25px;
+                max-width: 100%;
+                margin-right: auto;
+                margin-left: auto;
                 text-align: left;
                 background-color: $migris;
                 opacity: 85%;
@@ -172,16 +493,46 @@
                 border-bottom-right-radius: 10px;
                 border-bottom-left-radius: 10px;
                 margin-bottom: 160px;
+
+                @include mobile{
+                    font-size: 30px;
+                    font-family: $gillsans;
+                    border-radius: 10px;
+                }
+
+                @include tablet{
+                    font-size: 30px;
+                    font-family: $gillsans;
+                    border-radius: 10px;
+                }
+
+                @include desktop{
+                    font-size: 30px;
+                    font-family: $gillsans;
+                    border-radius: 10px;
+                }
+
+                @include large-desktop{
+                    margin-top: 0;
+                    border-bottom-left-radius: 10px;
+                }
+                
             }
             
             .historia-canciones_foto__thriller{
                 display: flex;
                 padding: 10px;
                 width: 430px;
-                height: 279px;
-                margin-top:14px;
-                margin-left: 25px;
+                margin-top: 14px;
                 background-color: $migris;
+
+                @include tablet{
+                    width: 100%;
+                }
+
+                @include desktop{
+                    width: 100%;
+                }
             }
         }
     }

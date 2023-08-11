@@ -10,9 +10,21 @@ header{
     .navbar{
         height: 70px;
 
+        @include mobile {
+            height: 90px;
+        }
+
+        @include tablet {
+            height: 107px;
+        }
+
         .navbar-brand{
             font-size: 30px;
             font-family: $gillsans;
+
+            @include mobile {
+                font-size: 15px;
+            }
 
             &:hover{
                 transition: all 2s 0s;
