@@ -89,7 +89,7 @@ body {
 }
 @media screen and (max-width: 992px) {
   body {
-    background-image: url(../../img/desktop-wallpaper-michael-jackson-art-michael-jackson-iphone.jpg);
+    background-image: url(../img/desktop-wallpaper-michael-jackson-art-michael-jackson-iphone.jpg);
   }
 }
 
@@ -836,20 +836,23 @@ main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-par
   display: flex;
 }
 .main-albumes .albumes-contenedor .albumes-titulo-contenedor {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 10px;
+  max-width: 100%;
 }
 .main-albumes .albumes-contenedor .albumes-titulo-contenedor .albumes-titulo {
   color: black;
   text-align: center;
-  font-size: 60px;
+  font-size: 55px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin-top: 100px;
   background-color: rgb(169, 164, 164);
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
   opacity: 75%;
   border-radius: 10px;
-  margin-bottom: 30px;
+  padding: 10px;
 }
 .main-albumes .albumes-contenedor .albumes-titulo-contenedor .albumes-titulo:hover {
   transform: scale(1.1) translateY(-10px);
@@ -859,28 +862,31 @@ main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-par
   color: goldenrod;
 }
 .main-albumes .albumes-contenedor .album-carousel-contenedor {
+  padding: 20px;
   animation: scale-in-hor-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 .main-albumes .albumes-contenedor .album-carousel-contenedor .carousel-item .carousel-item__fotos {
   width: 1200px;
-  height: 600px;
   max-width: 100%;
 }
 .main-albumes .albumes-contenedor .albumes-titulo-contenedor {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 10px;
+  max-width: 100%;
 }
 .main-albumes .albumes-contenedor .albumes-titulo-contenedor .mejores-albumes-titulo {
   color: black;
-  padding: 5px;
   text-align: center;
   font-size: 40px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  margin-top: 50px;
+  margin-top: 100px;
   background-color: rgb(169, 164, 164);
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
   opacity: 75%;
   border-radius: 10px;
+  padding: 10px;
 }
 .main-albumes .albumes-contenedor .albumes-titulo-contenedor .mejores-albumes-titulo:hover {
   transform: scale(1.1) translateY(-10px);
@@ -891,14 +897,36 @@ main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-par
 }
 .main-albumes .albumes-contenedor .album-thriller {
   display: flex;
+  padding: 10px;
+  margin-top: 20px;
+}
+@media screen and (max-width: 576px) {
+  .main-albumes .albumes-contenedor .album-thriller {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-albumes .albumes-contenedor .album-thriller {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main-albumes .albumes-contenedor .album-thriller {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .main-albumes .albumes-contenedor .album-thriller {
+    display: flex;
+    align-items: flex-start;
+  }
 }
 .main-albumes .albumes-contenedor .album-thriller .mejores-albumes-portada__thriller {
   display: flex;
-  width: 300px;
-  height: 296px;
-  margin-top: 15px;
-  margin-left: 0px;
-  margin-right: 25px;
+  width: 430px;
   padding: 10px;
   background-color: rgb(169, 164, 164);
   opacity: 85%;
@@ -907,27 +935,88 @@ main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-par
   transform: scale(1.05) translateY(-7px);
   transition: all 1s 0s;
 }
+@media screen and (max-width: 768px) {
+  .main-albumes .albumes-contenedor .album-thriller .mejores-albumes-portada__thriller {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main-albumes .albumes-contenedor .album-thriller .mejores-albumes-portada__thriller {
+    width: 100%;
+  }
+}
 .main-albumes .albumes-contenedor .album-thriller .mejores-albumes-parrafo__thriller {
-  padding: 13px;
-  font-size: 20px;
-  margin-top: 15px;
-  margin-left: 25px;
+  padding: 15px;
+  font-size: 23px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
   text-align: left;
   background-color: rgb(169, 164, 164);
   opacity: 85%;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
+@media screen and (max-width: 576px) {
+  .main-albumes .albumes-contenedor .album-thriller .mejores-albumes-parrafo__thriller {
+    font-size: 30px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    border-radius: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-albumes .albumes-contenedor .album-thriller .mejores-albumes-parrafo__thriller {
+    font-size: 30px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    border-radius: 10px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main-albumes .albumes-contenedor .album-thriller .mejores-albumes-parrafo__thriller {
+    font-size: 30px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    border-radius: 10px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .main-albumes .albumes-contenedor .album-thriller .mejores-albumes-parrafo__thriller {
+    margin-top: 0;
+    border-bottom-left-radius: 10px;
+  }
+}
 .main-albumes .albumes-contenedor .album-bad {
   display: flex;
+  padding: 10px;
+  margin-top: 20px;
+}
+@media screen and (max-width: 576px) {
+  .main-albumes .albumes-contenedor .album-bad {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-albumes .albumes-contenedor .album-bad {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main-albumes .albumes-contenedor .album-bad {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .main-albumes .albumes-contenedor .album-bad {
+    display: flex;
+    align-items: flex-start;
+  }
 }
 .main-albumes .albumes-contenedor .album-bad .mejores-albumes-portada__bad {
   display: flex;
-  width: 300px;
-  height: 303px;
-  margin-top: 30px;
-  margin-left: 0px;
-  margin-right: 25px;
+  width: 430px;
   padding: 10px;
   background-color: rgb(169, 164, 164);
   opacity: 85%;
@@ -936,28 +1025,89 @@ main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-par
   transform: scale(1.05) translateY(-7px);
   transition: all 1s 0s;
 }
+@media screen and (max-width: 768px) {
+  .main-albumes .albumes-contenedor .album-bad .mejores-albumes-portada__bad {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main-albumes .albumes-contenedor .album-bad .mejores-albumes-portada__bad {
+    width: 100%;
+  }
+}
 .main-albumes .albumes-contenedor .album-bad .mejores-albumes-parrafo__bad {
-  padding: 3px;
-  font-size: 18px;
-  margin-top: 30px;
-  margin-left: 25px;
+  padding: 5px;
+  font-size: 20px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
   text-align: left;
   background-color: rgb(169, 164, 164);
   opacity: 85%;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
+@media screen and (max-width: 576px) {
+  .main-albumes .albumes-contenedor .album-bad .mejores-albumes-parrafo__bad {
+    font-size: 30px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    border-radius: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-albumes .albumes-contenedor .album-bad .mejores-albumes-parrafo__bad {
+    font-size: 30px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    border-radius: 10px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main-albumes .albumes-contenedor .album-bad .mejores-albumes-parrafo__bad {
+    font-size: 30px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    border-radius: 10px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .main-albumes .albumes-contenedor .album-bad .mejores-albumes-parrafo__bad {
+    margin-top: 0;
+    border-bottom-left-radius: 10px;
+  }
+}
 .main-albumes .albumes-contenedor .album-dangerous {
   display: flex;
+  padding: 10px;
+  margin-top: 20px;
+}
+@media screen and (max-width: 576px) {
+  .main-albumes .albumes-contenedor .album-dangerous {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-albumes .albumes-contenedor .album-dangerous {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main-albumes .albumes-contenedor .album-dangerous {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .main-albumes .albumes-contenedor .album-dangerous {
+    display: flex;
+    align-items: flex-start;
+  }
 }
 .main-albumes .albumes-contenedor .album-dangerous .mejores-albumes-portada__dangerous {
   display: flex;
-  width: 300px;
-  height: 308px;
-  margin-top: 30px;
-  margin-left: 0px;
-  margin-right: 25px;
-  padding: 14px;
+  width: 430px;
+  padding: 10px;
   background-color: rgb(169, 164, 164);
   opacity: 85%;
 }
@@ -965,27 +1115,88 @@ main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-par
   transform: scale(1.05) translateY(-7px);
   transition: all 1s 0s;
 }
+@media screen and (max-width: 768px) {
+  .main-albumes .albumes-contenedor .album-dangerous .mejores-albumes-portada__dangerous {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main-albumes .albumes-contenedor .album-dangerous .mejores-albumes-portada__dangerous {
+    width: 100%;
+  }
+}
 .main-albumes .albumes-contenedor .album-dangerous .mejores-albumes-parrafo__dangerous {
-  padding: 8px;
-  font-size: 19.5px;
-  margin-top: 30px;
-  margin-left: 25px;
+  padding: 15px;
+  font-size: 22px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
   text-align: left;
   background-color: rgb(169, 164, 164);
   opacity: 85%;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
+@media screen and (max-width: 576px) {
+  .main-albumes .albumes-contenedor .album-dangerous .mejores-albumes-parrafo__dangerous {
+    font-size: 30px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    border-radius: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-albumes .albumes-contenedor .album-dangerous .mejores-albumes-parrafo__dangerous {
+    font-size: 30px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    border-radius: 10px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main-albumes .albumes-contenedor .album-dangerous .mejores-albumes-parrafo__dangerous {
+    font-size: 30px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    border-radius: 10px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .main-albumes .albumes-contenedor .album-dangerous .mejores-albumes-parrafo__dangerous {
+    margin-top: 0;
+    border-bottom-left-radius: 10px;
+  }
+}
 .main-albumes .albumes-contenedor .album-history {
   display: flex;
+  padding: 10px;
+  margin-top: 20px;
+}
+@media screen and (max-width: 576px) {
+  .main-albumes .albumes-contenedor .album-history {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-albumes .albumes-contenedor .album-history {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main-albumes .albumes-contenedor .album-history {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .main-albumes .albumes-contenedor .album-history {
+    display: flex;
+    align-items: flex-start;
+  }
 }
 .main-albumes .albumes-contenedor .album-history .mejores-albumes-portada__history {
   display: flex;
-  width: 300px;
-  height: 281px;
-  margin-top: 30px;
-  margin-left: 0px;
-  margin-right: 25px;
+  width: 430px;
   padding: 10px;
   background-color: rgb(169, 164, 164);
   opacity: 85%;
@@ -994,28 +1205,89 @@ main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-par
   transform: scale(1.05) translateY(-8px);
   transition: all 1s 0s;
 }
+@media screen and (max-width: 768px) {
+  .main-albumes .albumes-contenedor .album-history .mejores-albumes-portada__history {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main-albumes .albumes-contenedor .album-history .mejores-albumes-portada__history {
+    width: 100%;
+  }
+}
 .main-albumes .albumes-contenedor .album-history .mejores-albumes-parrafo__history {
-  padding: 12px;
-  font-size: 19px;
-  margin-top: 30px;
-  margin-left: 25px;
+  padding: 15px;
+  font-size: 22px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
   text-align: left;
   background-color: rgb(169, 164, 164);
   opacity: 85%;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
+@media screen and (max-width: 576px) {
+  .main-albumes .albumes-contenedor .album-history .mejores-albumes-parrafo__history {
+    font-size: 30px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    border-radius: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-albumes .albumes-contenedor .album-history .mejores-albumes-parrafo__history {
+    font-size: 30px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    border-radius: 10px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main-albumes .albumes-contenedor .album-history .mejores-albumes-parrafo__history {
+    font-size: 30px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    border-radius: 10px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .main-albumes .albumes-contenedor .album-history .mejores-albumes-parrafo__history {
+    margin-top: 0;
+    border-bottom-left-radius: 10px;
+  }
+}
 .main-albumes .albumes-contenedor .album-invincible {
   display: flex;
+  padding: 10px;
+  margin-top: 20px;
   margin-bottom: 400px;
+}
+@media screen and (max-width: 576px) {
+  .main-albumes .albumes-contenedor .album-invincible {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-albumes .albumes-contenedor .album-invincible {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main-albumes .albumes-contenedor .album-invincible {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .main-albumes .albumes-contenedor .album-invincible {
+    display: flex;
+    align-items: flex-start;
+  }
 }
 .main-albumes .albumes-contenedor .album-invincible .mejores-albumes-portada__invincible {
   display: flex;
-  width: 300px;
-  height: 290px;
-  margin-top: 30px;
-  margin-left: 0px;
-  margin-right: 25px;
+  width: 430px;
   padding: 10px;
   background-color: rgb(169, 164, 164);
   opacity: 85%;
@@ -1024,17 +1296,55 @@ main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-par
   transform: scale(1.05) translateY(-7px);
   transition: all 1s 0s;
 }
+@media screen and (max-width: 768px) {
+  .main-albumes .albumes-contenedor .album-invincible .mejores-albumes-portada__invincible {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main-albumes .albumes-contenedor .album-invincible .mejores-albumes-portada__invincible {
+    width: 100%;
+  }
+}
 .main-albumes .albumes-contenedor .album-invincible .mejores-albumes-parrafo__invincible {
-  padding: 10px;
-  font-size: 20px;
-  margin-top: 30px;
-  margin-left: 25px;
+  padding: 15px;
+  font-size: 22px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
   text-align: left;
   background-color: rgb(169, 164, 164);
   opacity: 85%;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-  margin-bottom: 160px;
+}
+@media screen and (max-width: 576px) {
+  .main-albumes .albumes-contenedor .album-invincible .mejores-albumes-parrafo__invincible {
+    font-size: 30px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    border-radius: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-albumes .albumes-contenedor .album-invincible .mejores-albumes-parrafo__invincible {
+    font-size: 30px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    border-radius: 10px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main-albumes .albumes-contenedor .album-invincible .mejores-albumes-parrafo__invincible {
+    font-size: 30px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    border-radius: 10px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .main-albumes .albumes-contenedor .album-invincible .mejores-albumes-parrafo__invincible {
+    margin-top: 0;
+    border-bottom-left-radius: 10px;
+  }
 }
 
 .main .historia-titulo-contenedor {
@@ -1653,7 +1963,11 @@ main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-par
   filter: invert(1);
 }
 .main .form {
+  justify-content: center;
   max-width: 100%;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 60px;
   margin-bottom: 160px;
   align-items: center;
@@ -1687,6 +2001,14 @@ main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-par
     padding: 20px;
   }
 }
+@media screen and (max-width: 1400px) {
+  .main .form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 800px;
+  }
+}
 .main .form .datos-contenedor {
   padding: 10px;
   padding-top: 11px;
@@ -1697,6 +2019,7 @@ main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-par
   background-color: rgb(169, 164, 164);
   border-top-left-radius: 10px;
   opacity: 90%;
+  width: 350px;
 }
 @media screen and (max-width: 576px) {
   .main .form .datos-contenedor {
@@ -1705,6 +2028,7 @@ main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-par
     margin-left: auto;
     padding: 10px;
     width: 500px;
+    border-top-right-radius: 10px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -1714,6 +2038,7 @@ main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-par
     margin-left: auto;
     padding: 10px;
     width: 500px;
+    border-top-right-radius: 10px;
   }
 }
 @media screen and (max-width: 992px) {
@@ -1723,6 +2048,17 @@ main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-par
     margin-left: auto;
     padding: 10px;
     width: 500px;
+    border-top-right-radius: 10px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .main .form .datos-contenedor {
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    width: 700px;
+    border-top-right-radius: 10px;
   }
 }
 .main .form .datos-contenedor .completa-datos {
@@ -1735,6 +2071,12 @@ main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-par
 }
 .main .form .datos-contenedor .datos-usuario {
   margin-top: 10px;
+}
+@media screen and (max-width: 1400px) {
+  .main .form .datos-contenedor .datos-usuario {
+    margin-top: 0;
+    padding-bottom: 20px;
+  }
 }
 .main .form .datos-contenedor .datos-usuario .datos-usuario__nombre {
   padding: 10px;
@@ -1780,6 +2122,7 @@ main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-par
     margin-right: auto;
     margin-left: auto;
     width: 500px;
+    border-top-right-radius: 0;
   }
 }
 @media screen and (max-width: 768px) {
@@ -1788,6 +2131,7 @@ main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-par
     margin-right: auto;
     margin-left: auto;
     width: 500px;
+    border-top-right-radius: 0;
   }
 }
 @media screen and (max-width: 992px) {
@@ -1796,12 +2140,16 @@ main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-par
     margin-right: auto;
     margin-left: auto;
     width: 500px;
+    border-top-right-radius: 0;
   }
 }
 @media screen and (max-width: 1400px) {
   .main .form .album-favorito-contenedor {
-    margin-top: 0;
-    padding-bottom: 114px;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    width: 700px;
+    border-top-right-radius: 0;
   }
 }
 .main .form .album-favorito-contenedor .album-favorito-titulo {
@@ -1849,6 +2197,7 @@ main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-par
     padding: 10px;
     width: 500px;
     margin-bottom: 0;
+    border-bottom-left-radius: 0;
   }
 }
 @media screen and (max-width: 768px) {
@@ -1859,6 +2208,7 @@ main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-par
     padding: 10px;
     width: 500px;
     margin-bottom: 0;
+    border-bottom-left-radius: 0;
   }
 }
 @media screen and (max-width: 992px) {
@@ -1869,22 +2219,18 @@ main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-par
     padding: 10px;
     width: 500px;
     margin-bottom: 0;
-  }
-}
-@media screen and (max-width: 992px) {
-  .main .form .cancion-favorita-contenedor {
-    max-width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 10px;
-    width: 500px;
-    margin-bottom: 0;
+    border-bottom-left-radius: 0;
   }
 }
 @media screen and (max-width: 1400px) {
   .main .form .cancion-favorita-contenedor {
-    margin-top: 0;
-    padding-bottom: 70px;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    width: 700px;
+    margin-bottom: 0;
+    border-bottom-left-radius: 0;
   }
 }
 .main .form .cancion-favorita-contenedor .cancion-favorita-titulo {
@@ -1929,6 +2275,7 @@ main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-par
     padding: 10px;
     width: 500px;
     margin-top: 0;
+    border-bottom-left-radius: 10px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -1939,6 +2286,7 @@ main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-par
     padding: 10px;
     width: 500px;
     margin-top: 0;
+    border-bottom-left-radius: 10px;
   }
 }
 @media screen and (max-width: 992px) {
@@ -1949,12 +2297,19 @@ main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-par
     padding: 10px;
     width: 500px;
     margin-top: 0;
+    border-bottom-left-radius: 10px;
   }
 }
 @media screen and (max-width: 1400px) {
   .main .form .dejanos-tu-opinion-contenedor {
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    width: 700px;
     margin-top: 0;
     padding-bottom: 70px;
+    border-bottom-left-radius: 10px;
   }
 }
 .main .form .dejanos-tu-opinion-contenedor .dejanos-tu-opinion-titulo {
