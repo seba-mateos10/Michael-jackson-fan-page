@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -239,596 +238,23 @@ main .michael-jackson-titulo-contenedor .michael-jackson-titulo:hover {
   background-color: black;
   color: goldenrod;
 }
+@media screen and (max-width: 576px) {
+  main .michael-jackson-titulo-contenedor .michael-jackson-titulo {
+    font-size: 30px;
+  }
+}
 main .parrafos-y-fotos-contenedor {
-  max-width: 100%;
-}
-@media screen and (max-width: 576px) {
-  main .parrafos-y-fotos-contenedor {
-    display: flex;
-    flex-direction: column;
-  }
-}
-@media screen and (max-width: 768px) {
-  main .parrafos-y-fotos-contenedor {
-    display: flex;
-    flex-direction: column;
-  }
-}
-@media screen and (max-width: 992px) {
-  main .parrafos-y-fotos-contenedor {
-    display: flex;
-    flex-direction: column;
-  }
-}
-main .parrafos-y-fotos-contenedor .michael-jackson-niñez {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 30px;
   padding: 20px;
+  margin-bottom: 100px;
 }
-@media screen and (max-width: 576px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-niñez {
-    display: flex;
-    flex-direction: column;
-  }
+main .parrafos-y-fotos-contenedor .card-title {
+  color: goldenrod;
 }
-@media screen and (max-width: 768px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-niñez {
-    display: flex;
-    flex-direction: column;
-  }
+main .parrafos-y-fotos-contenedor .card-footer {
+  background-color: goldenrod;
 }
-@media screen and (max-width: 992px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-niñez {
-    display: flex;
-    flex-direction: column;
-  }
-}
-@media screen and (max-width: 1400px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-niñez {
-    display: flex;
-    align-items: flex-start;
-  }
-}
-main .parrafos-y-fotos-contenedor .michael-jackson-niñez .michael-jackson-foto__niño {
-  display: flex;
-  padding: 10px;
-  width: 377px;
-  max-width: 100%;
-  margin-right: 5px;
-  background-color: rgb(169, 164, 164);
-}
-main .parrafos-y-fotos-contenedor .michael-jackson-niñez .michael-jackson-foto__niño:hover {
-  transform: scale(1.05);
-  transition: all 1s 0s;
-}
-@media screen and (max-width: 768px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-niñez .michael-jackson-foto__niño {
-    width: 100%;
-  }
-}
-@media screen and (max-width: 992px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-niñez .michael-jackson-foto__niño {
-    width: 100%;
-  }
-}
-main .parrafos-y-fotos-contenedor .michael-jackson-niñez .michael-jackson-parrafo__niñez {
-  padding: 13px;
-  font-size: 18px;
-  margin-top: 17px;
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 100%;
-  text-align: left;
-  background-color: rgb(169, 164, 164);
-  opacity: 85%;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
-@media screen and (max-width: 576px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-niñez .michael-jackson-parrafo__niñez {
-    font-size: 30px;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    border-radius: 10px;
-  }
-}
-@media screen and (max-width: 768px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-niñez .michael-jackson-parrafo__niñez {
-    font-size: 30px;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    border-radius: 10px;
-  }
-}
-@media screen and (max-width: 992px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-niñez .michael-jackson-parrafo__niñez {
-    font-size: 30px;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    border-radius: 10px;
-  }
-}
-@media screen and (max-width: 1400px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-niñez .michael-jackson-parrafo__niñez {
-    margin-top: 0;
-    border-bottom-left-radius: 10px;
-  }
-}
-main .parrafos-y-fotos-contenedor .michael-jackson-adolescente {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 30px;
-  padding: 20px;
-}
-@media screen and (max-width: 576px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-adolescente {
-    display: flex;
-    flex-direction: column;
-  }
-}
-@media screen and (max-width: 768px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-adolescente {
-    display: flex;
-    flex-direction: column;
-  }
-}
-@media screen and (max-width: 992px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-adolescente {
-    display: flex;
-    flex-direction: column;
-  }
-}
-@media screen and (max-width: 1400px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-adolescente {
-    display: flex;
-    align-items: flex-start;
-  }
-}
-main .parrafos-y-fotos-contenedor .michael-jackson-adolescente .michael-jackson-foto__adolescente {
-  display: flex;
-  padding: 10px;
-  width: 390px;
-  max-width: 100%;
-  margin-right: 5px;
-  background-color: rgb(169, 164, 164);
-}
-main .parrafos-y-fotos-contenedor .michael-jackson-adolescente .michael-jackson-foto__adolescente:hover {
-  transform: scale(1.05);
-  transition: all 1s 0s;
-}
-@media screen and (max-width: 768px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-adolescente .michael-jackson-foto__adolescente {
-    width: 100%;
-  }
-}
-@media screen and (max-width: 992px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-adolescente .michael-jackson-foto__adolescente {
-    width: 100%;
-  }
-}
-main .parrafos-y-fotos-contenedor .michael-jackson-adolescente .michael-jackson-parrafo__adolescente {
-  padding: 5px;
-  font-size: 18px;
-  margin-top: 16px;
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 100%;
-  text-align: left;
-  background-color: rgb(169, 164, 164);
-  opacity: 85%;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
-@media screen and (max-width: 576px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-adolescente .michael-jackson-parrafo__adolescente {
-    font-size: 30px;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    border-radius: 10px;
-  }
-}
-@media screen and (max-width: 768px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-adolescente .michael-jackson-parrafo__adolescente {
-    font-size: 30px;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    border-radius: 10px;
-  }
-}
-@media screen and (max-width: 992px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-adolescente .michael-jackson-parrafo__adolescente {
-    font-size: 30px;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    border-radius: 10px;
-  }
-}
-@media screen and (max-width: 1400px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-adolescente .michael-jackson-parrafo__adolescente {
-    margin-top: 0;
-    border-bottom-left-radius: 10px;
-  }
-}
-main .parrafos-y-fotos-contenedor .michael-jackson-cantando {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 30px;
-  padding: 20px;
-}
-@media screen and (max-width: 576px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-cantando {
-    display: flex;
-    flex-direction: column;
-  }
-}
-@media screen and (max-width: 768px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-cantando {
-    display: flex;
-    flex-direction: column;
-  }
-}
-@media screen and (max-width: 992px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-cantando {
-    display: flex;
-    flex-direction: column;
-  }
-}
-@media screen and (max-width: 1400px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-cantando {
-    display: flex;
-    align-items: flex-start;
-  }
-}
-main .parrafos-y-fotos-contenedor .michael-jackson-cantando .michael-jackson-foto__cantando {
-  display: flex;
-  padding: 10px;
-  width: 390px;
-  max-width: 100%;
-  margin-right: 5px;
-  background-color: rgb(169, 164, 164);
-}
-main .parrafos-y-fotos-contenedor .michael-jackson-cantando .michael-jackson-foto__cantando:hover {
-  transform: scale(1.05);
-  transition: all 1s 0s;
-}
-@media screen and (max-width: 768px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-cantando .michael-jackson-foto__cantando {
-    width: 100%;
-  }
-}
-@media screen and (max-width: 992px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-cantando .michael-jackson-foto__cantando {
-    width: 100%;
-  }
-}
-main .parrafos-y-fotos-contenedor .michael-jackson-cantando .michael-jackson-parrafo__cantando {
-  padding: 6px;
-  font-size: 21px;
-  margin-top: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 100%;
-  text-align: left;
-  background-color: rgb(169, 164, 164);
-  opacity: 85%;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
-@media screen and (max-width: 576px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-cantando .michael-jackson-parrafo__cantando {
-    font-size: 30px;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    border-radius: 10px;
-  }
-}
-@media screen and (max-width: 768px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-cantando .michael-jackson-parrafo__cantando {
-    font-size: 30px;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    border-radius: 10px;
-  }
-}
-@media screen and (max-width: 992px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-cantando .michael-jackson-parrafo__cantando {
-    font-size: 30px;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    border-radius: 10px;
-  }
-}
-@media screen and (max-width: 1400px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-cantando .michael-jackson-parrafo__cantando {
-    margin-top: 0;
-    border-bottom-left-radius: 10px;
-  }
-}
-main .parrafos-y-fotos-contenedor .michael-jackson-thriller {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 30px;
-  padding: 20px;
-}
-@media screen and (max-width: 576px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-thriller {
-    display: flex;
-    flex-direction: column;
-  }
-}
-@media screen and (max-width: 768px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-thriller {
-    display: flex;
-    flex-direction: column;
-  }
-}
-@media screen and (max-width: 992px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-thriller {
-    display: flex;
-    flex-direction: column;
-  }
-}
-@media screen and (max-width: 1400px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-thriller {
-    display: flex;
-    align-items: flex-start;
-  }
-}
-main .parrafos-y-fotos-contenedor .michael-jackson-thriller .michael-jackson-foto__zombie {
-  display: flex;
-  padding: 10px;
-  width: 370px;
-  max-width: 100%;
-  margin-right: 5px;
-  background-color: rgb(169, 164, 164);
-}
-main .parrafos-y-fotos-contenedor .michael-jackson-thriller .michael-jackson-foto__zombie:hover {
-  transform: scale(1.05);
-  transition: all 1s 0s;
-}
-@media screen and (max-width: 768px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-thriller .michael-jackson-foto__zombie {
-    width: 100%;
-  }
-}
-@media screen and (max-width: 992px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-thriller .michael-jackson-foto__zombie {
-    width: 100%;
-  }
-}
-main .parrafos-y-fotos-contenedor .michael-jackson-thriller .michael-jackson-parrafo__thriller {
-  padding: 7px;
-  font-size: 22px;
-  margin-top: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 100%;
-  text-align: left;
-  background-color: rgb(169, 164, 164);
-  opacity: 85%;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
-@media screen and (max-width: 576px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-thriller .michael-jackson-parrafo__thriller {
-    font-size: 30px;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    border-radius: 10px;
-  }
-}
-@media screen and (max-width: 768px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-thriller .michael-jackson-parrafo__thriller {
-    font-size: 30px;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    border-radius: 10px;
-  }
-}
-@media screen and (max-width: 992px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-thriller .michael-jackson-parrafo__thriller {
-    font-size: 30px;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    border-radius: 10px;
-  }
-}
-@media screen and (max-width: 1400px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-thriller .michael-jackson-parrafo__thriller {
-    margin-top: 0;
-    border-bottom-left-radius: 10px;
-  }
-}
-main .parrafos-y-fotos-contenedor .michael-jackson-superbowl {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 30px;
-  padding: 20px;
-}
-@media screen and (max-width: 576px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-superbowl {
-    display: flex;
-    flex-direction: column;
-  }
-}
-@media screen and (max-width: 768px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-superbowl {
-    display: flex;
-    flex-direction: column;
-  }
-}
-@media screen and (max-width: 992px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-superbowl {
-    display: flex;
-    flex-direction: column;
-  }
-}
-@media screen and (max-width: 1400px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-superbowl {
-    display: flex;
-    align-items: flex-start;
-  }
-}
-main .parrafos-y-fotos-contenedor .michael-jackson-superbowl .michael-jackson-foto__chaquetamilitar {
-  display: flex;
-  padding: 10px;
-  width: 322px;
-  max-width: 100%;
-  margin-right: 5px;
-  background-color: rgb(169, 164, 164);
-}
-main .parrafos-y-fotos-contenedor .michael-jackson-superbowl .michael-jackson-foto__chaquetamilitar:hover {
-  transform: scale(1.05);
-  transition: all 1s 0s;
-}
-@media screen and (max-width: 768px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-superbowl .michael-jackson-foto__chaquetamilitar {
-    width: 100%;
-  }
-}
-@media screen and (max-width: 992px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-superbowl .michael-jackson-foto__chaquetamilitar {
-    width: 100%;
-  }
-}
-main .parrafos-y-fotos-contenedor .michael-jackson-superbowl .michael-jackson-parrafo__superbowl {
-  padding: 14px;
-  font-size: 22px;
-  margin-top: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 100%;
-  text-align: left;
-  background-color: rgb(169, 164, 164);
-  opacity: 85%;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
-@media screen and (max-width: 576px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-superbowl .michael-jackson-parrafo__superbowl {
-    font-size: 30px;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    border-radius: 10px;
-  }
-}
-@media screen and (max-width: 768px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-superbowl .michael-jackson-parrafo__superbowl {
-    font-size: 30px;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    border-radius: 10px;
-  }
-}
-@media screen and (max-width: 992px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-superbowl .michael-jackson-parrafo__superbowl {
-    font-size: 30px;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    border-radius: 10px;
-  }
-}
-@media screen and (max-width: 1400px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-superbowl .michael-jackson-parrafo__superbowl {
-    margin-top: 0;
-    border-bottom-left-radius: 10px;
-  }
-}
-main .parrafos-y-fotos-contenedor .michael-jackson-thisisit {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  margin-bottom: 200px;
-}
-@media screen and (max-width: 576px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-thisisit {
-    display: flex;
-    flex-direction: column;
-  }
-}
-@media screen and (max-width: 768px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-thisisit {
-    display: flex;
-    flex-direction: column;
-  }
-}
-@media screen and (max-width: 992px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-thisisit {
-    display: flex;
-    flex-direction: column;
-  }
-}
-@media screen and (max-width: 1400px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-thisisit {
-    display: flex;
-    align-items: flex-start;
-  }
-}
-main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-foto__thisisit {
-  display: flex;
-  padding: 10px;
-  width: 300px;
-  max-width: 100%;
-  margin-right: 5px;
-  margin-bottom: 50px;
-  background-color: rgb(169, 164, 164);
-}
-main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-foto__thisisit:hover {
-  transform: scale(1.05);
-  transition: all 1s 0s;
-}
-@media screen and (max-width: 576px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-foto__thisisit {
-    margin-bottom: 20px;
-  }
-}
-@media screen and (max-width: 768px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-foto__thisisit {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-}
-@media screen and (max-width: 992px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-foto__thisisit {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-}
-main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-parrafo__thisisit {
-  padding: 10px;
-  font-size: 22px;
-  margin-top: 100px;
-  margin-right: auto;
-  margin-right: auto;
-  max-width: 100%;
-  text-align: left;
-  background-color: rgb(169, 164, 164);
-  opacity: 85%;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  margin-bottom: 160px;
-}
-@media screen and (max-width: 576px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-parrafo__thisisit {
-    font-size: 30px;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    border-radius: 10px;
-    margin-top: 0;
-  }
-}
-@media screen and (max-width: 768px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-parrafo__thisisit {
-    margin-top: 0;
-    font-size: 30px;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    border-radius: 10px;
-  }
-}
-@media screen and (max-width: 992px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-parrafo__thisisit {
-    margin-top: 0;
-    font-size: 30px;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    border-radius: 10px;
-  }
-}
-@media screen and (max-width: 1400px) {
-  main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-parrafo__thisisit {
-    margin-top: 0;
-    border-bottom-left-radius: 10px;
-  }
+main .parrafos-y-fotos-contenedor .card-footer .text-body-secondary {
+  color: black;
 }
 
 .main-albumes {
@@ -908,7 +334,7 @@ main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-par
 }
 .main-albumes .albumes-contenedor .album-thriller {
   display: flex;
-  padding: 10px;
+  padding: 20px;
   margin-top: 20px;
   animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
@@ -945,7 +371,7 @@ main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-par
   opacity: 85%;
 }
 .main-albumes .albumes-contenedor .album-thriller .mejores-albumes-portada__thriller:hover {
-  transform: scale(1.05) translateY(-7px);
+  transform: scale(1.05) translateY(-11px);
   transition: all 1s 0s;
 }
 @media screen and (max-width: 576px) {
@@ -1005,7 +431,7 @@ main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-par
 }
 .main-albumes .albumes-contenedor .album-bad {
   display: flex;
-  padding: 10px;
+  padding: 20px;
   margin-top: 20px;
   animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
@@ -1042,7 +468,7 @@ main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-par
   opacity: 85%;
 }
 .main-albumes .albumes-contenedor .album-bad .mejores-albumes-portada__bad:hover {
-  transform: scale(1.05) translateY(-7px);
+  transform: scale(1.05) translateY(-11px);
   transition: all 1s 0s;
 }
 @media screen and (max-width: 576px) {
@@ -1102,7 +528,7 @@ main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-par
 }
 .main-albumes .albumes-contenedor .album-dangerous {
   display: flex;
-  padding: 10px;
+  padding: 20px;
   margin-top: 20px;
   animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
@@ -1139,7 +565,7 @@ main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-par
   opacity: 85%;
 }
 .main-albumes .albumes-contenedor .album-dangerous .mejores-albumes-portada__dangerous:hover {
-  transform: scale(1.05) translateY(-7px);
+  transform: scale(1.05) translateY(-10px);
   transition: all 1s 0s;
 }
 @media screen and (max-width: 576px) {
@@ -1199,7 +625,7 @@ main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-par
 }
 .main-albumes .albumes-contenedor .album-history {
   display: flex;
-  padding: 10px;
+  padding: 20px;
   margin-top: 20px;
   animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
@@ -1236,7 +662,7 @@ main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-par
   opacity: 85%;
 }
 .main-albumes .albumes-contenedor .album-history .mejores-albumes-portada__history:hover {
-  transform: scale(1.05) translateY(-8px);
+  transform: scale(1.05) translateY(-11px);
   transition: all 1s 0s;
 }
 @media screen and (max-width: 576px) {
@@ -1296,7 +722,7 @@ main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-par
 }
 .main-albumes .albumes-contenedor .album-invincible {
   display: flex;
-  padding: 10px;
+  padding: 20px;
   margin-top: 20px;
   margin-bottom: 400px;
   animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
@@ -1334,7 +760,7 @@ main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-par
   opacity: 85%;
 }
 .main-albumes .albumes-contenedor .album-invincible .mejores-albumes-portada__invincible:hover {
-  transform: scale(1.05) translateY(-7px);
+  transform: scale(1.05) translateY(-10px);
   transition: all 1s 0s;
 }
 @media screen and (max-width: 576px) {
@@ -1882,7 +1308,7 @@ main .parrafos-y-fotos-contenedor .michael-jackson-thisisit .michael-jackson-par
   justify-content: center;
   align-items: flex-start;
   padding: 30px;
-  margin-bottom: 400px;
+  margin-bottom: 100px;
 }
 @media screen and (max-width: 576px) {
   .main .historia-canciones .historia-thriller {

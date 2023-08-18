@@ -7,6 +7,8 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 <link rel="stylesheet" href="./styles/estilos.css">
 
 
@@ -23,7 +25,7 @@
     <header>
       <nav class="navbar navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand">MICHAEL JACKSON "EL REY DEL POP"</a>
+          <a class="navbar-brand" href="./index.html">MICHAEL JACKSON "EL REY DEL POP"</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation" fdprocessedid="eotx4e">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -61,7 +63,7 @@
 <main class="main">
 
   <div class="parrafo-inicio-contenedor">
-<div class="parrafo-inicio">
+<div class="parrafo-inicio" data-aos="flip-up">
  <p>A 14 años de su fallecimiento, conoce la historia de Michael Jackson, <strong><em>"el rey del pop"</em></strong>. La estrella de la música que ganó fama mundial como artista en solitario con éxitos como <em>Thriller, Billie Jean y Bad</em>.
     Su extensa carrera musical le llevó a ganar hasta <strong>13 premios Grammy</strong>  y ser considerado un revolucionario. Aquí te presentamos como Michael Jackson cambió la música, y <em>cambio la historia del pop de los años '80</em>.</p>
 </div>
@@ -77,9 +79,15 @@
   <!------------ FOTOS ------------>
 
   <div class="foto-inicio">
-     <img class="foto-inicio__thriller" src="./img/collagemichaeljackson.webp" alt="Foto del disco Thriller">
-     <img class="foto-inicio__collage1" src="./img/desktop-wallpaper-a-nice-michael-jackson-collage-michael-jackson-party-michael-jackson-jackson-life.jpg" alt="Collage de Michael Jackson">
-     <img class="foto-inicio__collage2" src="./img/GbiKRn.jpg" alt="Collage de Michael Jackson">
+     <img class="foto-inicio__thriller" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" src="./img/collagemichaeljackson.webp" alt="Foto del disco Thriller">
+     <img class="foto-inicio__collage1" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" src="./img/desktop-wallpaper-a-nice-michael-jackson-collage-michael-jackson-party-michael-jackson-jackson-life.jpg" alt="Collage de Michael Jackson">
+     <img class="foto-inicio__collage2" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" src="./img/GbiKRn.jpg" alt="Collage de Michael Jackson">
   </div>
 
 </main>
@@ -104,5 +112,9 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>

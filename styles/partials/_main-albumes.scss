@@ -89,7 +89,7 @@
 
         .album-thriller{
             display: flex;
-            padding: 10px;
+            padding: 20px;
             margin-top: 20px;
 
             -webkit-animation:fade-in-bottom .6s cubic-bezier(.39,.575,.565,1.000) both;animation:fade-in-bottom .6s cubic-bezier(.39,.575,.565,1.000) both;
@@ -123,7 +123,7 @@
                 opacity: 85%;
 
                 &:hover{
-                    transform: scale(1.05) translateY(-7px);
+                    transform: scale(1.05) translateY(-11px);
                     transition: all 1s 0s;
                 }
 
@@ -180,7 +180,7 @@
         
         .album-bad{
             display: flex;
-            padding: 10px;
+            padding: 20px;
             margin-top: 20px;
 
             -webkit-animation:fade-in-bottom .6s cubic-bezier(.39,.575,.565,1.000) both;animation:fade-in-bottom .6s cubic-bezier(.39,.575,.565,1.000) both;
@@ -214,7 +214,7 @@
                 opacity: 85%;
 
                 &:hover{
-                    transform: scale(1.05) translateY(-7px);
+                    transform: scale(1.05) translateY(-11px);
                     transition: all 1s 0s;
                 }
 
@@ -271,7 +271,7 @@
         
         .album-dangerous{
             display: flex;
-            padding: 10px;
+            padding: 20px;
             margin-top: 20px;
 
             -webkit-animation:fade-in-bottom .6s cubic-bezier(.39,.575,.565,1.000) both;animation:fade-in-bottom .6s cubic-bezier(.39,.575,.565,1.000) both;
@@ -305,7 +305,7 @@
                 opacity: 85%;
 
                 &:hover{
-                    transform: scale(1.05) translateY(-7px);
+                    transform: scale(1.05) translateY(-10px);
                     transition: all 1s 0s;
                 }
 
@@ -362,7 +362,7 @@
         
         .album-history{
             display: flex;
-            padding: 10px;
+            padding: 20px;
             margin-top: 20px;
 
             -webkit-animation:fade-in-bottom .6s cubic-bezier(.39,.575,.565,1.000) both;animation:fade-in-bottom .6s cubic-bezier(.39,.575,.565,1.000) both;
@@ -396,7 +396,7 @@
                 opacity: 85%;
 
                 &:hover{
-                    transform: scale(1.05) translateY(-8px);
+                    transform: scale(1.05) translateY(-11px);
                     transition: all 1s 0s;
                 }
 
@@ -453,7 +453,7 @@
         
         .album-invincible{
             display: flex;
-            padding: 10px;
+            padding: 20px;
             margin-top: 20px;
             margin-bottom: 400px;
 
@@ -488,7 +488,7 @@
                 opacity: 85%;
 
                 &:hover{
-                    transform: scale(1.05) translateY(-7px);
+                    transform: scale(1.05) translateY(-10px);
                     transition: all 1s 0s;
                 }
 
