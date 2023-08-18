@@ -1595,6 +1595,7 @@ main .parrafos-y-fotos-contenedor .card-footer .text-body-secondary {
     margin-left: auto;
     width: 500px;
     border-top-right-radius: 0;
+    padding-bottom: 0;
   }
 }
 @media screen and (max-width: 768px) {
@@ -1604,6 +1605,7 @@ main .parrafos-y-fotos-contenedor .card-footer .text-body-secondary {
     margin-left: auto;
     width: 500px;
     border-top-right-radius: 0;
+    padding-bottom: 0;
   }
 }
 @media screen and (max-width: 992px) {
@@ -1613,6 +1615,7 @@ main .parrafos-y-fotos-contenedor .card-footer .text-body-secondary {
     margin-left: auto;
     width: 500px;
     border-top-right-radius: 0;
+    padding-bottom: 0;
   }
 }
 @media screen and (max-width: 1400px) {
@@ -1622,6 +1625,7 @@ main .parrafos-y-fotos-contenedor .card-footer .text-body-secondary {
     margin-left: auto;
     width: 700px;
     border-top-right-radius: 0;
+    padding-bottom: 0;
   }
 }
 .main .form .album-favorito-contenedor .album-favorito-titulo {
