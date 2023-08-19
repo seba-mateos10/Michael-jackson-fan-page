@@ -240,12 +240,14 @@ main .michael-jackson-titulo-contenedor .michael-jackson-titulo:hover {
 }
 @media screen and (max-width: 576px) {
   main .michael-jackson-titulo-contenedor .michael-jackson-titulo {
+    width: 300px;
     font-size: 30px;
   }
 }
 main .parrafos-y-fotos-contenedor {
   padding: 20px;
   margin-bottom: 100px;
+  overflow: hidden;
 }
 main .parrafos-y-fotos-contenedor .card-title {
   color: goldenrod;
