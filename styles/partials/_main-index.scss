@@ -6,7 +6,7 @@
         .parrafo-inicio{
             color: black;
             text-align: center;
-            font-size: 30px;
+            font-size: 35px;
             font-family: $gillsans;
             margin-top: 100px;
             width: 800px;
@@ -22,7 +22,7 @@
             align-items: center;
 
             @include mobile {
-                font-size: 20px;
+                font-size: 30px;
             }
 
             @include tablet {

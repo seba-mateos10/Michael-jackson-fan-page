@@ -104,7 +104,7 @@ body {
 .main .parrafo-inicio-contenedor .parrafo-inicio {
   color: black;
   text-align: center;
-  font-size: 30px;
+  font-size: 35px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin-top: 100px;
   width: 800px;
@@ -121,7 +121,7 @@ body {
 }
 @media screen and (max-width: 576px) {
   .main .parrafo-inicio-contenedor .parrafo-inicio {
-    font-size: 20px;
+    font-size: 30px;
   }
 }
 @media screen and (max-width: 768px) {
