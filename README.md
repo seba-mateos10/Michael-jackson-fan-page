@@ -1,5 +1,4 @@
-# Michael-jackson-fan-page
-pagina fan de michael jackson
+# Pagina fan de Michael Jackson
 
 Hola, soy Sebastian Mateos. mi proyecto trata de una pagina fandom de Michael Jackson.
 
